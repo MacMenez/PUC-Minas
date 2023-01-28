@@ -1,0 +1,2 @@
+Adafruit CircuitPython 7.3.1 on 2022-06-22; Franzininho WIFI w/Wroom with ESP32S2
+Board ID:franzininho_wifi_wroom

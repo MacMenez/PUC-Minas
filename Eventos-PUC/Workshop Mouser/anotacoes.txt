@@ -1,0 +1,21 @@
+
+https://docs.franzininho.com.br/
+
+teclado
+Camera
+
+Recursos
+Wifi
+Microcontraldores
+Memoria Interna
+Memoria flash de 4MB(local que grava o firmware/log, etc)
+Intefaces gpio
+lcd
+sensor de temperatura
+pin out(40 pinos(35 entrada/saida))
+compativeis com portov=board
+2 leds de uso geral
+fonte externa de 3 pinos
+
+trabalha com 3.3v nivel alto e nivel baixo 0
+DESAFIO: controlar remotamente os LEDS(liga e desliga lampada da casa)
