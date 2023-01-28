@@ -1,0 +1,40 @@
+DISCIPLINAS
+ALGORITMOS E ESTRUTURA DE DADOS I
+Conhecimento e estudos em cima de lógica de programação. Ao longo do percurso desenvolveu-se uma base a respeito de programação, para tal foi utilizado a lingugem de programação JAVA, onde os conceitos teóricos da linguagem foram feitos em sala de aula, através de exemplos e desenvolvimento de códigos e a ŕática feita em laboratório utilizando a IDE Eclipse para desenvolvimento e visualização de resultados.
+
+Os códigos, exercícios e projetos se encontram aqui: AEDS I. 
+
+A divisão entre teórico e prático divide exercícios e resoluções desenvolvidas e algumas obtidas de exercícios prontos e/ou apresentações didáticas de aulas.
+
+LABORATÓRIO DE INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO
+Conhecimentos e estudos de lógica de circuitos e integração de linguagem de programação com(software) com componentes eletrônicos(hardware), com aulas teóricas e prática ambas em laboratório. Além dos conhecimentos de eletrônica passados no laboratório, conceitos de lógica de programção foram revistos e apresentados no panorama de hardware. 
+
+Para prática utilizamos diversas ferramentas para aprendizado, dentre elas a plataforma de simulção virtual TinckerCad, a linguagem de prograçãoC/C++ utilizada na IDE Arduino IDE onde desenvolvemos o código de programação e integravamos com o próprio arduino ou algum outro componente eletrônico e por fim o próprio Arduino modelo UNO.
+
+Os códigos, exercícios e projetos se encontram aqui: LIEC. 
+A divisão entre teórico e prático divide exercícios e resoluções desenvolvidas e algumas obtidas de exercícios prontos e/ou apresentações didáticas de aulas.
+
+INTRODUÇÃO AOS SISTEMAS INTELIGENTES
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ALGORITMOS E ESTRUTURAS DE DADOS II
+Tendo conhecimento e prática da linguagem de programação JAVA e a base de lógica de programação, estudamos mais a fundo o comportamento dos algoritmos e sua influencia no processamento de máquinas e no seu prórpio funcionamento mediante uma aplicação. Os conceitos de complexidade de algoritmos, assim como exemplos de funcionamento foram estudados de modo que fossem implementados em práticas de laboratório.
+
+A linguagem de programação JAVA se manteve e foi adicionado a Linguagem C e a Linguagem C++ a fim de entender e aproximar ainda mais o laboratório de engenharia de compuitação da linguagem de máquina. Assim, as 3 linguagens foram apresentadas e implementadas tanto em teoria quanto em laboratório.
+
+Os códigos, exercícios e projetos se encontram aqui: AEDS II.
+
+INTRODUÇÃO À COMPUTAÇÃO
+Conhecimentos e estudos computacionais são apresentados através de contextos históricos e práticas de sala de aula. conceitos de Lógica de Programação também são apresentados e praticados durante o percurso, tendo aplicações em exercícios e trabalhos de computação. Prevemente as linguagens JAVA, Python, C, C++  e C# são apresentadas e postas em prática.
+
+Práticas de extensão, seminários e projetos de desenvolvimentos computacional propiciaram amplamente a integração as demais disciplinas e apresentação de oportunidades em projetos.
+
+Os códigos, exercícios e projetos se encontram aqui: IC.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+EVENTOS
+Road Show Brasil 2022
+Um evento único com diversas palestras, bancas de apresentação, Workshop e muito conhecimento a respeito de hardware. 
+
+Durante o evento um Workshop ofertado pela Embarcados apresentou uma placa de arduno desenvolvido pela empresa, o Arduino Franzininho, que foi disponibilizado para o WorkShop. Foi desenvolvido um código para integrar o microcontrolador a um aparelho smartphone, este por sua vez iria controlar o comportamento do microcontrolador através da web utilizando o protocolo MQTT, a plataforma Adafruit e a IDE Vs Code.
+
+O projeto do WorkShop se encontra aqui: WorkShop Embarcados - Franzininho
