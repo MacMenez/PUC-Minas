@@ -1,0 +1,34 @@
+ATRIBUIÇÃO:
+Nada mais é do que informar "O QUE É" que será armazenado no endereço de memória que foi criado. 
+Por exemplo se criarmos a variável CARDÁPIO, ela conterá nomes apenas, valores apenas, texto médio/lngo apeas
+e etc.
+
+Como não sabemos PARA QUE será utilizada a variável sem executarmos o código ou ler suas 100, 500, Mil linhas de código,
+com uma atribuição seria mais fácil de se identificar sobre o uw se trata a informação.
+
+Se criarmos a variável numero CARDÁPIO, sabemos que ou será uma variável de preço ou de quantidade(cardápio 12(mesa 12)).
+Assim conseguimos rapidamente identificar sobre o que será utilizado no código.
+
+Para atribuirmos estes tipos de dados, devemos saber qual será o dado aramazenado na variável. 
+Existem alguns tipos muito usados, são denominados:
+
+-Tipos Básicos (em Java): 
+    int (inteiro, sem casa decimal),
+    float/double (ponto flutuante, com casa decimal),
+    boolean (lógico), 
+    string (literal), 
+    char (caracter)
+
+Para declararmos uma variável de maneira correta, temos que seguir o padrão, 
+informando o modificador, tipo, nome definido e se houver algum dado que deve ser inserido antes de iniciar o
+programa, defini-lo também.
+
+Formato
+<modificador> <tipo> <nomeEscolhido> = dadoInicial;(opcional)
+
+Exemplos
+int quantidade, portas = 4, idade;
+double velocidade = 5.0d;
+float aceleracao = 2.0f;
+string nome = "Maria";
+boolean carregado = true;
