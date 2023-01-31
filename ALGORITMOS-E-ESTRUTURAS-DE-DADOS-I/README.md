@@ -19,8 +19,22 @@ Para acessar os trabalhos que foram desenvolvidos, verifique o **desenvolvimento
 ### **Desenvolvimento da disciplina**
 Utilizado para consultas durante o 1° Período, de maneira a facilitar e auiliar o desenvolvvimento de atividades e trabalhos propostos. COntém dicas, exemplos e aplicações.
 
-- Aula 1 - Introduction
-- Aula 2 - JAVALanguage
+- [Aula 1 - Introduction](#introduction)
+    - [Análise de Desenvolvimento de Um Programa](#análise-de-desenvolvimento-de-um-programa)
+        - [Paradigmas de Programação](#paradigmas-de-programação)
+- [Aula 2 - Tipos de Dados](#tipos-de-dados)
+    - [Dados](#dados)
+    - [Variável](#variável)
+        - [Declaração de Variáveis](#declaração-de-variáveis)
+    - [Atribuição](#atribuição)
+    - [Conversão de Tipos](#conversão-de-tipos)
+        - [Conversão Implícita](#conversão-implícita)
+        - [Conversão Explícita](#conversão-explícita)
+    - [Modificadores](#modificadores)
+    - [Constantes](#constantes)
+- [Aula 3 - Entrada e Saída](#entrada-e-saída)
+    - [Saída Formatada](#saída-formatada)
+- Aula 2 - JAVA Language
 - Aula 3 - Conditional Structure
 - Aula 4 - Repeat Structure
 - Aula 5 - Repeat Structure - Flag
@@ -38,12 +52,12 @@ Utilizado para consultas durante o 1° Período, de maneira a facilitar e auilia
     - Q1_ATVD2
 
 ---
-# Introdução 
+# INTRODUCTION 
 O desenvolvimento de algoritmos é feito através de _Linguagens de Prgramação_, elas estruturam um programa e fazem com que as regras de execução do programa sejam **interpretadas** e **executadas** corretamente pelo **computador**.
 
 O _computador_ ao receber as informações geradas com a programação das linguagens de programação fazem o chamado _Processamento de Dados_, ou seja recebem dados, seja de _periféricos computacionais_, _linguagens de programção_, _softwares_, etc; e geram um resultado conforme **intruções** recebidas. Estas por sua vez são executadas e apresentadas em _dispositivos de saída_, sejam eles **monitores**, **projetores**, **impressoras**, dentre outros.
 
-### Conceitos Importantes
+### CONCEITOS IMPORTANTES
 **Programa/Código/Software**  
 São nomes atribuidos a um conjunto de comandos que nada mais são do que as instruções que serão lidas e interpretadas pela máquina ou computador.
 
@@ -74,7 +88,7 @@ Trata-se de um programa que permite escrever de um outro prgrama, dentre os mais
 
 Para fazer com que um programa, através de uma linguegem de programação, tenha exito em seu propósito ele deve passar pelo processo de **Ánalise e Desenvolvimento de Software**.
 
-# Análise de Desenvolvimento de Um Programa
+# ANÁLISE DE DESENVOLVIMENT DE UM PROGRAMA
 **Análise:** É feita com base no enunciado ou definições apresentadas de um determinado problema a ser resolvido, identifica-se as entradas, aquilo que será recebido, saídas,aquilo que será entregue e o processamento necessário, sejam em equações, comparações, etc.
 
 **Algoritmo:** Trata-se de uma sequência de passos para resolver o problema da análise. Podem existir diversas sequências possíveis com vários desdobramentos, alguns claro mais complexos, compridos ou até maiores(em quantidade de linhas) que outros. Estas soluções são apresentadas de diversas formas podendo ser por meio de narrativas ou textos explicativos, fluxogramas, pseudocódigo(ou portugês estruturado), estas por sua vez são as mais utilizadas em algoritmos.
@@ -138,7 +152,7 @@ System.out.println (“A soma deles é ” + resultado);
 
 3. Exercício de Soma em JAVA: [Somar 3 Números - JAVA](1%20-%20Analise%20de%20Desenvolvimento%20de%20um%20Programa/2%20-%20Somar_Numeros/)
 
-## Paradigmas de Programação
+## PARADIGMAS DE PROGRAMAÇÃO
 Se trata das possibilidades de se desenvolver um código disponveis a um desenvolvedor, são eles:
 
 1. **Paradigma Estruturado (ou Procedural):**  
@@ -214,7 +228,7 @@ Representam caracteres únicos e apenas 1 único carctere é reconhecido.
 Estes tipos de dados são reconhecidos e classificados bináriamente conforme a _**Tabela ASCII**_.
 ![Tabela ASCII](_imagensAEDS1/Tabela%20ASCII.png)
 
-## Variável
+## VARIÁVEL
 Considere a seguinte suposição:
 
 >Uma pessoa tem uma **FAZENDA** e precisar separar seus animais. No **ESTÁBULO** ficariam apenas os _cavalos_,no **PASTO** apenas _bois_ ou _vacas_, no **CHIQUEIRO** os _porcos_.
@@ -308,7 +322,7 @@ int quantidade = (int) velocidade; // casting
 int fator = Integer.parseInt(entrada);
 ~~~
 
-## Modificadores
+## MODIFICADORES
 Relembrando a regra para declaração de variáveis, temos o seguinte formato:
 
 **Formato**
@@ -335,7 +349,7 @@ Os modificadores utilizados na Linguagem JAVA são:
 ```public```: são utilizados como classes livre, ou seja, em caso de chamada de função e/ou procedimento, ela será encontrada na guia de busca do usuário e fará as funções que se encontram para serem executadas. Ela é o oposto
 do modificador **PRIVATE** citado acima.
 
-## Constantes
+## CONSTANTES
 São informações que ao serem armazenadas **não podem sofrer alterações posteriores** à sua decclaração.
 
 A declaração de nomes de constantes segue as mesmas regras da declaração de nomes de veriáveis, tendo como sugestões e/ou boas praticas por determinados programadores o nome da declaração de constantes ser feita toda com letras **MAIÚSCULAS**.
@@ -347,7 +361,7 @@ public final double VELOCIDADE = 5.0d;
 
 ----
 
-# Entrada e Saída
+# ENTRADA E SAÍDA
 Por padrão é considerado **saída** de um programa a **TELA**, chamado por alguns de console. Como os dados são apenas 0 e 1, ao serem interpretados pelo monitor, a saída se transforma em dados de leitura humana.
 
 **Exemplos em JAVA**  
@@ -363,7 +377,7 @@ Escreve a informação entre parênteses a partir da posição atual do cursor n
 System.out.println("...");
 ~~~
 
-## Saída Formatada
+## SAÍDA FORMATADA
 Especificados   |  Tipo
 :-------------: | :-----: 
 %d  |   int
