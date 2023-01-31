@@ -367,3 +367,9 @@ System.out.println("...");
 Especificados   |  Tipo
 :-------------: | :-----: 
 %d  |   int
+%f | float
+%.xf | float limitando casas decimais, X representa a quantidade de casas decimais que serão apresentadas.
+
+~~~JAVA
+System.out.printf ("O carro possui %d portas e sua velocidade é %2.1f km/h", quantidade, veloc);
+~~~
