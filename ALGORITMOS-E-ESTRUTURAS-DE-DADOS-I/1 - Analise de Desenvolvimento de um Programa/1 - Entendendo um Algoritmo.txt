@@ -1,7 +1,7 @@
 Problema: Somar 3 números
 
 Descrição de Processos: 
-Paaso 1: solicitar e memorizar cada um dos números.
+Paso 1: solicitar e memorizar cada um dos números.
 Passo 2: realizar operações de soma dos números e memorizar o resultado
 Passo 3: exibir o resultado
 
