@@ -14,17 +14,25 @@ Ao longo da jornada de estudos, é importante ter organização nos estudos e um
 Assim para casos futuros, de resgate de conhecimento ou em casos de análise de repositório para currículo, contratações e etc, este repositório, poderá auxiliar e servir como uma especie de "portifólio" mostrando minhas habilidades e meu desenvolvimento de maneira organizada e de fácil acesso e compreenção.
 
 ## 1° Período
-- [Algoritmos e Estutura de Dados I](#)
+- [Algoritmos e Estutura de Dados I](ALGORITMOS-E-ESTRUTURAS-DE-DADOS-I/README.md)
     - [Pratica Teórica AEDS I](#)
     - [Pratica de Laboratório AEDS I](#)
 - [Cálculo I](#)
-- [Laboratório de Introdução À Engenharia da Computação](#)
+- [Laboratório de Introdução À Engenharia da Computação](LIEC/README.md)
 - [Sistemas Inteligentes](#)
 
 ## 2° Período
-- [Algoritmos e Estruturas de Dados II](#)
+- [Algoritmos e Estruturas de Dados II](antigo_ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/README-antigo.md)
     - [Prática AEDS II](#)
     - [Teórica Laboratório AEDS II](#)
-- [Arquitetura de Computadores I](#)
-- [Introdução À Computação](#)
+- [Arquitetura de Computadores I](ARQUITETURA-DE-COMPUTADORES-I/)
+- [Introdução À Computação](INTRODUCAO-A-COMPUTACAO/README.md)
 - [Cálculo I](#)
+
+## 3° Período
+- [Algoritmos e Estruturas de Dados II](ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/README.md)
+- [Arquitetura de Computadores I](ARQUITETURA-DE-COMPUTADORES-II/README.md)
+- [Banco de Dados](BANCO-DE-DADOS/README.md)
+- [Desenvolvimento de Interfaces Web](DESENVOLVIMENTO-DE-INTERFACES-WEB/README.md)
+- [Game Design](GAME-DESING/README.md)
+- [Matemática Financeira](MATEM%C3%81TICA-FINANCEIRA/README.md)
