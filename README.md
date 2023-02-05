@@ -31,7 +31,7 @@ Assim para casos futuros, de resgate de conhecimento ou em casos de análise de 
 
 ## 3° Período
 - [Algoritmos e Estruturas de Dados II](ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/README.md)
-- [Arquitetura de Computadores I](ARQUITETURA-DE-COMPUTADORES-II/README.md)
+- [Arquitetura de Computadores II](ARQUITETURA-DE-COMPUTADORES-II/README.md)
 - [Banco de Dados](BANCO-DE-DADOS/README.md)
 - [Desenvolvimento de Interfaces Web](DESENVOLVIMENTO-DE-INTERFACES-WEB/README.md)
 - [Game Design](GAME-DESING/README.md)
