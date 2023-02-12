@@ -7,8 +7,16 @@
 - Verde
 - Repl.it
 
-Python Tutor, C Tutor, Java Tutor  
-Introdução às linguagens C, C++ e Java  
+Python Tutor, C Tutor, Java Tutor 
+
+Introdução às linguagens C, C++ e Java
+- Aula 1 - Introdução
+- Aula 2 - Tipos de Dados
+- Aula 3 - Comandos de Entrada e Saída
+- Aula 4 - Operadores Aritméticos e Relacionais
+- Aula 5 - Comando IF
+- Aula 6 - Comandos de Repetição
+
 Recursividade  
 Ponteiros e alocação dinâmica de memória  
 
