@@ -329,6 +329,14 @@ if(num < 0):
 
 **Aula 6 - Comandos de Repetição**
 
+![Comparativo dos Comandos de Repetição](_img/Comandos%20de%20Repeti%C3%A7%C3%A3o.png)
+
+[Cálculo de Área em C](0%20-%20Revisao/6%20-%20Comandos%20de%20Repeti%C3%A7%C3%A3o/repeat_comand.c)  
+[Cálculo de Área em C++](0%20-%20Revisao/6%20-%20Comandos%20de%20Repeti%C3%A7%C3%A3o/repeat_comand.cpp)  
+[Cálculo de Área em C#](0%20-%20Revisao/6%20-%20Comandos%20de%20Repeti%C3%A7%C3%A3o/repeat_comand.cs)  
+[Cálculo de Área em JAVA](0%20-%20Revisao/6%20-%20Comandos%20de%20Repeti%C3%A7%C3%A3o/repeat_comand.java)  
+[Cálculo de Área em Python](0%20-%20Revisao/6%20-%20Comandos%20de%20Repeti%C3%A7%C3%A3o/repeat_comand.py)  
+
 **Recursividade**
 
 **Ponteiros e Alocação Dinâmica de Memória**  
