@@ -24,10 +24,10 @@ print(a, " % ", b, " = ", resto)
 
 increm = a
 print("Antes do incrimento, o valor da variavel increm = ", increm)
-increm += 1
+increm += 1 #Atribuição Composta
 print("Após o incrimento, o valor da variavel increm = ", increm)
 
 decrem = b
 print("Antes do decremento, o valor da variavel increm = ", decrem)
-decrem -= 1
+decrem -= 1 #Atribuição Composta
 print("Após o decremento, o valor da variavel increm = ", decrem)

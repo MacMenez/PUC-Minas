@@ -208,16 +208,124 @@ input() #Entrada Padrão
 
 **Aula 4 - Operadores Aritméticos e Relacionais**
 ![Operadores Aritméticos e Relacionais](_img/Operadores%20Aritm%C3%A9ticos%20e%20Relacionais.png)
+
+- **Operadores Aritméticos e Relacionais em C**  
 [Link do Arquivo de Exemplo em C](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.c)
+
+- **Operadores Aritméticos e Relacionais em C++**  
 [Link do Arquivo de Exemplo em C++](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.cpp)
+
+- **Operadores Aritméticos e Relacionais em C#**  
 [Link do Arquivo de Exemplo em C#](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.cs)
 
-Nas linguagens C, C++ e C# a utilização dos **Operadores Aritméticos** são extremamente semelhantes, mudando apenas os comandos de _impressão de saída_ entre as linguagens.
+> Nas linguagens C, C++ e C# a utilização dos **Operadores Aritméticos** são extremamente semelhantes, mudando apenas os comandos de _impressão de saída_ entre as linguagens. Na linguagem JAVA o processo é semelhante, porém em Python a redução e alteração do código, é onde mais haverá divergências.
 
+- **Operadores Aritméticos e Relacionais em JAVA**  
 [Link do Arquivo de Exemplo em JAVA](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.java)
+
+- **Operadores Aritméticos e Relacionais em Python**  
 [Link do Arquivo de Exemplo em Python](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.py)
 
-**Aula 5 - Comando IF**
+**Aula 5 - Comando IF**  
+Como já apresentado em arquivos e exemplos anteriores, as linguagens C, C++, C#, JAVA, possuem semelhanças entre si, como nos códigos e exemplos abaixo, o comando _IF/ELSE_ não é excessão. As mudanças irão ocorrer mesmo na linguagem Python.
+
+![Comparativo do Comando _IF/ELSE_](_img/Comando%20IF-ELSE.png)
+
+>Nas linguagens C, C++, C# e JAVA o fechamento do bloco de comandos do IF **ou** ELSE com _{ }_ é opcional. Caso o bloco de comandos tenha 2 ou mais comandos, as chaves se tornam **obrigatórias**. No caso do Python os _( )_ de condição são opcionais e após definir a condição, inserir os **:**.
+
+A principal diferença entre Pyhton e as demais linguagens, já citadas nos exemplos, no caso dos comando de IF/ELSE, é que para as demais linguagens, os blocos de comandos são agrupados em _chaves ( **{ }** )_, já no Python, este grupo de blocos de código é feito com a **identação**.
+
+Outradiferença entre Python e as demais linguagens são referentes ao **IF aninhado**, onde nas outras linguagens temos um IF dentro de outro IF ou ELSE. Já no Python, para ter-se IF ninhado, usa-se o comando **ELIF**, semelhante ao **ELSE IF** das demais linguagens.
+
+Os exemplos abaixo são apenas com o IF, para ver o código completo, siga os links abaixo dos exemplos.
+
+- **Comando IF - C**  
+~~~c
+#include <stdio.h>
+
+int main(int argc, char const *argv[]){
+    int num;
+
+    printf("Digite um número: ");
+    scanf("%d", &num);
+
+    if (num < 0){
+        printf("Número %d é negativo!", num);
+    }
+    
+    return 0;
+}
+~~~
+[Link Arquivos de Teste de Comandos IF - C](0%20-%20Revisao/5%20-%20Comando%20IF/comand_IF.c)
+
+- **Comando IF - C++** 
+~~~cpp
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char const *argv[]){
+    int num;
+    
+    cout << "Digite um número: ";
+    cin num;
+
+    if (num < 0){
+        cout << "O número " << num << " é negativo!";
+    }
+    
+    return 0;
+}
+~~~ 
+[Link Arquivos de Teste de Comandos IF - C++](0%20-%20Revisao/5%20-%20Comando%20IF/comand_IF.cpp)
+
+- **Comando IF - C#** 
+~~~cs
+using System;
+
+class comand_IF{
+    public static void Main (string[] args){
+        int num;
+
+        Console.WriteLine("Digite um número: ");
+        num = int.Parse(Console.Readline());
+
+        if (num < 0){
+            Console.WriteLine("O número " + num + " é negativo!");
+        }
+    }
+}
+~~~
+[Link Arquivos de Teste de Comandos IF - C#](0%20-%20Revisao/5%20-%20Comando%20IF/comand_IF.cs)
+
+- **Comando IF - JAVA**  
+~~~java
+import java.util.Scanner;
+
+public class comand_IF {
+    public static void main(String[] args) {
+        int num;
+
+        Scanner teclado = new Scanner(System.in);
+            System.out.print("Digite um número: ");
+            num = teclado.nextInt();
+
+            if (num < 0) {
+                System.out.printf("\nO número %d é negativo!", num);
+            }
+        teclado.close();
+    }
+}
+~~~
+[Link Arquivos de Teste de Comandos IF - JAVA](0%20-%20Revisao/5%20-%20Comando%20IF/comand_IF.java)
+
+- **Comando IF - Python**  
+~~~py
+num = int(input("Digite um número: "))
+if(num < 0):
+    print("O número {0} é negativo!".format(num))
+~~~
+[Link Arquivos de Teste de Comandos IF - Python](0%20-%20Revisao/5%20-%20Comando%20IF/comand_IF.py)
 
 **Aula 6 - Comandos de Repetição**
 
