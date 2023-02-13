@@ -90,16 +90,24 @@ public class App {
         int valor;
 
         System.out.print("Digite um valor: ");
-        valor = teclado.nextInt();
-
-        System.out.println(valor);
+        //valor = teclado.nextInt();
+        //System.out.println(valor);
 
         String valor2;
 
         System.out.print("Digite outro valor: ");
-        valor2 = teclado.nextLine();
+        //valor2 = teclado.nextLine();
+        //System.out.println("Valor Digitado: " + valor2);
 
-        System.out.println("Valor Digitado: " + valor2);
+        MyIO.print("Mensagem de Teste!");
+
+        int valorMyIo;
+
+        MyIO.print("Digite um valor: ");
+        valorMyIo = MyIO.readInt();
+        MyIO.println(valorMyIo);
+
+        MyIO.println("Valor Digitado: " + valorMyIo);
 
     }
 }
