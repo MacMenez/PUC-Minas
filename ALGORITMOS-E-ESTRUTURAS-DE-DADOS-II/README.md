@@ -209,15 +209,23 @@ input() #Entrada Padrão
 **Aula 4 - Operadores Aritméticos e Relacionais**
 ![Operadores Aritméticos e Relacionais](_img/Operadores%20Aritm%C3%A9ticos%20e%20Relacionais.png)
 [Link do Arquivo de Exemplo em C](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.c)
-[Link do Arquivo de Exemplo em C++]()
-[Link do Arquivo de Exemplo em C#]()
-[Link do Arquivo de Exemplo em JAVA]()
-[Link do Arquivo de Exemplo em Python]()
-Aula 5 - Comando IF
-Aula 6 - Comandos de Repetição
+[Link do Arquivo de Exemplo em C++](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.cpp)
+[Link do Arquivo de Exemplo em C#](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.cs)
 
-Recursividade  
-Ponteiros e alocação dinâmica de memória  
+Nas linguagens C, C++ e C# a utilização dos **Operadores Aritméticos** são extremamente semelhantes, mudando apenas os comandos de _impressão de saída_ entre as linguagens.
+
+[Link do Arquivo de Exemplo em JAVA](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.java)
+[Link do Arquivo de Exemplo em Python](0%20-%20Revisao/4%20-%20Operadores%20Aritm%C3%A9ticos%20e%20Relacionais/operadoresAritmedicos.py)
+
+**Aula 5 - Comando IF**
+
+**Aula 6 - Comandos de Repetição**
+
+**Recursividade**
+
+**Ponteiros e Alocação Dinâmica de Memória**  
+
+---
 
 ### Unidade 1: Noções de complexidade
 Introdução à análise de complexidade de algoritmos
