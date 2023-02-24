@@ -1,8 +1,18 @@
 /*
+********************
+    ENUNCIADO
+********************
+
 Idade menor que 3 a saída deve ser “Um bebê”
 Idade de 3 a 12 a saída deve ser “Uma criança”
 Idade de 13 a 17 saída deve ser “Um adolescente”
 Qualquer outra idade deve ser “Um adulto”
+*/
+
+/*
+********************
+    RESOLUÇÃO
+********************
 */
 var idade:Int = 14
 
