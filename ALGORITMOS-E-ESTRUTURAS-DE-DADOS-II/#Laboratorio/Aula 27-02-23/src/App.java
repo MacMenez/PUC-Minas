@@ -14,10 +14,13 @@ public class App {
         System.out.println(heitor.nome); //Mostra no nome de referencia
         System.out.println(joao.nome); //Mostra no nome de referencia
 
-        Pessoa joao = new Pessoa(); //Cria um novo espaço
+        //Pessoa joao = new Pessoa(); //Cria um novo espaço
         joao.nome = "João da silva"; //Altera o nome da 2° instancia
 
         heitor = joao; //Um sobrescreve o outro
         heitor.nome = "Heitor de Souza";
+
+        System.out.println(heitor.nome); //Mostra no nome de referencia
+        System.out.println(joao.nome); //Mostra no nome de referencia
     }
 }
