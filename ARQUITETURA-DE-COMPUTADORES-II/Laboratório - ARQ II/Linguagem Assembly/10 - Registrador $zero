@@ -1,0 +1,11 @@
+# Um imediato em particular, o número zero (0), aparece com frequência em códigos
+# É definido um registrador zero ($0 ou $zero) para sempre se obter o valor 0.
+# É um registrador muito prático e útil, definido em hardware (não é possível alterá-lo)
+# Podemos usá-lo para “inicializar” variáveis
+
+# Linguagem C:
+#a = 10
+
+
+# Em MIPS:
+addi $s0, $0, 10 # a = 0 + 10
