@@ -5,8 +5,26 @@ import java.util.Scanner;
 public class teste {
     public static void main(String[] args) {
         Random geradorDeNumeros = new Random(20); //Sorteio de número entre 0 e 20.
+        int m, n;
         
-        //Exercício 4: Classes Com Matriz
+        //Questão 1
+        Exercicio1 vetoresAleatorios = new Exercicio1(geradorDeNumeros);
+        System.out.println(vetoresAleatorios);
+        //Questão 2
+        Exercicio2 vetorCircular = new Exercicio2();
+
+        //Questão 3
+        Exercicio3 manipulacaoMatriz = new Exercicio3(geradorDeNumeros);
+        
+        //Questão 4
+        Exercicio4 alterandoMatriz = new Exercicio4(n, m);
+
+    }
+
+    
+}
+/*
+    //Exercício 4: Classes Com Matriz
         
         classeMatriz matrizParametro = new classeMatriz(geradorDeNumeros.nextInt(4), geradorDeNumeros.nextInt(4));
         matrizParametro.imprimirMatriz();
@@ -22,27 +40,4 @@ public class teste {
         System.out.println("Soma de todos os elementos ímpares da matriz: " + matrizParametro.somaImpares());
         
         System.out.println("Determinante: " + matrizParametro.determinante());
-
-    }
-
-    
-}
-       /*
-
-       int y;
-        System.out.println(y = 18 % 10);
-        System.out.println("----------------");
-        System.out.println("----------------");
-        System.out.println("----------------");
-        //Questão 1
-       Exercicio1 vetoresAleatorios = new Exercicio1(geradorDeNumeros);
-
-       //Questão 2
-       Exercicio2 vetorCircular = new Exercicio2();
-
-       //Questão 3
-       Exercicio3 manipulacaoMatriz = new Exercicio3(geradorDeNumeros);
-        
-        //Questão 4
-        Exercicio4 alterandoMatriz = new Exercicio4(geradorDeNumeros);
-         */
+*/
