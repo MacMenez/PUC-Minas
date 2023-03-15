@@ -1,0 +1,28 @@
+# Programa 7
+
+# Maior número possível 0x7FFFFFFF
+
+.text #delimitar que será porção de códgo 
+
+.globl main #indica aonde o programa começa
+
+main: #rótulo ou label
+
+#inicio
+
+# Linguagem C
+# x = o maior inteiro possível; // Ou seja, uma palavra de 32 bits com todos os bits igual a 1
+addi $s0, $0, 0x7FFFFFFF
+
+# y = 8.192; -> 2¹³
+
+addi $s1, $s1, 2 # 2¹ 
+sll $s1, $s1, 12 #2¹²
+
+# z = x - 4y;
+
+# 4 * y
+sll $s2, $s1, 2 # 8.192 * (2²) = 32.768
+
+# z = x - (4*8.1920);
+sub $s3, $s0, $s2

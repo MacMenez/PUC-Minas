@@ -1,0 +1,36 @@
+# Programa 1
+
+.text #delimitar que será porção de códgo 
+
+.globl main #indica aonde o programa começa
+
+main: #rótulo ou label
+
+#inicio
+
+# Linguagem C
+# a = 2;
+addi $s0, $0, 2
+
+# b = 3;
+addi $s1, $0, 3
+
+# c = 4;
+addi $s2, $0, 4
+
+# d = 5;
+addi $s3, $0, 5
+
+# x = (a+b)-(c+d);
+add $t0, $s0, $s1 # a + b -> 2 + 3 = 5
+add $t1, $s2, $s3 # c + d -> 4 + 5 = 9
+sub $s4, $t0, $t1 # x = (a+b) - (c+d) -> 5 - 9 = -4
+# x = $s4 = -4
+
+# y = a-b+x;
+sub $t3, $s0, $s1 # a - b -> 2 - 3 = -1
+add $s5, $t3, $s4 # y = a - b + x -> (-1) + (-4) = -5
+# y = $s5 = -5
+
+# b = x-y;
+sub $s1, $s4, $s5 # (x = $s4 = -4) - (y = $s5 = -5)
