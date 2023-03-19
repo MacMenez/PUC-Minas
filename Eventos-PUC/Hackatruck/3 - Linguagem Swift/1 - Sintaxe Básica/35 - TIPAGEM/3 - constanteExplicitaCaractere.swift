@@ -1,0 +1,1 @@
+let letraA: Character = "A" // letraA é do tipo Character
