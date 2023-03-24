@@ -1,0 +1,6 @@
+.data
+A: .word 30, 40, 8, 50
+
+# Execute o Programa
+# Na aba execute, demarque a opção de Hexadecimal Values
+# Veja os valores do vetor no 1° endereçamento da memória
