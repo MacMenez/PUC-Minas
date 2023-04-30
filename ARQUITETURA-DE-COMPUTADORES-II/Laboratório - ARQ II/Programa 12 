@@ -1,0 +1,31 @@
+.data
+x1: .word 15
+x2: .word 25
+x3: .word 13
+x4: .word 17
+soma: .word -1
+
+.text
+.globl main
+
+main:
+la $t0, x1
+lw $t1, 0($t0) #x1
+add $s0, $0, $t1
+
+la $t0, x2
+lw $t1, 0($t0) #x2
+add $s0, $s0, $t1
+
+la $t0, x3
+lw $t1, 0($t0) #x3
+add $s0, $s0, $t1
+
+la $t0, x4
+lw $t1, 0($t0) #x4
+add $s0, $s0, $t1
+
+
+la $t0, soma
+lw $t1, 0($t0) #soma
+sw $t1, 0($s0)

@@ -1,0 +1,37 @@
+h1{
+    color: red;
+}
+
+#tit_1{
+    font-size: 40px;
+}
+
+.noticias{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h1{
+    background-color: lightgrey;
+}
+
+.destaque{
+    color: blue;
+}
+
+table{
+    width: 100%;
+}
+
+table caption{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+th{
+    background-color: gray;
+    color: white;
+}
+
+td{
+    background-color: azure;
+}

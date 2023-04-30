@@ -9,10 +9,19 @@ public class Filme {
     private String categoria;
     private String paisOrigem;
 
+	Filme(){
+
+	}
+
+	Filme(int id){
+		this.id = id;
+	}
+
     public Filme clone() {
 		Filme clone = new Filme();
 		clone.id = this.id;
 		clone.titulo = this.titulo;
+
 		clone.diretor = this.diretor;
 		clone.atorPrincipal = this.atorPrincipal;
 		clone.atorCoadjuvante = this.atorCoadjuvante;
@@ -23,15 +32,11 @@ public class Filme {
 
         return clone;
     }
-
-    public static Filme ler() {
-		String linha = MyIO.readLine();
-		if (linha.equals("FIM")) {
-			return null;
-		}
-
+	
+	//Leitura
+    public static Filme ler(String linha) {
         String[] infoFilme = linha.split("#");
-		return new Filme();
+		return new Filme(Integer.parseInt(infoFilme[0]));
     }
 
 	//Pesquisar: titulo, ano e duração. Imprimir o resto das informações
@@ -39,7 +44,10 @@ public class Filme {
         //Percorrer vetor de objeto Filme para localizar o que foi solicitado e informações extras das posições.
 		for (int i = 0; i < vetorFilmes.length; i++) {
 			if (vetorFilmes[i].getTitulo().equals(titulo) && vetorFilmes[i].getAnoLancamento() == ano && vetorFilmes[i].getDuracao() == duracao) {
-				MyIO.println(
+				
+				vetorFilmes[i].toString();
+				
+				/*MyIO.println(
 					vetorFilmes[i].getTitulo() + "\n" +
 					vetorFilmes[i].getAnoLancamento() + "\n" +
 					vetorFilmes[i].getDuracao() + "\n" +
@@ -49,7 +57,7 @@ public class Filme {
 					vetorFilmes[i].getAtorCoadjuvante() + "\n" +
 					vetorFilmes[i].getCategoria() + "\n" +
 					vetorFilmes[i].getPaisOrigem() + "\n"
-				);
+				);*/
 			}
 		}
     }

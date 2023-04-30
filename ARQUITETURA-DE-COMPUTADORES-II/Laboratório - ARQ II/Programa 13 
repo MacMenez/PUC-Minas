@@ -1,0 +1,60 @@
+.data
+x: .word 5
+z: .word 7
+y: .word 0  # esse valor deverá ser sobrescrito após a execução do programa
+
+# Considere a seguinte expressão: y = 127x - 65z + 1
+
+.text
+.globl main
+
+main:
+# y = 127x - 65z + 1
+# y = (127 * 5) - (65 * 7) + 1
+
+# 127 * 5 = 635
+#127 Fotarado: 2⁷ = 128 - 1 -> 127 NÃO DEU CERTO
+
+# 2⁶ = 64 -> 64 * 5 = 320
+# 2⁵ = 32 -> 32 * 5 = 160
+# 2⁴ = 16 -> 16 * 5 = 80
+# 2³ = 12 -> 12 * 5 = 40
+# 2² = 4 -> 4 * 5 = 20
+# 2¹ = 2 -> 2 * 5 = 10
+# 2⁰ = 1 -> 1 * 5 = 5
+# SOMATÓRIO = (64 * 5) + (32 * 5) + (16 * 5) + (12 * 5) + (4 * 5) + (2 * 5) + (1 * 5) = 635
+la $t0, x
+lw $t1, 0($t0) #x1
+
+sll $t2, $t1, 6
+sll $t3, $t1, 5
+add $s0, $t2, $t3
+
+sll $t2, $t1, 4
+sll $t3, $t1, 3
+add $t4, $t2, $t3
+add $s0, $s0, $t4
+
+sll $t2, $t1, 2
+sll $t3, $t1, 1
+add $t4, $t2, $t3
+add $s0, $s0, $t4
+
+sll $t1, $t1, 0
+add $s0, $s0, $t1
+
+# 65 * 7 = 455
+#65 Fotarado: 2⁶ = 64 + 2⁰ = 1
+la $t0, z
+lw $t1, 0($t0) #x1
+
+sll $t0, $t1, 6
+sll $t1, $t1, 0
+add $s1, $t0, $t1
+
+#Armazenando o valor das equações no endereço de memória de Y
+la $t0, y
+lw $t1, 0($t0) #x1
+sub $s0, $s0, $s1 # y = (127 * 5) - (65 * 7) + 1
+add $s0, $s0, 1 # y = 180 + 1
+sw $t1, 0($s0) # y = 181

@@ -14,15 +14,20 @@ public class Netflix {
         Filme[] vetorFilmes = new Filme[2000];
 
         int indiceDeLocalizacao = 0;
+        int i = 0;
 
-        String linha = MyIO.readLine();
+        System.out.println("Teste");
+
+        Scanner scanner = new Scanner(System.in);
+        String linha = scanner.nextLine();
 
         while (!linha.equals("FIM")) {
-            int i = 0;
-            vetorFilmes[i].ler(linha);
+            vetorFilmes[i] = Filme.ler(linha);
             linha = MyIO.readLine();
             i++;
         }
+
+        
 
     }
 }

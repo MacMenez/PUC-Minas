@@ -1,0 +1,37 @@
+# ESTRUTURA SWITCH CASE - LINGUAGEM C
+# switch (variável)
+# {
+#   case constante1:
+#     Instruções;
+#   break;
+
+#   case constante2:
+#     Instruções;
+#   break;
+
+#   default
+#     Instruções;
+# }
+.data
+.text
+# CÓDIGO EM C
+# int valor-chave;
+
+.globl main
+
+main:
+
+beq $s0, $s1, Case1 #valor-chave, valor do case, Case 1
+Case1: #instrucoes
+j Fim
+
+beq $s0, $s2, Case2 #valor-chave, valor do case, Case 2
+Case2: #instrucoes
+j Fim
+
+bne $s0, $s1, Default
+Default: bne $s0, $s2, Default1
+Default1: #instrucoes
+j Fim
+
+Fim:

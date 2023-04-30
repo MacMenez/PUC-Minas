@@ -1,0 +1,14 @@
+/*Associação pelo NOME do elemento*/
+h1{
+    color: blue;
+}
+
+/*Associação pelo ID DO ELEMEENTO*/
+#tit_1{
+    font-size: 20px;
+}
+
+/*Associação pela CLASSE DO ELEMENTO*/
+.noticias{
+    font-family: Arial;
+}
