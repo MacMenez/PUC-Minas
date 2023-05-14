@@ -9,32 +9,73 @@ public class Filme {
 	private String categoria;
 	private String paisOrigem;
 	
+	//id - titulo - diretor - atorPrincipal - atorCoadjuvante - anoPublicacao - duracao - categoria - paisOrigem
+	
 	//CONSTRUTOR 1
 	Filme(){
 		
 	}
 	
+	
 	//CONSTRUTOR 2
-	Filme(){
+	public Filme(int id, String titulo, String diretor, String atorPrincipal, String atorCoadjuvante, int anoPublicacao,
+			int duracao, String categoria, String paisOrigem) {
+		super();
+		this.id = id;
+		this.titulo = titulo;
+		this.diretor = diretor;
+		this.atorPrincipal = atorPrincipal;
+		this.atorCoadjuvante = atorCoadjuvante;
+		this.anoPublicacao = anoPublicacao;
+		this.duracao = duracao;
+		this.categoria = categoria;
+		this.paisOrigem = paisOrigem;
+	}
+	
+	//PESQUISAR INFORMAÇÕES POR PARAMETROS
+	public void Pesquisar(String linha) {
+		String[] infoPesquisa = linha.split(";");
 		
+		//INFORMAÇÕES DA PESQUISA: titulo, anoPublicacao, duracao
+		this.titulo = infoPesquisa[0];
+		this.anoPublicacao = Integer.parseInt(infoPesquisa[1]);
+		this.duracao = Integer.parseInt(infoPesquisa[2]);
+		
+		if(
+			(this.titulo == infoPesquisa[0]) && 
+			(this.anoPublicacao == Integer.parseInt(infoPesquisa[2])) && 
+			(this.duracao == Integer.parseInt(infoPesquisa[2]))
+		) {
+			Imprimir();
+		}
 	}
 	
 	//PROCESSO DE LEITURA DOS DADOS LOCALIZADOS EM PUB.IN
-	public void Ler() {
+	public void Ler(String linha) {
+		String[] infoFilme = linha.split("#");
 		
+		this.id = Integer.parseInt(infoFilme[0]);
+
+		this.titulo = infoFilme[1];
+
+		this.diretor = infoFilme[2];
+
+		this.atorPrincipal = infoFilme[3];
+
+		this.atorCoadjuvante = infoFilme[4];
+
+		this.anoPublicacao = Integer.parseInt(infoFilme[5]);
+
+		this.duracao = Integer.parseInt(infoFilme[6]);
+
+		this.categoria = infoFilme[7];
+
+		this.paisOrigem = infoFilme[8];
 	}
 	
 	//EXIBIR ATRIBUTOS DO OBJETO FILME
 	public void Imprimir(){
-		"[" + Filme[i].getTitulo() + "]" +
-		"[" + Filme[i].getAnoLancamento() + "]" +
-		"[" + Filme[i].getPaisOrigem() + "]" +
-		"[" + Filme[i].getCategoria() + "]" +
-		"[" + Filme[i].getDiretor() + "]" +
-		"[" + Filme[i].getAtorPrincipal() + "]" +
-		"[" + Filme[i].getAtorCoadjuvante() + "]" +
-		"[" + Filme[i].getDuracao() + "]" +
-		"[" + Filme[i].getId() + "]";
+		System.out.println(this.toString());
 	}
 	
 	
@@ -55,7 +96,14 @@ public class Filme {
 	public Filme Clone() {
 		Filme clone = new Filme();
 		clone.id = this.id;
-		
+		clone.titulo = this.titulo;
+		clone.diretor = this.diretor;
+		clone.atorPrincipal = this.atorPrincipal;
+		clone.atorCoadjuvante = this.atorCoadjuvante;
+		clone.anoPublicacao = this.anoPublicacao;
+		clone.duracao = this.duracao;
+		clone.categoria = this.categoria;
+		clone.paisOrigem = this.paisOrigem;
 		return Clone();
 	}
 	
