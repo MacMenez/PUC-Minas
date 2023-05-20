@@ -1,0 +1,2 @@
+# Métodos de Pesquisa
+Neste projeto é apresentados 3 métodos de pesquisa de um determinado valor em um vetor. Estes códigos são relacionados à [Pesquisa Sequencial](src/pesquisaSequencial.java), [Pesquisa Binária Iterativa](src/pesquisaBinariaIterativa.java) e [Pesquisa Binária Recursiva](src/pesquisaBinariaRecursiva.java) que tem por sua parte uma identificação de posições dos vetores para pesquisa.
