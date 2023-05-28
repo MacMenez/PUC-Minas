@@ -1,0 +1,9 @@
+y = x4 + x3 - 2x2, se x for par
+y = x5 - x3 + 1, se x for impar
+
+.data
+.text
+
+.globl main
+
+main:

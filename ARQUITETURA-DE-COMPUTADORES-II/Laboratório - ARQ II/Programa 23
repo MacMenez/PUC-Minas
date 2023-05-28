@@ -1,0 +1,36 @@
+# void PosNeg(int n){
+#	if(n >= 0){
+#		print("É Positivo")
+#	}
+#	else{
+#		print("É Negativo")
+#	}
+# }
+
+.data
+A: .word -5
+.text
+
+.globl main
+
+main:
+
+# Leia um valor A da memória
+la $t0, A # Lendo endereço da memória
+lw $t1, 0($t0) # Identificando o valor encontrado no endereço da memória
+
+add $a0, $zero, $t1 # Passa o valor encontrado para o argumento $a0
+
+# Função que identifique se o número é negativo ou não
+jal PosNeg
+nop
+
+PosNeg: 
+
+beq $t1, $zero, True1 # comparar se valor de A = 0
+True1:
+
+# Encontre o seu módulo
+
+
+# O valor deverá ser reescrito sobre A

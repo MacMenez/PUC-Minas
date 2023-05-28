@@ -1,0 +1,11 @@
+Avalie a expressão: (x*y)/z.
+x = 1600000 (=0x186A00)
+y = 80000 (=0x13880)
+z = 400000 (=0x61A80)
+
+.data
+.text
+
+.globl main
+
+main:

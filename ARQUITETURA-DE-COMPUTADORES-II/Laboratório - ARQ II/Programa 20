@@ -9,7 +9,7 @@
 # }
 
 .data
-A: .word 1,3,5#,7,9,2,4,6,8,0     # Vetor de 10 posições
+A: .word 1,3,5,7,9,2,4,6,8,0     # Vetor de 10 posições
 i: .word 0        # Variável i = 0
 
 .text

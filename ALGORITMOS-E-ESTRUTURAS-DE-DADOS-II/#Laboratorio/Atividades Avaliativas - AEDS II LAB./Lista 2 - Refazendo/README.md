@@ -1,18 +1,6 @@
-## Getting Started
+# Netflix v1.0
+O objetivo deste projeto foi desenvolver um programa com intuito de organizar uma base de dados para ter uma formatação de saída. Foi utilizado uma classe principal denominada *Netflix* e uma classe para formatação da base de dados denominada *Filme*. 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Os arquivos de nome **pub** com extensão `.in` e `.out` representam os arquivos de armazenamento de valores (.out) e a base de dados (.in). Para utilizá-las foi necessário o uso da IDE Eclipse, que permite a inserção destes arquivos e seus devidos tratamentos.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O arquivo classe denominado **MyIO**, trata-se de um código desenvolvido pelos professores da disciplina que tem como objetivo à correção de possíveis erros/falhas ocasionados pela bilbioteca `Scanner` utilizado na linguagem JAVA.
