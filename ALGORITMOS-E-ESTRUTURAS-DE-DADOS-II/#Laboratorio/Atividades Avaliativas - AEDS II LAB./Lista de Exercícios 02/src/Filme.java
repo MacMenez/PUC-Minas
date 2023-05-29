@@ -1,150 +1,131 @@
 public class Filme {
-    private int id;
-    private String titulo;
-    private String diretor;
-    private String atorPrincipal;
-    private String atorCoadjuvante;
-    private int anoLancamento;
-    private int duracao;
-    private String categoria;
-    private String paisOrigem;
-
-	Filme(){
-
-	}
-
-	Filme(int id){
-		this.id = id;
-	}
-
-    public Filme clone() {
-		Filme clone = new Filme();
-		clone.id = this.id;
-		clone.titulo = this.titulo;
-
-		clone.diretor = this.diretor;
-		clone.atorPrincipal = this.atorPrincipal;
-		clone.atorCoadjuvante = this.atorCoadjuvante;
-		clone.anoLancamento = this.anoLancamento;
-		clone.duracao = this.duracao;
-		clone.categoria = this.categoria;
-		clone.paisOrigem = this.paisOrigem;
-
-        return clone;
-    }
+	private int id;
+	private String titulo;
+	private String diretor;
+	private String atorPrincipal;
+	private String atorCoadjuvante;
+	private int anoPublicacao;
+	private int duracao;
+	private String categoria;
+	private String paisOrigem;
 	
-	//Leitura
-    public static Filme ler(String linha) {
-        String[] infoFilme = linha.split("#");
-		return new Filme(Integer.parseInt(infoFilme[0]));
-    }
+	//PROCESSO DE LEITURA DOS DADOS LOCALIZADOS EM PUB.IN
+	public void Ler(String linha) {
+		String[] infoFilme = linha.split("#");
 
-	//Pesquisar: titulo, ano e duração. Imprimir o resto das informações
-    public static void imprimir(Filme[] vetorFilmes, String titulo, int ano, int duracao) {
-        //Percorrer vetor de objeto Filme para localizar o que foi solicitado e informações extras das posições.
-		for (int i = 0; i < vetorFilmes.length; i++) {
-			if (vetorFilmes[i].getTitulo().equals(titulo) && vetorFilmes[i].getAnoLancamento() == ano && vetorFilmes[i].getDuracao() == duracao) {
-				
-				vetorFilmes[i].toString();
-				
-				/*MyIO.println(
-					vetorFilmes[i].getTitulo() + "\n" +
-					vetorFilmes[i].getAnoLancamento() + "\n" +
-					vetorFilmes[i].getDuracao() + "\n" +
-					vetorFilmes[i].getId() + "\n" +
-					vetorFilmes[i].getDiretor() + "\n" +
-					vetorFilmes[i].getAtorPrincipal() + "\n" +
-					vetorFilmes[i].getAtorCoadjuvante() + "\n" +
-					vetorFilmes[i].getCategoria() + "\n" +
-					vetorFilmes[i].getPaisOrigem() + "\n"
-				);*/
-			}
+		this.id = Integer.parseInt(infoFilme[0]);
+
+		this.titulo = infoFilme[1];
+
+		this.diretor = infoFilme[2];
+
+		this.atorPrincipal = infoFilme[3];
+
+		this.atorCoadjuvante = infoFilme[4];
+
+		this.anoPublicacao = Integer.parseInt(infoFilme[5]);
+
+		this.duracao = Integer.parseInt(infoFilme[6]);
+
+		this.categoria = infoFilme[7];
+
+		this.paisOrigem = infoFilme[8];
+	}
+	
+	//PESQUISAR INFORMAÇÕES POR PARAMETROS
+		public void Pesquisar(String[] infoPesquisa) {
+			
+			//INFORMAÇÕES DA PESQUISA: titulo, anoPublicacao, duracao
+			this.titulo = infoPesquisa[0];
+			this.anoPublicacao = Integer.parseInt(infoPesquisa[1]);
+			this.duracao = Integer.parseInt(infoPesquisa[2]);
 		}
-    }
-
-	//Conforme atividade prática de laboratório. Apenas chamar método Get.
-    public String toString() {
-        return (
-            this.getId() + "\n" + 
-            this.getTitulo() + "\n" +
-            this.getDiretor() + "\n" +
-            this.getAtorPrincipal() + "\n" +
-            this.getAtorCoadjuvante() + "\n" +
-            this.getAnoLancamento() + "\n" +
-            this.getDuracao() + "\n" +
-            this.getCategoria() + "\n" +
-            this.getPaisOrigem()
-        );
-    }
-
-    public int getId() {
+		
+	//EXIBIR ATRIBUTOS DO OBJETO FILME
+	public void Imprimir(){
+		System.out.println(this.toString());
+	}
+	
+	// Método toString
+	@Override
+	public String toString() {
+		return "[" + titulo  + "] "
+				+ "[" + anoPublicacao + "] "
+				+ "[" + paisOrigem + "] "
+				+ "[" + categoria + "] "
+				+ "[" + diretor + "] "
+				+ "[" + atorPrincipal + ", " + atorCoadjuvante + "] "
+				+ "[" + duracao + "] "
+				+ "[" + id + "]";
+	}
+	
+	//MÉTODO CLONE PARA "DUPLICAR RESULTADOS"
+		public Filme Clone() {
+			Filme clone = new Filme();
+			clone.id = this.id;
+			clone.titulo = this.titulo;
+			clone.diretor = this.diretor;
+			clone.atorPrincipal = this.atorPrincipal;
+			clone.atorCoadjuvante = this.atorCoadjuvante;
+			clone.anoPublicacao = this.anoPublicacao;
+			clone.duracao = this.duracao;
+			clone.categoria = this.categoria;
+			clone.paisOrigem = this.paisOrigem;
+			return Clone();
+		}
+	
+	//Métodos GET e SET
+	public int getId() {
 		return id;
 	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	public String getTitulo() {
 		return titulo;
 	}
-
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
-
 	public String getDiretor() {
 		return diretor;
 	}
-
 	public void setDiretor(String diretor) {
 		this.diretor = diretor;
 	}
-
 	public String getAtorPrincipal() {
 		return atorPrincipal;
 	}
-
 	public void setAtorPrincipal(String atorPrincipal) {
 		this.atorPrincipal = atorPrincipal;
 	}
-
 	public String getAtorCoadjuvante() {
 		return atorCoadjuvante;
 	}
-
 	public void setAtorCoadjuvante(String atorCoadjuvante) {
 		this.atorCoadjuvante = atorCoadjuvante;
 	}
-
-	public int getAnoLancamento() {
-		return anoLancamento;
+	public int getAnoPublicacao() {
+		return anoPublicacao;
 	}
-
-	public void setAnoLancamento(int anoLancamento) {
-		this.anoLancamento = anoLancamento;
+	public void setAnoPublicacao(int anoPublicacao) {
+		this.anoPublicacao = anoPublicacao;
 	}
-
 	public int getDuracao() {
 		return duracao;
 	}
-
 	public void setDuracao(int duracao) {
 		this.duracao = duracao;
 	}
-
 	public String getCategoria() {
 		return categoria;
 	}
-
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
-
 	public String getPaisOrigem() {
 		return paisOrigem;
 	}
-
 	public void setPaisOrigem(String paisOrigem) {
 		this.paisOrigem = paisOrigem;
 	}

@@ -1,33 +1,43 @@
-/*
-Não consegui terminar o exercício. 
-Por algum motivo ainda tenho e dificuldade em traspor a lógica em código.
-Enviarei mesmo que fora do prazo para avaliação e até onde consegui desenvolver.
-Não consegui realizar teste para saber se deu ou não certo o que fiz até aqui.
-Abaixo a resolução de tudo
-*/
-import java.util.Scanner;
-
 public class Netflix {
-    public static void main(String[] args) throws Exception {
-        MyIO.setCharset("UTF-8");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyIO.setCharset("UTF-8");
 
-        Filme[] vetorFilmes = new Filme[2000];
+		// PARTE 1 - ARMAZENANDO INFORMAÇÕES NO VETOR
+		Filme[] vetorFilme = new Filme[2000]; //Vetor estático com o total de posições do arquivo
 
-        int indiceDeLocalizacao = 0;
-        int i = 0;
+		String linha = MyIO.readLine(); //Lendo o dado do arquivo PUB.in
 
-        System.out.println("Teste");
+		int contadorVetor = 0; //Indice de referência do objeto vetorFilme, cada i equivale a 1 vetorFilme.
 
-        Scanner scanner = new Scanner(System.in);
-        String linha = scanner.nextLine();
+		//CRIANDO E PREENCHENDO O VETOR COM FILMES DO ARQUIVO PUB.IN
+		while(!linha.equals("FIM")) { //Criando flag conforme orientação no enunciado da atividade
+			vetorFilme[contadorVetor] = new Filme(); //Criando um objeto vetorFilme através da classe Filme.
+			vetorFilme[contadorVetor].Ler(linha);
+			contadorVetor++; //Aumentando contagem
+			linha = MyIO.readLine(); //Lendo o dado do arquivo PUB.in
+		}
 
-        while (!linha.equals("FIM")) {
-            vetorFilmes[i] = Filme.ler(linha);
-            linha = MyIO.readLine();
-            i++;
-        }
+		linha = MyIO.readLine(); 
 
-        
-
-    }
+		//PESQUISAR INFORMAÇÕES DOS FILMES NO VETOR CRIADO
+		int contadorPesquisa = 0;
+		while (!linha.equals("FIM")) {
+			
+			//VERIFICAÇÃO: INFORMAÇÕES LIDAS DA LINHA SÃO IGUAIS AS DO VETOR
+			String[] infoPesquisa = linha.split(";");
+			
+			//Contando linhas à partir do FIM da etapa 1
+			for(int i = 0; i < contadorVetor; i++) {
+				// Pesquisando o valor + Lendo o dado do vetor que será mostrado na tela
+				if((vetorFilme[i].getTitulo().equals(infoPesquisa[0])) && 
+				(vetorFilme[i].getAnoPublicacao() == Integer.parseInt(infoPesquisa[1])) && 
+				(vetorFilme[i].getDuracao() == Integer.parseInt(infoPesquisa[2]))){
+					System.out.println(vetorFilme[i].toString());
+				}
+			} 
+			contadorPesquisa++; 
+			linha = MyIO.readLine();
+		}
+	}
 }
