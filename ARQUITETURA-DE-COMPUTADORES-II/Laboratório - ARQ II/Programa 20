@@ -18,7 +18,7 @@ i: .word 0        # Variável i = 0
 
 main:
 addi $t0, $t0, 0 # Contador i = 0
-addi $t1, $t1, 3 # Condição de PARADA
+addi $t1, $t1, 10 # Condição de PARADA
 
 
 # Processo de Verificação do FOR para criar o Loop

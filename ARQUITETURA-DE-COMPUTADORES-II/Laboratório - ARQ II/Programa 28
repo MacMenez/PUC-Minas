@@ -2,7 +2,7 @@
 # y = x⁴ - 1, se x <= 0
 
 .data
-x: .word -2
+x: .word 3
 .text
 
 .globl main
@@ -13,20 +13,23 @@ lw $t1, 0($t0) # Identificando o valor encontrado no endereço da memória
 add $s0, $zero, $t1 # Registrador recebe valor de x
 
 slt $t0, $zero, $s0 # comparar se x > 0 (0 - Falso, 1 - Verdadeiro)
-bne $t0, 1, MaiorQzero
+beq $t0, 1 MaiorQzero # Comparar o valor do SLT com 0
 
-slt $t0, $s0, $zero # comparar se x < 0 (0 - Falso, 1 - Verdadeiro)
-beq $t0, $zero, MenorQzero # comparar se x = 0
+slti $t0, $s0, 0 # comparar se x < 0 (0 - Falso, 1 - Verdadeiro)
+beq $t0, 1, MenorQzero # comparar se x = 0
 
 MaiorQzero:
-sll $t2, $t0, 2
-sll $t2, $t2, 1
-add $s0, $t2, 1
+# Formula x³
+sll $t2, $t0, 1 # Maior Que 0
+sll $t2, $t0, 2 # Maior Que 0
+add $s0, $t2, 1 # Maior Que 0
 j Fim
 
-MenorQzero: 
-sll $t2, $t0, 2
-sll $t2, $t2, 2
+MenorQzero:
+# Formula x⁴
+sll $t2, $t0, 2 # Menor Que 0
+sll $t2, $t2, 1 # Menor Que 0
+
 sub $s0, $t2, 1
 j Fim
 

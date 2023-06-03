@@ -1,9 +1,9 @@
-int maximo(int v[], int n) {
-  int max = v[0];
-  for(i = 1; i < n; i++) {
-    if (v[i] > max) max = v[i];
-  } 
-}
+#int maximo(int v[], int n) {
+#  int max = v[0];
+#  for(i = 1; i < n; i++) {
+#    if (v[i] > max) max = v[i];
+#  } 
+#}
 
 .data
 .text
