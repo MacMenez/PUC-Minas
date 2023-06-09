@@ -2,7 +2,7 @@
 # y = x⁴ - 1, se x <= 0
 
 .data
-x: .word 3
+x: .word 2
 .text
 
 .globl main
@@ -20,9 +20,10 @@ beq $t0, 1, MenorQzero # comparar se x = 0
 
 MaiorQzero:
 # Formula x³
-sll $t2, $t0, 1 # Maior Que 0
-sll $t2, $t0, 2 # Maior Que 0
-add $s0, $t2, 1 # Maior Que 0
+sll $t2, $t0, 1 # Maior Que 0 - x³
+add $s0, $t2, 0 # Maior Que 0 - x³
+sll $t2, $t0, 2 # Maior Que 0 - x³
+add $s0, $t2, 1 # Maior Que 0 - x³
 j Fim
 
 MenorQzero:

@@ -33,8 +33,9 @@ PosNeg:
 slt $t0, $a0, $zero # Verificar se o valor $s0 é menor que 0 (Saida 0: FALSO, saída 1: VERDADEIRO)
 beq $t0, 1, negativo # Verifica se o resultado da comparação foi VERDADEIRO
 bne $t0, 1, positivo # Verifica se o resultado da comparação foi DIFERENTE de verdadeiro
+j Modulo
 
-# Encontre o seu módulo
+Modulo: # Encontre o seu módulo
 addi $t1, $t1, 2
 div $a0, $t1
 mflo $a0 # O valor que deverá ser reescrito sobre A

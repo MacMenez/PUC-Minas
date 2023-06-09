@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <title>Trabalho Prático - DIW</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/b912a21b78.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<nav>
+
+    <div class="container-fluid">
+        
+        <div class="row">
+            
+            <img class="col-sm-12 col-md-7 col-lg-4" src="Imagens/Update your Game.png" alt="Imagem">
+
+            <div class="col-lg-3 mt-2">
+                <h1 class="fs-3 text-light">Bem Vindo, Usuário</h1>
+            </div>
+
+            <div class="col-sm-12 col-md-5 col-lg-5 fs-4">
+                <ul>
+                    <a href="#" class="text-danger">Entre |</a>
+                    <a href="#" class="text-danger">Regristre |</a>
+                    <a href="#" class="text-danger">Minha Conta |</a>
+                    <a href="#" class="text-danger">Seguir a Compra</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-7 col-sm-12">
+
+                <div class="searchbar border border-3 border-danger mt-5">
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                                <button class="btn btn-outline-danger" type="submit">Procure</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-8 my-5">
+
+                <h1 class="fs-5 text-light">Produto a Caminho | Reembolso até 30 dias</h1>
+                <h2 class="fs-5 text-light">24/7 Serviço ao Cliente <strong>1800 00 11 22</strong></h2>
+
+            </div>
+
+            <div class="col-md-1 col-sm-6 col-3 mt-5">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="white"
+                    class="bi bi-cart3 border border-4 border-primary bg-secondary p-1" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</nav>
+
+<header>
+
+    <div class="container-fluid">
+
+        <div class="row my-3"> 
+            
+            <div class="d-none d-lg-block col-4 mx-4 border border-3 border-primary bg-secondary-subtle">
+                <h4 class="fs-3">Encontre o seu produto</h4>
+                <h5 class="fs-6">Encontre o produto certo no lugar certo</h5>
+
+
+                <div class="dropdown my-1 mt-4">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Fones
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">| Fones sem fio |</a></li>
+                        <li><a class="dropdown-item" href="#">| Headset |</a></li>
+                        <li><a class="dropdown-item" href="#">| Headset Xbox/PS4 |</a></li>
+                    </ul>
+                </div>
+    
+                <div class="dropdown my-1">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Mouse
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">| Mouse Comum |</a></li>
+                        <li><a class="dropdown-item" href="#">| Mouse Gamer |</a></li>
+                        <li><a class="dropdown-item" href="#">| Mouse Sem Fio |</a></li>
+                    </ul>
+                </div>
+    
+                <div class="dropdown my-1">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Teclados
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">| Teclado Mecanico |</a></li>
+                        <li><a class="dropdown-item" href="#">| Teclado Gamer |</a></li>
+                        <li><a class="dropdown-item" href="#">| Teclado Sem Fio |</a></li>
+                    </ul>
+                </div>
+    
+                <div class="dropdown my-1">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Consoles
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">| Playstation |</a></li>
+                        <li><a class="dropdown-item" href="#">| Xbox |</a></li>
+                        <li><a class="dropdown-item" href="#">| Nintendo |</a></li>
+                    </ul>
+                </div>
+    
+                <div class="dropdown my-1">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Controles
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">| Controle PS4 |</a></li>
+                        <li><a class="dropdown-item" href="#">| Controle Xbox |</a></li>
+                        <li><a class="dropdown-item" href="#">| Controle Nintendo |</a></li>
+                    </ul>
+                </div>
+    
+                
+                
+                <h6 class="my-3 fs-3">Preços</h6>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Até R$100
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        R$100 - R$200
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        R$200 - R$350
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        R$350 - R$500
+                    </label>
+                </div>
+
+
+                <div class="caixapesquisa">
+                    <h4 class="fs-6">De R$</h4>
+                    <input type="text" class="textopesquisa">
+                </div>
+
+                <div class="caixapesquisa">
+                    <h5 class="fs-6">Até R$</h5>
+                    <input type="text" class="textopesquisa">
+                </div>
+                
+                
+                <h6 class="fs-3 my-2">Condição</h6>
+                
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Novo
+                    </label>
+                </div>
+                
+                <div class="form-check my-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Usado
+                    </label>
+                </div>
+                
+                <button class="btn btn-outline-success mt-2" type="submit">Search</button>
+
+                
+            </div>
+            
+
+            <div class="col-12 col-lg-7">
+
+                <div id="carouselExampleIndicators" class="carousel slide border border-4 border-primary">
+                    
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    </div>
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Produtos/Destaque - PS5.jpg" class="d-block w-100"
+                                alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Produtos/Destaque - Xbox Series S.jpg" class="d-block w-100"
+                                alt="Imagem 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Produtos/Destaque - Teclado + Mouse.jpg" class="d-block w-100"
+                                alt="Imagem 3">
+                            </div>
+                    </div>
+
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+</header>
+
+
+<aside>
+
+    <div class="mt-1 bg-secondary rounded-3">
+
+        <h7><strong>Item mais bem Avaliados</strong></h7>
+        
+        <ul class="list-group">
+            
+            <li class="list-group-item bg-dark bg-dark">
+
+                <img src="Produtos/Destaque - Controle PS5.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Controle - PS5</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #00ff08;"></i><br><br>
+
+                <h1 class="text-light fs-5">(26 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$400,90</p>
+
+            </li>
+
+            <li class="list-group-item bg-dark">
+
+                <img src="Produtos/Destaque - PS5.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Console - PS5 + GOW Ragnarok</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i><br><br>
+
+                <h1 class="text-light fs-5">(45 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$3.900,00</p>
+            </li>
+
+            <li class="list-group-item bg-dark">
+
+                <img src="Produtos/Destaque - Xbox Series S.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Console - Xbox Series S</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i><br><br>
+
+                <h1 class="text-light fs-5">(50 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$2.900,00</p>
+
+            </li>
+
+            <li class="list-group-item bg-dark">
+
+                <img src="Produtos/Destaque - Nintendo Switch.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Console - Nintendo Switch + Mario Kart 8</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #04ff00;"></i><br><br>
+
+                <h1 class="text-light fs-5">(37 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$2.800,90</p>
+
+            </li>
+
+            <li class="list-group-item bg-dark">
+
+                <img src="Produtos/Destaque - Teclado + Mouse.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Teclado + Mouse</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #6b6b6b;"></i><br><br>
+
+                <h1 class="text-light fs-5">(29 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$210,90</p>
+
+            </li>
+
+            <li class="list-group-item bg-dark">
+
+                <img src="Produtos/Destaque - Mouse.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Mouse - Gamer sem Fio + Botões</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #6b6b6b;"></i><br><br>
+
+                <h1 class="text-light fs-5">(32 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$120,90</p>
+
+            </li>
+
+            <li class="list-group-item bg-dark">
+
+                <img src="Produtos/Destaque - Fone Sem fio.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Fone Sem Fio</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #6b6b6b;"></i><br><br>
+
+                <h1 class="text-light fs-5">(35 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$90,90</p>
+
+            </li>
+
+            <li class="list-group-item bg-dark">
+
+                <img src="Produtos/Destaque - Controle Xbox Series S.jpg" class="w-50 my-2 float-start me-2" alt="Item1">
+
+                <a href="#">Controle - Xbox Series S</a><br>
+
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                <i class="fa fa-thin fa-star" style="color: #09ff00;"></i><br><br>
+
+                <h1 class="text-light fs-5">(39 Avaliações)</h1>
+
+                <p class="text-light fs-4 mt-5">R$380,00</p>
+
+            </li>
+
+            <li class="list-group-item bg-dark">
+                <button type="button" class="btn btn-danger my-1 px-5">Veja mais</button>
+            </li>
+
+        </ul>
+
+        <article class="my-4 bg-secondary-subtle rounded-3 border border-3 border-black p-3">
+
+            <h8><strong>Notícias</strong></h8>
+            <p>Entre para receber mais Notícias!!</p>
+
+            <div class="caixapesquisa">
+                <input type="text" class="textopesquisa">
+            </div>
+
+            <li class="list-group-item">
+                <button type="button" class="btn btn-primary my-2">Entre!</button>
+            </li>
+
+        </article>
+
+    </div>
+
+
+</aside>
+
+<main>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Console - PS4.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Console - PS4 + 3 Jogos</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #00ff37;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (6)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 2.500,00  </strong><s class="fs-6">R$ 2.800,00</s>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Console - Xbox One.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Xbox One</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #33ff00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (8)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 2.280,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Console - Nintendo Switch OLED.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Nintendo Switch - OLED</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (5)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 3.250,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Controle - PS4.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+
+                        <h5 class="card-title">Controle - PS4</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (10)
+                        
+                        <p class="card-text fs-5">
+                            <strong>R$ 250,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Controle - XboxOne.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Controle - Xbox</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (12)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 190,00  </strong><s class="fs-6">R$ 220,00</s>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Controle - Nintendo Switch.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                
+                        <h5 class="card-title">Controle - Nintendo Switch</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (9)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 280,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Headset.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                                
+                        <h5 class="card-title">Headset - Comum</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #00ff04;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (25)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 120,00 </strong><s class="fs-6">R$ 150,00</s>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Headset Xbox e PS.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                                
+                        <h5 class="card-title">Headset - Xbox/PS4</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #00ff04;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (20)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 170,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Fones Sem Fio.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                                
+                        <h5 class="card-title">Fones sem fio</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (30)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 90,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Mouse - Comum.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                                 
+                        <h5 class="card-title">Mouse - Comum</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #15ff00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (30)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 10,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Mouse - Gamer.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                                
+                        <h5 class="card-title">Mouse - Gamer</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #15ff00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (20)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 70,00 </strong><s class="fs-6">R$ 90,00</s>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Mouse - Sem Fio.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                             
+                        <h5 class="card-title">Mouse - Sem Fio</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (28)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 45,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Teclado - Mecanico.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                                
+                        <h5 class="card-title">Teclado - Mecanico</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (21)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 85,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Teclado - Gamer.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                               
+                        <h5 class="card-title">Teclado - Gamer</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (17)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 155,00</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-2">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="Produtos/Teclado - Sem fio.jpg" class="card-img-top w-100 p-2" alt="...">
+                    <div class="card-body">
+                                                                                       
+                        <h5 class="card-title">Teclado - Sem Fio</h5>
+
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>.
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #ffdd00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #0dff00;"></i>
+                        <i class="fa fa-thin fa-star" style="color: #575757;"></i>
+                        (15)
+
+                        <p class="card-text fs-5">
+                            <strong>R$ 100,00 </strong><s class="fs-6">R$ 125,99</s>
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</main>
+
+<footer>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+
+            <div class="col">
+                <h9><strong>Métodos de Pagamentos</strong></h9>
+            </div>
+
+            <div class="col">
+                <h10><strong>Links Rápidos</strong></h10>
+            </div>
+
+            <div class="d-none d-sm-block col">
+                <h11><strong>Nos encontre nas redes socias</strong></h11>
+            </div>
+
+            <div class="d-none d-md-block col">
+                <h12><strong>Contacte a gente</strong></h12>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col">
+
+                <img src="Imagens/Visa.png" alt="Visa">
+                <img src="Imagens/MasterCard.png" alt="MasterCard">
+                <img src="Imagens/Inter.png" alt="Inter">
+                <img src="Imagens/Pix.png" alt="Pix">
+                <img src="Imagens/PayPal.png" alt="PayPal">
+                <img src="Imagens/NetBanking.png" alt="NetBanking">
+                <img src="Imagens/Discover.png" alt="Discorver">
+
+            </div>
+
+            <div class="col mt-1">
+
+                <ul>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Politica de Entrega</a></li>
+                    <li><a href="#">Cancelamento e Reembolso</a></li>
+                    <li><a href="#">Perguntas e Respostas</a></li>
+                    <li><a href="#">Politica de Privacidade</a></li>
+                    <li><a href="#">Atenção</a></li>
+                </ul>
+
+            </div>
+
+            <div class="d-none d-sm-block col mt-2">
+
+                <i class="fa fa-brands fa-square-facebook fa-2xl"></i>
+                <i class="fa fa-brands fa-square-twitter fa-2xl"></i>
+                <i class="fa fa-brands fa-google-plus-g fa-2xl"></i>
+
+            </div>
+
+            <div class="d-none d-md-block col">
+                <p>Avenida Mata Atlantica  <br> 183 <br> Bairro Royal Golf<br></p>
+
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+                <a href="#">samuel.fariacc@gmail.com<br></a>
+
+                <div class="phone">
+
+                    <i class="fa-solid fa-phone fa-xl" style="color: #212121;"></i>
+                    <p><strong>1800 4400 22</strong></p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright p-2">
+
+        <i class="fa-regular fa-copyright fa-xl" style="color: #ffffff;"></i>
+        <h13>2023-2023 UpgradeYourGame.com</h13>
+    </div>
+
+</footer>
+
+
+</html>

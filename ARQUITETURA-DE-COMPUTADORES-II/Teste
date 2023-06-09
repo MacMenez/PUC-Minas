@@ -1,0 +1,90 @@
+.data
+
+    valor: .word 4
+
+
+
+.text
+
+    main:
+
+        # Leitura do valor A da memória
+
+        lw $t0, valor
+
+
+
+        # Chamada da função para identificar o número negativo e encontrar o módulo
+
+        move $a0, $t0
+
+        jal VerificarModulo
+
+
+
+        # O valor atualizado estará em $v0
+
+        move $t0, $v0
+
+
+
+        # Escrita do valor atualizado em A
+
+        sw $t0, valor
+
+
+
+        # Fim do programa
+
+        li $v0, 10
+
+        syscall
+
+
+
+    VerificarModulo:
+
+        # Salvar registradores
+
+        addi $sp, $sp, -4
+
+        sw $ra, ($sp)
+
+
+
+        # Identificar se o número é negativo
+
+        bltz $a0, Negativo
+
+
+
+        # Se for positivo, copiar o valor para o registrador de retorno ($v0)
+
+        move $v0, $a0
+
+        j Fim
+
+
+
+    Negativo:
+
+        # Calcular o módulo do número negativo
+
+        neg $v0, $a0
+
+
+
+    Fim:
+
+        # Restaurar registradores
+
+        lw $ra, ($sp)
+
+        addi $sp, $sp, 4
+
+
+
+        # Retornar para a função chamadora
+
+        jr $ra
+
