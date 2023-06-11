@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nota 10</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- CONFIGURAÇÕES DO CABEÇALHO NO INÍCIO DA PÁGINA -->
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="brand-logo">
+                        <a href="#"><img src="imagens/logotipo.png" alt="Logo Criada da Empresa"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="logged-in-user">
+                        <span>Welcome, musicians</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="search-container">
+                        <div class="global-search">
+                            <input type="text" placeholder="Search...">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <div class="shopping-cart">
+                            <a href="#"><i class="fas fa-shopping-cart"></i>Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            My Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Enterprise</a>
+                            <a class="dropdown-item" href="#">Musicians</a>
+                            <a class="dropdown-item" href="#">Students</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Track Order</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CARROSSEL DE IMAGENS -->
+    <section class="promotion-banners">
+        <div id="banner-slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#banner-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#banner-slider" data-slide-to="1"></li>
+                <li data-target="#banner-slider" data-slide-to="2"></li>
+                <li data-target="#banner-slider" data-slide-to="3"></li>
+                <li data-target="#banner-slider" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/Carrossel/aula.jpg" alt="Banner 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/Carrossel/estudio.jpg" alt="Banner 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/Carrossel/instrumentos.jpg" alt="Banner 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/Carrossel/luthier.jpg" alt="Banner 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/Carrossel/show.jpg" alt="Banner 5">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner-slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#banner-slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- QUICK FIND -->
+    <section class="quick-find">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Quick Find - Choose Product</h2>
+                    <p>Find the right product at the right price</p>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="typeFilter">Type</label>
+                                <select id="typeFilter" class="form-control">
+                                    <option selected>All Types</option>
+                                    <option>Type 1</option>
+                                    <option>Type 2</option>
+                                    <option>Type 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="brandFilter">Brand</label>
+                                <select id="brandFilter" class="form-control">
+                                    <option selected>All Brands</option>
+                                    <option>Brand 1</option>
+                                    <option>Brand 2</option>
+                                    <option>Brand 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="categoryFilter">Category</label>
+                                <select id="categoryFilter" class="form-control">
+                                    <option selected>All Categories</option>
+                                    <option>Instruments</option>
+                                    <option>Music Classes</option>
+                                    <option>Events</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="priceFrom">Price From</label>
+                                <input type="text" class="form-control" id="priceFrom">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="priceTo">Price To</label>
+                                <input type="text" class="form-control" id="priceTo">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONFIGURAÇÃO DA DIVISÃO DA PÁGINA -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <!-- Conteúdo principal -->
+                <!-- PRODUTOS OFERTADOS -->
+
+                <!-- 1° DIVISÃO -->
+                <section class="deal-of-the-day">
+                    <h2 class="section-title">Instruments</h2>
+                    <hr class="section-divider">
+
+                    <div class="product-container">
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/Instrumentos/bateria.jpg" alt="Product 1">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(25 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Drums</h3>
+                                <p class="product-price">$49.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$69.99</span>
+                                    <span class="offer-percentage">30% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/Instrumentos/guitarra.jpg" alt="Product 2">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(18 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Guitars</h3>
+                                <p class="product-price">$39.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$59.99</span>
+                                    <span class="offer-percentage">33% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/Instrumentos/saxofone.jpg" alt="Product 3">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(32 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Saxophone</h3>
+                                <p class="product-price">$59.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$79.99</span>
+                                    <span class="offer-percentage">25% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- 2° DIVISÃO -->
+                <section class="new-arrival">
+                    <h2 class="section-title">Musical Studio</h2>
+                    <hr class="section-divider">
+
+                    <div class="product-container">
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/Estudio Musical/estudio-musica-1.jpg" alt="Product 4">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(12 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Mixing Studio</h3>
+                                <p class="product-price">$59.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$79.99</span>
+                                    <span class="offer-percentage">25% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/Estudio Musical/estudio-musica-2.jpg" alt="Product 5">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(8 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Recording Studio</h3>
+                                <p class="product-price">$39.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$59.99</span>
+                                    <span class="offer-percentage">33% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/Estudio Musical/estudio-musica-3.jpg" alt="Product 6">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(15 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Album Recording Studio</h3>
+                                <p class="product-price">$49.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$69.99</span>
+                                    <span class="offer-percentage">30% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- 3° DIVISÃO -->
+                <section class="best-sellers">
+                    <h2 class="section-title">Music SetUp</h2>
+                    <hr class="section-divider">
+
+                    <div class="product-container">
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/SetUp Profissional/kit-pro-1.jpg" alt="Product 7">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(10 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Profissional Studio Kit SetUp</h3>
+                                <p class="product-price">$79.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$99.99</span>
+                                    <span class="offer-percentage">20% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/SetUp Profissional/kit-pro-2.jpg" alt="Product 8">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span class="reviews-count">(6 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">Basic Kit</h3>
+                                <p class="product-price">$59.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$79.99</span>
+                                    <span class="offer-percentage">25% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product">
+                            <div class="product-photo">
+                                <a href="#">
+                                    <img src="imagens/SetUp Profissional/kit-pro-3.jpg" alt="Product 9">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <div class="rating-reviews">
+                                    <div class="star-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="reviews-count">(3 Reviews)</span>
+                                </div>
+                                <h3 class="product-name">HomeKit</h3>
+                                <p class="product-price">$39.99</p>
+                                <div class="actual-price-offer">
+                                    <span class="actual-price">$49.99</span>
+                                    <span class="offer-percentage">20% OFF</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- MENU LATERAL -->
+            <div class="col-lg-3">
+
+                <!-- Produtos mais avaliados -->
+                <!-- MOST REVIEW -->
+                <section class="most-reviewed-items">
+                    <h2>Most Reviewed Items</h2>
+                    <div class="product">
+                        <div class="product-photo">
+                            <a href="product-details.html"><img src="imagens/Ingresso/ingresso.jpg" alt="Product 1"></a>
+                        </div>
+                        <div class="product-details">
+                            <div class="rating">
+                                <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i></span>
+                                <span class="reviews">(32 Reviews)</span>
+                            </div>
+                            <h3><a href="product-details.html">Weekend Show</a></h3>
+                            <div class="price">$29.99</div>
+                            <!-- <div class="offer">On Sale: $19.99 (30% off)</div> -->
+                        </div>
+                        <div class="view-details">
+                            <a href="product-details.html">See More</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-photo">
+                            <a href="product-details.html"><img src="imagens/Aula Musica/aula-teorica.jpg"
+                                    alt="Product 2"></a>
+                        </div>
+                        <div class="product-details">
+                            <div class="rating">
+                                <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star-half-alt"></i></span>
+                                <span class="reviews">(17 Reviews)</span>
+                            </div>
+                            <h3><a href="product-details.html">Music Lessons</a></h3>
+                            <div class="price">$49.99</div>
+                            <!-- <div class="offer">On Sale: $39.99 (20% off)</div> -->
+                        </div>
+                        <div class="view-details">
+                            <a href="product-details.html">See More</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-photo">
+                            <a href="product-details.html"><img src="imagens/Estudio Musical/estudio-musica-4.jpg"
+                                    alt="Product 3"></a>
+                        </div>
+                        <div class="product-details">
+                            <div class="rating">
+                                <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="far fa-star"></i></span>
+                                <span class="reviews">(8 Reviews)</span>
+                            </div>
+                            <h3><a href="product-details.html">Videoclip Studio</a></h3>
+                            <div class="price">$39.99</div>
+                            <!-- <div class="offer">On Sale: $29.99 (25% off)</div> -->
+                        </div>
+                        <div class="view-details">
+                            <a href="product-details.html">See More</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Inscrição na newsletter -->
+                <!-- NEWSLETTER -->
+                <section class="newsletter-signup">
+                    <h2>Newsletter Signup</h2>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- RODAPÉ DO SITE -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="footer-heading">Payments methods</h4>
+                    <ul class="payment-icons">
+                        <li><i class="fab fa-cc-visa"></i></li>
+                        <li><i class="fab fa-cc-mastercard"></i></li>
+                        <li><i class="fab fa-paypal"></i></li>
+                        <li><i class="fas fa-university"></i></li>
+                        <li><i class="fas fa-money-bill-wave"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Cancelation & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#"> Privacy Policy </a></li>
+                        <li><a href="#"> Disclaimer </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="footer-heading">Lets Be Social</h4>
+                    <ul class="social-media-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-envelope"></i> nota10@example.com</li>
+                        <li><i class="fas fa-phone"></i> +00 00 0000 - 0000</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="text-muted">&copy; 2023 Nota10. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
