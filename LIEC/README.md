@@ -124,7 +124,7 @@ Com o *potencial elétrico* ocorre o mesmo, temos que definir um ponto de refer�
 O trabalho realizado ao se mover uma carga de *1 coulomb* através de uma ***diferença de potencial*** de *1 volt*, é de *1 joule*. 
 
 A **unidade de medida de diferença de potencial é o volt (V)**, e frequentemente é expressa em múltiplos tais como:
-Nomeclatura |       Escala       | Símbolo
+NomeNclatura |       Escala       | Símbolo
 ------------|--------------------|----------
 Quilovolt   | $$1kV = 10^3V$$    | Kv
 Milivolt    | $$1mV = 10^-3V$$   | mV
