@@ -1,0 +1,14 @@
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\bin\Debug\netcoreapp3.1\Lista3_ATVD1.exe
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\bin\Debug\netcoreapp3.1\Lista3_ATVD1.deps.json
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\bin\Debug\netcoreapp3.1\Lista3_ATVD1.runtimeconfig.json
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\bin\Debug\netcoreapp3.1\Lista3_ATVD1.runtimeconfig.dev.json
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\bin\Debug\netcoreapp3.1\Lista3_ATVD1.dll
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\bin\Debug\netcoreapp3.1\Lista3_ATVD1.pdb
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.csproj.AssemblyReference.cache
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.AssemblyInfoInputs.cache
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.AssemblyInfo.cs
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.csproj.CoreCompileInputs.cache
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.dll
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.pdb
+C:\Users\1229176\Downloads\Lista 3 - Nivelamento – Introdução a Programação por Objetos e Arquivo Texto\Lista3_ATVD1\Lista3_ATVD1\obj\Debug\netcoreapp3.1\Lista3_ATVD1.genruntimeconfig.cache
