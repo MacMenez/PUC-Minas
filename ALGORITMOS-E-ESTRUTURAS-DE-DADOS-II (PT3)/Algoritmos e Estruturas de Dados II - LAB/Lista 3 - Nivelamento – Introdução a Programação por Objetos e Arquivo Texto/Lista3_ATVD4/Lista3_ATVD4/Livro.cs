@@ -8,7 +8,7 @@ namespace Lista3_ATVD4{
         private String autores;
         private String editora;
 
-        Livro(String titulo, String autores, String editora){
+        public Livro(String titulo, String autores, String editora){
             this.titulo = titulo;
             this.autores = autores;
             this.editora = editora;

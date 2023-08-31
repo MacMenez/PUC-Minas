@@ -1,38 +1,50 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lista3_ATVD4{
     class Biblioteca{
-        private Livro[] livros;
+        private Livro[] vetorLivros;
       private int numLivros;
       private int maxLivros = 50;
 
+        public Biblioteca(){
+            this.numLivros = 0;
+            vetorLivros = new Livro[maxLivros];
+        }
+
       public void AdicionarLivro(String titulo, String autores, String editora){
         if(numLivros < maxLivros){
-          livros[numLivros].SetTitulo(titulo);
-          livros[numLivros].SetAutores(autores);
-          livros[numLivros].SetEditora(editora);
-          numLivros++;
+          vetorLivros[numLivros] = new Livro(titulo, autores, editora);
+          this.numLivros++;
         }
       }
 
       public void AdicionarLivro(Livro livro){
-        livro[numLivros] = livro;
+            if (numLivros < maxLivros){
+                vetorLivros[numLivros] = livro;
+                this.numLivros++;
+            }
       }
 
-      public LocalizarLivro(String nomeLivro){
-        for(int i = 0; i < livros.Length; i++){
-          if(livros[i].GetTitulo == nomeLivro){
-            return livros[i];
-          }else{
-            Console.WriteLine("Livro Não Existe!");
-            return null;
+      public String LocalizarLivro(String nomeLivro){
+        String localizado = null;
+
+        for(int i = 0; i < numLivros; i++){
+          if(vetorLivros[i].GetTitulo() == nomeLivro){
+            localizado = vetorLivros[i].GetTitulo();
           }
         }
+
+        return localizado;
       }
 
-      public Livro ListaLivros(){return livros;}
+      public void ListaLivros(){
+            for (int i = 0; i < numLivros; i++){
+                Console.WriteLine("---------------------------");
+                Console.WriteLine(vetorLivros[i].GetTitulo() + "\n" + vetorLivros[i].GetAutores() + "\n" + vetorLivros[i].GetEditora());
+            }
+        }
 
       public int TotalLivros(){return numLivros;}
     }
