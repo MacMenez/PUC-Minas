@@ -11,11 +11,9 @@ namespace Lista3_ATVD3
         private Jogador[] reservas;
         private int quantReservas;
 
-        public Time(String nome, Jogador[] titulares, Jogador[] reservas){
+        public Time(String nome){
             this.nome = nome;
-            this.titulares = titulares;
             this.quantTitulares = 0;
-            this.reservas = reservas;
             this.quantReservas = 0;
 
             this.titulares = new Jogador[11];
@@ -28,37 +26,25 @@ namespace Lista3_ATVD3
 
         public Boolean AdicionarTitular(Jogador jogador){
             Boolean adicionar = false;
-            for (int i = 0; i < titulares.Length; i++){
-                if (titulares[i] == null){
-                    titulares[i] = jogador;
-                    quantTitulares++;
-                    adicionar = true;
-                    //i = titulares.Length;
-                }
-                else{
-                    Console.WriteLine("Tentativa {0}", i);
-
-                    Console.WriteLine("Não há vagas!");
-                }
+            if (quantTitulares < titulares.Length)
+            {
+                titulares[quantTitulares] = jogador;
+                quantTitulares++;
+                adicionar = true;
             }
+               
             return adicionar;
         }
 
         public Boolean AdicionarReserva(Jogador jogador) {
             Boolean adicionar = false;
-            for (int i = 0; i < reservas.Length; i++){
-                if (reservas[i] == null){
-                    reservas[i] = jogador;
-                    quantReservas++;
-                    adicionar = true;
-                    //i = reservas.Length;
-                }
-                else{
-                    Console.WriteLine("Tentativa {0}", i);
-
-                    Console.WriteLine("Não há vagas!");
-                }
+            if (quantReservas < reservas.Length)
+            {
+                reservas[quantReservas] = jogador;
+                quantReservas++;
+                adicionar = true;
             }
+
             return adicionar;
         }
         public Boolean SubstituirTitular(String nomeTitular, Jogador jogador) {
@@ -67,9 +53,10 @@ namespace Lista3_ATVD3
 
             for (int i = 0; i < titulares.Length; i++){
 
-                if (titulares[i].GetNome == nomeTitular){
+                if (titulares[i].GetNome() == nomeTitular){
                     titulares[i] = jogador;
                     substituicao = true;
+                    //i = titulares.Length; //Encerrar o Loop e evitar ter que diditar null em tudo
                 }
             }
 
@@ -79,9 +66,10 @@ namespace Lista3_ATVD3
             Boolean substituicao = false;
 
             for (int i = 0; i < reservas.Length; i++){
-                if (reservas[i] == nomeReserva){
+                if (reservas[i].GetNome() == nomeReserva){
                     reservas[i] = jogador;
                     substituicao = true;
+                    //i = reservas.Length; //Encerrar o Loop e evitar ter que diditar null em tudo
                 }
             }
             return substituicao;
@@ -89,8 +77,8 @@ namespace Lista3_ATVD3
         public Boolean ConsultarTitular(String nomeTitular) {
             Boolean localizado = false;
 
-            for (int i = 0; i < reservas.Length; i++){
-                if (titulares[i] == nomeTitular){
+            for (int i = 0; i < titulares.Length; i++){
+                if (titulares[i].GetNome() == nomeTitular){
                     localizado = true;
                 }
             }
@@ -100,7 +88,7 @@ namespace Lista3_ATVD3
             Boolean localizado = false;
 
             for (int i = 0; i < reservas.Length; i++){
-                if (reservas[i] == nomeReserva){
+                if (reservas[i].GetNome() == nomeReserva){
                     localizado = true;
                 }
             }
@@ -108,63 +96,65 @@ namespace Lista3_ATVD3
         }
         public void ExcluirTitular(String nomeTitular) {
 
-            for (int i = 0; i < titulares.Length; i++){
-                if (titulares[i] == nomeTitular){
+            for (int i = 0; i < quantTitulares; i++){
+                if (titulares[i].GetNome() == nomeTitular){
                     titulares[i] = null;
                     quantTitulares--;
                     Console.WriteLine("Jogador Excluído do Time Com Sucesso!");
-                    for (int j = i; j < titulares.Length; j++){
+                    for (int j = i; j < quantTitulares; j++){
                         if (titulares[j] == null){
                             titulares[j] = titulares[j + 1];
                         }
                     }
                 }
             }
-            //Solução para evitar nomes duplicados
-            //titulares[titulares.Length] = null;
         }
         public void ExcluirReserva(String nomeReserva) {
-            for (int i = 0; i < reservas.Length; i++){
-                if (titulares[i] == nomeReserva){
-                    titulares[i] = null;
+            for (int i = 0; i < quantReservas; i++){
+                if (reservas[i].GetNome() == nomeReserva){
+                    reservas[i] = null;
                     quantReservas--;
                     Console.WriteLine("Jogador Excluído do Time Com Sucesso!");
 
-                    for (int j = i; j < titulares.Length; j++){
-                        if (titulares[j] == null){
-                            titulares[j] = titulares[j + 1];
+                    for (int j = i; j < quantReservas; j++){
+                        if (reservas[j] == null){
+                            reservas[j] = reservas[j + 1];
                         }
                     }
                 }
             }
-            //Solução para evitar nomes duplicados
-            //titulares[titulares.Length] = null;
-
         }
         public void GerarArqTime(String escalacao) {
             try{
                 //Cria ou abre um arquivo 
                 StreamWriter arq = new StreamWriter("Escalação - "+ escalacao + "", true, Encoding.UTF8);
-                arq.WriteLine("SELEÇÃO BRASILEIRA - FIFA 1970");
+                arq.WriteLine(GetNome());
                 arq.WriteLine("---------------------------------------------------");
 
-                arq.WriteLine("ESCALAÇÃO - TIME TITULAR \n");
+                arq.WriteLine("\n\nESCALAÇÃO - TIME TITULAR \n");
+                arq.WriteLine("--------------------------------- \n");
+                arq.WriteLine("| -------- | -------| -----| --------|");
+                arq.WriteLine("| REGISTRO | CAMISA | NOME | POSIÇÃO |");
+                arq.WriteLine("| -------- | -------| -----| --------|");
                 for (int i = 0; i < titulares.Length; i++){
                     //Escreve no arquivo
-                    arq.Write(" | " + titulares[i] + " | " + titulares[i].GetNumero + " | " + titulares[i].GetNome +" | " + titulares[i].GetPosicao + " | ");
-                    arq.WriteLine("|------- | ------- | ------- |  ------- |");
+                    arq.Write(" | " + i + " | " + titulares[i].GetNumero() + " | " + titulares[i].GetNome() +" | " + titulares[i].GetPosicao() + " | \n");
                 }
 
-                arq.WriteLine("ESCALAÇÃO - TIME RESERVA");
-                arq.WriteLine("---------------------------------------------------");
+                arq.WriteLine("\n\nESCALAÇÃO - TIME RESERVA");
+                arq.WriteLine("--------------------------------- \n");
+                arq.WriteLine("| -------- | -------| -----| --------|");
+                arq.WriteLine("| REGISTRO | CAMISA | NOME | POSIÇÃO |");
+                arq.WriteLine("| -------- | -------| -----| --------|");
                 for (int i = 0; i < reservas.Length; i++){
                     //Escreve no arquivo
-                    arq.Write(" | " + reservas[i] + " | " + reservas[i].GetNumero + " | " + reservas[i].GetNome + " | " + reservas[i].GetPosicao + " | ");
-                    arq.WriteLine("|------- | ------- | ------- |  ------- |");
+                    arq.Write(" | " + i + " | " + reservas[i].GetNumero() + " | " + reservas[i].GetNome() + " | " + reservas[i].GetPosicao() + " | \n");
                 }
                 //Fecha o arquivo
                 arq.Close();
                 Console.WriteLine("FIM");
+
+                Console.WriteLine("Arquivo de Escalação Gerados Com Sucesso!");
             }
             catch (Exception e){
                 Console.WriteLine("Exception: " + e.Message);

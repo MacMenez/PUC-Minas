@@ -22,7 +22,7 @@ namespace Lista3_ATVD3{
 
         public void SetNome(String nome){ this.nome = nome;}
 
-        public String GetPosicao(){ return this.nome;}
+        public String GetPosicao(){ return this.posicao;}
 
         public void SetPosicao(String posicao){ this.posicao = posicao;}
 
