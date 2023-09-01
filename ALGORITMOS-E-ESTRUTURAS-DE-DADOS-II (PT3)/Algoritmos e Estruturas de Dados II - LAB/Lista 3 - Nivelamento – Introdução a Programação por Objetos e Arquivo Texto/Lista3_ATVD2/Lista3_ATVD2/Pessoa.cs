@@ -18,11 +18,13 @@ namespace Lista3_ATVD2{
             return imc;
         }
 
-        public int InformarIdade(){
-            return this.data_de_nascimento;
+        public int InformarIdade(int dataAtual){
+            return dataAtual - this.data_de_nascimento;
 
         }
-            /*public int InformarIdade(Calendario diaAtual) {
+    }
+}
+            /*public int InformarIdade(Data diaAtual) {
 
                 int idade;
 
@@ -46,5 +48,3 @@ namespace Lista3_ATVD2{
                 }
 
             }*/
-    }
-}
