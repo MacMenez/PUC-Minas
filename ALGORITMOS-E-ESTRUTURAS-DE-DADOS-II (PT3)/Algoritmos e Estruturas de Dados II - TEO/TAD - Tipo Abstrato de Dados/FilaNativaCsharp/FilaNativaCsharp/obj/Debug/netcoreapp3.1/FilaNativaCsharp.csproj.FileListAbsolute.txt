@@ -1,0 +1,13 @@
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\bin\Debug\netcoreapp3.1\FilaNativaCsharp.exe
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\bin\Debug\netcoreapp3.1\FilaNativaCsharp.deps.json
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\bin\Debug\netcoreapp3.1\FilaNativaCsharp.runtimeconfig.json
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\bin\Debug\netcoreapp3.1\FilaNativaCsharp.runtimeconfig.dev.json
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\bin\Debug\netcoreapp3.1\FilaNativaCsharp.dll
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\bin\Debug\netcoreapp3.1\FilaNativaCsharp.pdb
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\obj\Debug\netcoreapp3.1\FilaNativaCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\obj\Debug\netcoreapp3.1\FilaNativaCsharp.AssemblyInfoInputs.cache
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\obj\Debug\netcoreapp3.1\FilaNativaCsharp.AssemblyInfo.cs
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\obj\Debug\netcoreapp3.1\FilaNativaCsharp.csproj.CoreCompileInputs.cache
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\obj\Debug\netcoreapp3.1\FilaNativaCsharp.dll
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\obj\Debug\netcoreapp3.1\FilaNativaCsharp.pdb
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\FilaNativaCsharp\FilaNativaCsharp\obj\Debug\netcoreapp3.1\FilaNativaCsharp.genruntimeconfig.cache
