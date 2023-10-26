@@ -1,0 +1,13 @@
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\bin\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.exe
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\bin\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.deps.json
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\bin\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.runtimeconfig.json
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\bin\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.runtimeconfig.dev.json
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\bin\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.dll
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\bin\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.pdb
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.AssemblyInfoInputs.cache
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.AssemblyInfo.cs
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.csproj.CoreCompileInputs.cache
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.dll
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.pdb
+C:\Users\1229176\Downloads\Listas de AEDS\ListaDuplamenteEncadeada\ListaDuplamenteEncadeada\obj\Debug\netcoreapp3.1\ListaDuplamenteEncadeada.genruntimeconfig.cache
