@@ -1,0 +1,14 @@
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.exe
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.deps.json
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.runtimeconfig.json
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.runtimeconfig.dev.json
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.dll
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.pdb
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.csproj.AssemblyReference.cache
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.AssemblyInfoInputs.cache
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.AssemblyInfo.cs
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.csproj.CoreCompileInputs.cache
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.dll
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.pdb
+C:\Users\1229176\Downloads\Listas de AEDS\Finalizado\Métodos de Ordenação\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.genruntimeconfig.cache
