@@ -1,9 +1,0 @@
-Nome: Davi Carneiro Menez
-
-OBSERVAÇÃO DA ATIVIDADE 4
-Individualmente este exercício funcionou, quando acicionei a classe JAVA ao final do código, 
-quando testei apresentou erro.
-
-Não sei se n seu teste terá erros também, caso consiga resolver, me informe para corrigir por favor.
-
-Mantive meu arquivo de teste.java individual para averiguar o que digo.
