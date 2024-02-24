@@ -1,0 +1,1 @@
+Compara 2 elementos até o final
