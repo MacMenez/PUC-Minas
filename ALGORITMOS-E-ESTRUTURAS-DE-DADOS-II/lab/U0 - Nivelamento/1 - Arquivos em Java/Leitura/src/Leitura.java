@@ -14,6 +14,5 @@ class Leitura {
         System.out.println("caractere: " + caractere);
         System.out.println("boleano: " + boleano);
         System.out.println("str: " + str);
-    } 
-    
+    }
 }
