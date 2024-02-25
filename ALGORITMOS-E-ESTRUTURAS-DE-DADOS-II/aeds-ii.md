@@ -1,3 +1,6 @@
+Revisão
+- [Localizar Informações](lab/U0%20-%20Nivelamento/Revisao/)
+
 # Algoritmos E Estruturas de Dados II
 
 Após conhecer os comandos básicos e primordiais oriundos da Lógica Computacional aplicada à Computação e Programação, visto em Algoritmos e Estruturas de Dados I, sabe-se então que cada comando (em visão computacional de hardware ou software) tem um tempo, ou custo, necessário para que cumpra sua tarefa, seja ela escrever uma informação na tela ou realizar um cálculo matemático.
