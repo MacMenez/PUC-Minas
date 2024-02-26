@@ -1,10 +1,12 @@
+
 # Teoria
+
 - [Escrita de Arquivos em JAVA](teo/U0-nivelamento/1-Arquivos/Escrita.java)
 - [Leitura de Arquivos em JAVA](teo/U0-nivelamento/1-Arquivos/Leitura.java)
 
 # Revisão
-- [Localizar Informações](teo/U0-nivelamento/Revisao/0-localizarInformacao/App.java)
 
+- [Localizar Informações](teo/U0-nivelamento/Revisao/0-localizarInformacao/App.java)
 
 # Algoritmos E Estruturas de Dados II
 
@@ -38,10 +40,48 @@ Os conceitos abordados a partir daqui mostrarão como todo este conceito, até e
 - Conhecimentos de Versionamento de Código [OPCIONAL]
 
 ### Algoritmos e Técnicas de Programação
-
 - Conhecimentos em Linguagem de Programação
+    **1 - Introdução À Liguagem de programação**
+    - [Hello World em Linguagem C](teo/U0-nivelamento/0-Intro_Lang_Prog/aula1/HelloWorld.c)
+    - [Hello World em Linguagem C++](teo/U0-nivelamento/0-Intro_Lang_Prog/aula1/HelloWorld.cpp)
+    - [Hello World em Linguagem C#](teo/U0-nivelamento/0-Intro_Lang_Prog/aula1/HelloWorld.cs)
+    - [Hello World em Linguagem Java](teo/U0-nivelamento/0-Intro_Lang_Prog/aula1/HelloWorld.java)
+    - [Hello World em Linguagem Python](teo/U0-nivelamento/0-Intro_Lang_Prog/aula1/HelloWorld.py)
+
+    **2 - Tipos de Dados**
+    - [Tipos de Dados em Linguagem C](teo/U0-nivelamento/0-Intro_Lang_Prog/aula2/tiposDeDados.c)
+    - [Tipos de Dados em Linguagem C++](teo/U0-nivelamento/0-Intro_Lang_Prog/aula2/tiposDeDados.cpp)
+    - [Tipos de Dados em Linguagem C#](teo/U0-nivelamento/0-Intro_Lang_Prog/aula2/tipoDeDados.cs)
+    - [Tipos de Dados em Linguagem JAVA](teo/U0-nivelamento/0-Intro_Lang_Prog/aula2/tipoDeDados.java)
+    - [Tipos de Dados em Linguagem Python](teo/U0-nivelamento/0-Intro_Lang_Prog/aula2/tipoDeDados.py)
+
+    **3 - Entrada e Saída**
+    - [Entrada e Saída de Dados em Linguagem C](teo/U0-nivelamento/0-Intro_Lang_Prog/aula3/inputOutput.c)
+    - [Entrada e Saída de Dados em Linguagem C++](teo/U0-nivelamento/0-Intro_Lang_Prog/aula3/inputOutput.cpp)
+    - [Entrada e Saída de Dados em Linguagem C#](teo/U0-nivelamento/0-Intro_Lang_Prog/aula3/inputOutput.cs)
+    - [Entrada e Saída de Dados em Linguagem Java](teo/U0-nivelamento/0-Intro_Lang_Prog/aula3/inputOutput.java)
+    - [Entrada e Saída de Dados em Linguagem Python](teo/U0-nivelamento/0-Intro_Lang_Prog/aula3/inputOutput.py)
+
+    **4 - Operadores Aritméticos e Relacionais**
+    - [Operadores Aritméticos e Relacionais em Linguagem C](teo/U0-nivelamento/0-Intro_Lang_Prog/aula4/operadoresAritmedicos.c)
+    - [Operadores Aritméticos e Relacionais em Linguagem C++](teo/U0-nivelamento/0-Intro_Lang_Prog/aula4/operadoresAritmedicos.cpp)
+    - [Operadores Aritméticos e Relacionais em Linguagem C#](teo/U0-nivelamento/0-Intro_Lang_Prog/aula4/operadoresAritmedicos.cs)
+    - [Operadores Aritméticos e Relacionais em Linguagem Java](teo/U0-nivelamento/0-Intro_Lang_Prog/aula4/operadoresAritmedicos.java)
+    - [Operadores Aritméticos e Relacionais em Linguagem Python](teo/U0-nivelamento/0-Intro_Lang_Prog/aula4/operadoresAritmedicos.py)
 - Estrutura Condicional
+    **5 - Comando IF**
+    - [Condicionais em Linguagem C](teo/U0-nivelamento/0-Intro_Lang_Prog/aula5/comand_IF.c)
+    - [Condicionais em Linguagem C++](teo/U0-nivelamento/0-Intro_Lang_Prog/aula5/comand_IF.cpp)
+    - [Condicionais em Linguagem C#](teo/U0-nivelamento/0-Intro_Lang_Prog/aula5/comand_IF.cs)
+    - [Condicionais em Linguagem Java](teo/U0-nivelamento/0-Intro_Lang_Prog/aula5/comand_IF.java)
+    - [Condicionais em Linguagem Python](teo/U0-nivelamento/0-Intro_Lang_Prog/aula5/comand_IF.py)
 - Estruturas de Repetição
+    **6 - Comandos de Repetição**
+    - [Laço de Repetição em Linguagem C](teo/U0-nivelamento/0-Intro_Lang_Prog/aula6/repeat_comand.c)
+    - [Laço de Repetição em Linguagem C++](teo/U0-nivelamento/0-Intro_Lang_Prog/aula6/repeat_comand.cpp)
+    - [Laço de Repetição em Linguagem C#](teo/U0-nivelamento/0-Intro_Lang_Prog/aula6/repeat_comand.cs)
+    - [Laço de Repetição em Linguagem Java](teo/U0-nivelamento/0-Intro_Lang_Prog/aula6/repeat_comand.java)
+    - [Laço de Repetição em Linguagem Python](teo/U0-nivelamento/0-Intro_Lang_Prog/aula6/repeat_comand.py)
 - Métodos de Procedimentos
 - Métodos de Funções
 - Vetor
