@@ -1,4 +1,4 @@
-//Arquivo ExemploArq01Escrita.java 
+//Arquivo Escrita.java 
 class Escrita { 
     public static void main (String[] args){ 
         Arq.openWrite("exemplo.txt"); //Abrindo Arquivo
@@ -8,6 +8,7 @@ class Escrita {
         Arq.println('X'); //Escrevendo Uma Letra
         Arq.println(true); //Escrevendo Valores Booleanos
         Arq.println("Algoritmos"); //Escrevendo Palavras ou Textos
+        
         Arq.close(); //Fechando Arquivos
     
     }    
