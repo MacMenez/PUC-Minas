@@ -6,7 +6,20 @@
 
 # Revisão
 
+## Teórico
 - [Localizar Informações](teo/U0-nivelamento/Revisao/0-localizarInformacao/App.java)
+
+## Laboratório
+
+### Linguagem C
+
+- [Revisão de Código em Linguagem C](lab/aula_24_02_07_Introducao/c/primeiro-programa.c)
+- [Verificação de números Pares e/ou Ímpares](lab/aula_24_02_07_Introducao/c/parImpar.c)
+
+### Linguagem Java
+
+- [Primeiro Programa em Linguagem Java](lab/aula_24_02_07_Introducao/java/PrimeiroPrograma.java)
+- [Verificação de números Pares e/ou Ímpares](lab/aula_24_02_07_Introducao/java/ParImpar.java)
 
 # Algoritmos E Estruturas de Dados II
 
