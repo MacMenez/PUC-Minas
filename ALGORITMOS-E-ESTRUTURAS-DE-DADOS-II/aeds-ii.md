@@ -15,11 +15,13 @@
 
 - [Revisão de Código em Linguagem C](lab/aula_24_02_07_Introducao/c/primeiro-programa.c)
 - [Verificação de números Pares e/ou Ímpares](lab/aula_24_02_07_Introducao/c/parImpar.c)
+- [Palindromo](lab/aula_24_02_21_Palindromo/c/palindromo.c)
 
 ### Linguagem Java
 
 - [Primeiro Programa em Linguagem Java](lab/aula_24_02_07_Introducao/java/PrimeiroPrograma.java)
 - [Verificação de números Pares e/ou Ímpares](lab/aula_24_02_07_Introducao/java/ParImpar.java)
+- [Palindromo](lab/aula_24_02_21_Palindromo/java/App.java)
 
 # Algoritmos E Estruturas de Dados II
 
