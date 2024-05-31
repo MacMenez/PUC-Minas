@@ -18,24 +18,27 @@ Assim para casos futuros, de resgate de conhecimento ou em casos de análise de 
     - [Pratica Teórica AEDS I](#)
     - [Pratica de Laboratório AEDS I](#)
 - [Cálculo I](#)
+- [Introdução À Computação](INTRODUCAO-A-COMPUTACAO/README.md)
+- [Introdução A Sistemas Inteligentes](#)
 - [Laboratório de Introdução À Engenharia da Computação](LIEC/README.md)
-- [Sistemas Inteligentes](#)
 
 ## 2° Período
-- [Algoritmos e Estruturas de Dados II](antigo_ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/README-antigo.md)
+- [Algoritmos e Estruturas de Dados II](#)
     - [Prática AEDS II](#)
     - [Teórica Laboratório AEDS II](#)
 - [Arquitetura de Computadores I](ARQUITETURA-DE-COMPUTADORES-I/)
-- [Introdução À Computação](INTRODUCAO-A-COMPUTACAO/README.md)
-- [Cálculo I](#)
+- [Cálculo II](#)
 
 ## 3° Período
-- [Algoritmos e Estruturas de Dados II](ALGORITMOS-E-ESTRUTURAS-DE-DADOS-II/README.md)
 - [Arquitetura de Computadores II](ARQUITETURA-DE-COMPUTADORES-II/README.md)
 - [Banco de Dados](BANCO-DE-DADOS/README.md)
-- [Desenvolvimento de Interfaces Web](DESENVOLVIMENTO-DE-INTERFACES-WEB/README.md)
-- [Game Design](GAME-DESING/README.md)
-- [Matemática Financeira](MATEM%C3%81TICA-FINANCEIRA/README.md)
+- [Geometria Analítica e Álgebra Linear](#)
+- [Internet Das Coisas I](#)
+
+## Disciplinas Optativas realizadas
+- [Desenvolvimento de Interfaces Web - Optativa](DESENVOLVIMENTO-DE-INTERFACES-WEB/README.md)
+- [Game Design - Optativa](GAME-DESING/README.md)
+- [Matemática Financeira - Optativa](MATEM%C3%81TICA-FINANCEIRA/README.md)
 
 ## 4° Período
 - [ALGORITMOS E ESTRUTURAS DE DADOS II]()
