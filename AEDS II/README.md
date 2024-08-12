@@ -16,6 +16,9 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 
 # Algoritmos e Estruturas de Dados II
 
+<img align="center" alt="JAVA" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+
+
 `/codigos`: corresponde ao diretório contendo os códigos desenvolvidos em aulas
 
 `/suporte`: corresponde ao diretório contedo arquivos desenvolvidos e fornecidos, pelos porfessores, para auxiliar nas aulas, trabalhos e provas
