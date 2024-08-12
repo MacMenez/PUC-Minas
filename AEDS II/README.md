@@ -11,51 +11,64 @@ Pessoas Desenvolvedoras do Projeto;
 Licença.
 
 https://www.canva.com/
-https://emojipedia.org/search/?q=bag
+https://⌛pedia.org/search/?q=bag
 https://dev.to/envoy_/150-badges-for-github-pnk
 
 # Algoritmos e Estruturas de Dados II
 
+<img align="center" alt="JAVA" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+
+
+`/codigos`: corresponde ao diretório contendo os códigos desenvolvidos em aulas
+
+`/suporte`: corresponde ao diretório contedo arquivos desenvolvidos e fornecidos, pelos porfessores, para auxiliar nas aulas, trabalhos e provas
+
+`/trabalhos`: corresponde ao diretório contendo trabalhos desenvolvidos durante a disciplina
+
 |Status|Aula|Descrição|
 |---|---|---|
-|Emoji|1|Apresentação da Disciplina|
-|Emoji|2|Introdução (Noções de Complexidade)|
-|Emoji|3|Introdução (Noções de Complexidade)|
-|Emoji|4|Introdução (Ordenação Interna - Selection Sort)|
-|Emoji|5|Somatórios|
-|Emoji|6|Somatórios|
-|Emoji|7|FAA - Fundamentos de Análise de Algoritmos|
-|Emoji|8|FAA - Fundamentos de Análise de Algoritmos|
-|Emoji|9|Estrutura de Dados Lineares|
-|Emoji|10|Prova I|
-|Emoji|11|Ordenação (Insertion Sort e Merge Sort)|
-|Emoji|12|Ordenação (Quicksort)|
-|Emoji|13|Ordenação (Heapsort)|
-|Emoji|14|Ordenação (Heapsort)|
-|Emoji|15|Ordenação Parcial|
-|Emoji|16|Ordenação Paralela|
-|Emoji|17|Estrutura de Dados Flexível (Referência, Alocação, Célula Cabeça)|
-|Emoji|18|Estrutura de Dados Flexível (Pilha)|
-|Emoji|19|Estrutura de Dados Flexível (Fila e Lista)|
-|Emoji|20|Estrutura de Dados Flexível (Lista Dupla e Matriz)|
-|Emoji|21|Estrutura de Dados Flexível (Coleta de Lixo)|
-|Emoji|22|Árvores Binárias (Conceitos Básicos e o Tipo Nó)|
-|Emoji|23|Árvores Binárias (Inserção e Caminhamento)|
-|Emoji|24|Árvores Binárias (Remoção)|
-|Emoji|25|Prova II|
-|Emoji|26|Árvores Binárias (Inserção em C e C++)|
-|Emoji|27|Árvores Binárias (Estruturas Híbridas)|
-|Emoji|28|Balanceamento (Tipos de Rotação e AVL)|
-|Emoji|29|Balanceamento (2-3-4)|
-|Emoji|30|Balanceamento (Red-Black)|
-|Emoji|31|Tabelas e Dicionários (Hash)|
-|Emoji|32|Tabelas e Dicionários (Dicionários)|
-|Emoji|33|Árvores TRIE|
-|Emoji|34|Árvores TRIE|
-|Emoji|35|Árvores TRIE|
-|Emoji|36|Árvores Patricia|
-|Emoji|37|Prova III|
-|Emoji|38|Resultados Finais|
+|✅|1|Apresentação da Disciplina|
+|⌛|2|Introdução (Noções de Complexidade)|
+|⌛|3|Introdução (Noções de Complexidade)|
+|⌛|4|Introdução (Ordenação Interna - Selection Sort)|
+|⌛|5|Somatórios|
+|⌛|6|Somatórios|
+|⌛|7|FAA - Fundamentos de Análise de Algoritmos|
+|⌛|8|FAA - Fundamentos de Análise de Algoritmos|
+|⌛|9|Estrutura de Dados Lineares|
+|⌛|10|Prova I|
+|⌛|11|Ordenação (Insertion Sort e Merge Sort)|
+|⌛|12|Ordenação (Quicksort)|
+|⌛|13|Ordenação (Heapsort)|
+|⌛|14|Ordenação (Heapsort)|
+|⌛|15|Ordenação Parcial|
+|⌛|16|Ordenação Paralela|
+|⌛|17|Estrutura de Dados Flexível (Referência, Alocação, Célula Cabeça)|
+|⌛|18|Estrutura de Dados Flexível (Pilha)|
+|⌛|19|Estrutura de Dados Flexível (Fila e Lista)|
+|⌛|20|Estrutura de Dados Flexível (Lista Dupla e Matriz)|
+|⌛|21|Estrutura de Dados Flexível (Coleta de Lixo)|
+|⌛|22|Árvores Binárias (Conceitos Básicos e o Tipo Nó)|
+|⌛|23|Árvores Binárias (Inserção e Caminhamento)|
+|⌛|24|Árvores Binárias (Remoção)|
+|⌛|25|Prova II|
+|⌛|26|Árvores Binárias (Inserção em C e C++)|
+|⌛|27|Árvores Binárias (Estruturas Híbridas)|
+|⌛|28|Balanceamento (Tipos de Rotação e AVL)|
+|⌛|29|Balanceamento (2-3-4)|
+|⌛|30|Balanceamento (Red-Black)|
+|⌛|31|Tabelas e Dicionários (Hash)|
+|⌛|32|Tabelas e Dicionários (Dicionários)|
+|⌛|33|Árvores TRIE|
+|⌛|34|Árvores TRIE|
+|⌛|35|Árvores TRIE|
+|⌛|36|Árvores Patricia|
+|⌛|37|Prova III|
+|⌛|38|Resultados Finais|
+
+Legenda:
+⌛: Ainda não Realizada
+✅: Aula Realizada
 
 - [Apresentação](#apresentação)
 - Módulo I
@@ -166,3 +179,37 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 ## Módulo VIII
 ### Árvores TRIE
 ### Árvores Patricia
+
+LABORATÓRIO DE ALGORITMOS E ESTRUTURS DE DADOS II
+
+diff compara arquivos no Linux  
+`diff arquivo1 arquivo2`
+
+fc compara arquivos no Windows  
+`fc arquivo1 arquivo2`
+
+Estas funções auxiliam a comparar arquivs de entrada ou saida que determinado programa gera, permitindo assim uma análise de dados mais concisa.
+
+Por questões de práticas de ensino e até mesmo práticas reais, com situações cotidianas, será desenvolvido a compilaçao através
+
+Compilação de Programas de Linguagem C - Terminal
+
+`gcc arquivo.c`
+
+`gcc arquivo.c -o nomeArquivoDesejado`
+
+`./ nomeArquivoDesejado`
+
+OBS: Os código em Java possuem a seguinte estrutra de funcionamento:
+
+- 1° **pré-processador**: substiui texto. copia o conteudo interiro para um determinado local. contem os prototipos
+
+- 2° **compilador**: análise sintática
+
+- 3° **linker**: faz os apontamentos de referência
+
+Compilação de Programas de Linguagem Java - Terminal
+
+`javac NomeArquivo.java`
+
+`java NomeArquivo.java`
