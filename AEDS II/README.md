@@ -123,6 +123,37 @@ Legenda:
 
 ## Apresentação
 
+A disciplina **Algoritmos e Estruturas de Dados II** é um dos principais pilares do curso de Engenharia de Computação. O material dessa disciplina encontra-se no GitHub https://github.com/icei-pucminas/aeds2. 
+
+[Recomendamos o estudo dos slides de nivelamento.](https://github.com/icei-pucminas/aeds2/tree/master/aula/u00%20Nivelamento)
+
+Nesta disciplina, é **obrigatório** a compreensão dos conceitos abaixo.
+
+- Entendimento de Sistemas Operacionais
+- Entendimento de Armazenamento e Compartilhamento de Códigos
+- Entendimento de IDE
+- Entendimento de Linguagens de Programação Usadas Anteriormente e Nesta Disciplina
+- Controle de Dados de entrada e Dados de Saída
+- Funcionamento de Exercícios e Plataformas de Correção
+
+Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada um seguindo os direcionamentos abaixo denominado **[Módulo 0](#módulo-0)**.
+
+## Módulo 0
+- [x][Introdução ao Linux](introducao-linux.md)
+- [x][GitHub](github.md)
+- [][Ambientes de Desenvolvimento Integrado](ide-aeds-ii.md)
+    - Vim
+    - Visual Studio Code
+    - Repl.it
+- [][Introdução às linguagens C, C++ e Java](linguagens-aeds-ii.md)
+- [][Introdução ao Java](introducao-java-aeds-ii.md)
+    
+    - Python Tutor, C Tutor, Java Tutor
+    - Arquivos em Java
+    - Argumentos do Método Main
+- [][Redirecionamento de Entrada e Saída](redirecionamento-aeds-ii.md)
+- [][Processo AEDs II de Exercícios - Plataforma VERDE](exercicio-verde.md)
+
 ## Módulo I
 ### Noções de Complexidade
 ### Ordenação Interna
@@ -179,37 +210,3 @@ Legenda:
 ## Módulo VIII
 ### Árvores TRIE
 ### Árvores Patricia
-
-LABORATÓRIO DE ALGORITMOS E ESTRUTURS DE DADOS II
-
-diff compara arquivos no Linux  
-`diff arquivo1 arquivo2`
-
-fc compara arquivos no Windows  
-`fc arquivo1 arquivo2`
-
-Estas funções auxiliam a comparar arquivs de entrada ou saida que determinado programa gera, permitindo assim uma análise de dados mais concisa.
-
-Por questões de práticas de ensino e até mesmo práticas reais, com situações cotidianas, será desenvolvido a compilaçao através
-
-Compilação de Programas de Linguagem C - Terminal
-
-`gcc arquivo.c`
-
-`gcc arquivo.c -o nomeArquivoDesejado`
-
-`./ nomeArquivoDesejado`
-
-OBS: Os código em Java possuem a seguinte estrutra de funcionamento:
-
-- 1° **pré-processador**: substiui texto. copia o conteudo interiro para um determinado local. contem os prototipos
-
-- 2° **compilador**: análise sintática
-
-- 3° **linker**: faz os apontamentos de referência
-
-Compilação de Programas de Linguagem Java - Terminal
-
-`javac NomeArquivo.java`
-
-`java NomeArquivo.java`
