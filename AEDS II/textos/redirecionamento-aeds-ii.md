@@ -32,6 +32,8 @@ Compilação de Programas de Linguagem Java - Terminal
 
 `java NomeArquivo.java`
 
+javac Lab02.java | java Lab02 < labJava02.in > saida1.out | cat | diff  
+
 ## Próximos Passos ⏭️
 
 [Seção Anterior: Introdução ao Java](introducao-java-aeds-ii.md)
