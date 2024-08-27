@@ -16,7 +16,7 @@ void palindromo(char palavra[]){
 }
 
 int main(){
-  char palavra[500]; //499 tem que ter um \n no final
+  char palavra[500]; // 499 tem que ter um \n no final
   scanf(" %[^\n]", palavra);
 
   while(strcmp(palavra, "FIM")){
