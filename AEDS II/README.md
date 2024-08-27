@@ -1,23 +1,10 @@
-Título e Imagem de capa;
-Badges;
-Índice;
-Descrição do Projeto;
-Status do Projeto;
-Funcionalidades e Demonstração da Aplicação;
-Acesso ao Projeto;
-Tecnologias utilizadas;
-Pessoas Contribuidoras;
-Pessoas Desenvolvedoras do Projeto;
-Licença.
-
-https://www.canva.com/
-https://⌛pedia.org/search/?q=bag
-https://dev.to/envoy_/150-badges-for-github-pnk
-
 # Algoritmos e Estruturas de Dados II
 
 <img align="center" alt="JAVA" height="50" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
 
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
+
+`/textos`: textos contendo o conteúdo abordado em determinados momentos que, auxiliarão em estudos, revisões e formação de raciocínio do conteúdo abordado.
 
 `/codigos`: corresponde ao diretório contendo os códigos desenvolvidos em aulas
 
@@ -28,9 +15,9 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 |Status|Aula|Descrição|
 |---|---|---|
 |✅|1|Apresentação da Disciplina|
-|⌛|2|Introdução (Noções de Complexidade)|
-|⌛|3|Introdução (Noções de Complexidade)|
-|⌛|4|Introdução (Ordenação Interna - Selection Sort)|
+|✅|2|Introdução (Noções de Complexidade)|
+|✅|3|Introdução (Noções de Complexidade)|
+|✅|4|Introdução (Ordenação Interna - Selection Sort)|
 |⌛|5|Somatórios|
 |⌛|6|Somatórios|
 |⌛|7|FAA - Fundamentos de Análise de Algoritmos|
@@ -72,11 +59,11 @@ Legenda:
 
 - [Apresentação](#apresentação)
 - Módulo I
-    - [Noções de Complexidade]()
-    - [Ordenação Interna]()
-        - [Seleção]()
-    - [Somatórios]()
-    - [FAA - Fundamentos de Análise de Algoritmos]()
+    - [Noções de Complexidade](#noções-de-complexidade)
+    - [Ordenação Interna](#ordenação-interna)
+        - [Seleção](#ordenação-por-seleção)
+    - [Somatórios](#somatórios)
+    - [FAA - Fundamentos de Análise de Algoritmos](#faa---fundamentos-de-análise-de-algoritmos)
 - Módulo II
     - [Estrutura de Dados Lineares]()
 - Módulo III
@@ -139,25 +126,30 @@ Nesta disciplina, é **obrigatório** a compreensão dos conceitos abaixo.
 Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada um seguindo os direcionamentos abaixo denominado **[Módulo 0](#módulo-0)**.
 
 ## Módulo 0
-- [x][Introdução ao Linux](introducao-linux.md)
-- [x][GitHub](github.md)
-- [][Ambientes de Desenvolvimento Integrado](ide-aeds-ii.md)
+- [x] [Introdução ao Linux](textos/introducao-linux.md)
+- [x] [GitHub](textos/github.md)
+- [X] [Ambientes de Desenvolvimento Integrado](textos/ide-aeds-ii.md)
     - Vim
     - Visual Studio Code
     - Repl.it
-- [][Introdução às linguagens C, C++ e Java](linguagens-aeds-ii.md)
-- [][Introdução ao Java](introducao-java-aeds-ii.md)
-    
+- [] [Introdução às linguagens C, C++ e Java](textos/linguagens-aeds-ii.md)
+- [] [Introdução ao Java](textos/introducao-java-aeds-ii.md)
     - Python Tutor, C Tutor, Java Tutor
     - Arquivos em Java
     - Argumentos do Método Main
-- [][Redirecionamento de Entrada e Saída](redirecionamento-aeds-ii.md)
-- [][Processo AEDs II de Exercícios - Plataforma VERDE](exercicio-verde.md)
+- [] [Redirecionamento de Entrada e Saída](textos/redirecionamento-aeds-ii.md)
+- [] [Processo AEDs II de Exercícios - Plataforma VERDE](textos/exercicio-verde.md)
 
 ## Módulo I
 ### Noções de Complexidade
 ### Ordenação Interna
-#### Seleção
+
+#### Ordenação Por Seleção
+
+[Entenda aqui](textos/selection-sort.md)
+
+[Algoritmo de Seleção](suporte/SelectionSort.java)
+
 ### Somatórios
 ### FAA - Fundamentos de Análise de Algoritmos
 
