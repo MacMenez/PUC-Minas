@@ -18,8 +18,8 @@
 |✅|2|Introdução (Noções de Complexidade)|
 |✅|3|Introdução (Noções de Complexidade)|
 |✅|4|Introdução (Ordenação Interna - Selection Sort)|
-|⌛|5|Somatórios|
-|⌛|6|Somatórios|
+|✅|5|Somatórios|
+|✅|6|Somatórios|
 |⌛|7|FAA - Fundamentos de Análise de Algoritmos|
 |⌛|8|FAA - Fundamentos de Análise de Algoritmos|
 |⌛|9|Estrutura de Dados Lineares|
