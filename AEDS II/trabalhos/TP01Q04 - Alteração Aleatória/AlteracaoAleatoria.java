@@ -1,30 +1,27 @@
-import java.io.*;
-import java.nio.charset.*;
 import java.util.Scanner;
+import java.util.Random;
 
-class AlteracaoAleatoria {
+public class AlteracaoAleatoria {
+	public static String subtituicaoLetra(String args) {
+		Random letraSorteada = new Random(4);
+		int tamanho = args.length();
+		char letraAlterada = (char) ('a' + Math.abs(letraSorteada.nextInt(26)));
+		char outraLetraAlterada = (char) ('a' + Math.abs(letraSorteada.nextInt()) % 26);
+		StringBuilder stringAlterada = new StringBuilder(args);
+		for (int i = 0; i < tamanho; i++) {
+			if (args.charAt(i) == letraAlterada) { stringAlterada.setCharAt(i, outraLetraAlterada); }
+		}
+		return stringAlterada.toString();
+	}
 
-   private static String alteracaoString(String informacao) {
-      char letraSorteada1 = 'a';
-      char letraSorteada2 = 'b';
-
-      for (int i = 0; i < informacao.length(); i++) {
-         if ((informacao.charAt(i)).equals(letraSorteada1)) {
-            // code
-         }
-      }
-   }
-
-   public static void alteracao(String informacao) { System.out.println(alteracaoString(informacao)); }
-
-   public static void main(String args[]) {
-      Scanner teclado = new Scanner(System.in);
-         String informacao = "";
-
-         while (!informacao.equals("FIM")) {
-            informacao = teclado.nextLine();
-            alteracao(informacao);
-         }
-      teclado.close();
-   }
+	public static void main(String args[]) {
+		Scanner teclado = new Scanner(System.in);
+		String palavra = " ";
+		while (!(palavra.equals("FIM"))) {
+			palavra = teclado.nextLine();
+			if (!(palavra.equals("FIM"))) {
+				System.out.println(" " + subtituicaoLetra(palavra));
+			}
+		}
+	}
 }
