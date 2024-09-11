@@ -20,9 +20,9 @@
 |✅|4|Introdução (Ordenação Interna - Selection Sort)|
 |✅|5|Somatórios|
 |✅|6|Somatórios|
-|⌛|7|FAA - Fundamentos de Análise de Algoritmos|
-|⌛|8|FAA - Fundamentos de Análise de Algoritmos|
-|⌛|9|Estrutura de Dados Lineares|
+|✅|7|FAA - Fundamentos de Análise de Algoritmos|
+|✅|8|FAA - Fundamentos de Análise de Algoritmos|
+|✅|9|Estrutura de Dados Lineares|
 |⌛|10|Prova I|
 |⌛|11|Ordenação (Insertion Sort e Merge Sort)|
 |⌛|12|Ordenação (Quicksort)|
@@ -126,6 +126,7 @@ Nesta disciplina, é **obrigatório** a compreensão dos conceitos abaixo.
 Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada um seguindo os direcionamentos abaixo denominado **[Módulo 0](#módulo-0)**.
 
 ## Módulo 0
+
 - [x] [Introdução ao Linux](textos/introducao-linux.md)
 - [x] [GitHub](textos/github.md)
 - [X] [Ambientes de Desenvolvimento Integrado](textos/ide-aeds-ii.md)
@@ -141,7 +142,22 @@ Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada 
 - [] [Processo AEDs II de Exercícios - Plataforma VERDE](textos/exercicio-verde.md)
 
 ## Módulo I
+
+### Conceitos Básicos
+
+A computação possui alguns conceitos que envolvem matemática, pensamento/raciocínio lógico e sintaxe de comunicação, ou lingugem de programação, que representa tarefas que são realizadas pelo computador. Estas tarefas, ao serem executadas podem ou não demorar, assim como podem ou não usar uma grande quantidade de memória RAM para lidar com os dados. Tudo isto é computável, ou seja, pode ser expresso tanto em formato de algoritmo, quanto em formato de expressões matemáticas.
+
+Em algoritmo se é expresso através da sintaxe da linguagem de programação, que conduz a execução do código-fonte atraveś de processos como indexaão, compilação, etc. 
+
+matemáticamente, a computação por ser binária (tem 2 valores), expressa seus valores em 2 formatos distintos:
+ - Potência: em base 2, tendo a variação do valor do expoente
+ - Logaritmo: também em base 2, variando seu valor de logaritmando conforme necessário
+
+Dados os valores, inteiros ou reais, de uma determinada potencia ou logaritmo, este valor é repreentado graficamente para facilitar a interpretação do que determinado valor representa e qual a ação deve ser tomada conforme ele é apresentado em uma análise grfica. Os gráficos no geral representam eixos de valores numéricos, abisscissas com o eixo x e ordenadas com o eixo y. Na computação, haverá uma alteração na repreentação gráfica, onde tem-se dados a serem lidos, interpretados e/ou tratados com o eixo x e velocidade, processamento e/ou tempo de execução com o eixo y.
+Da mesma forma que na matemática, uma função pode ser representada graficamente, na computação, dados os parametros citados, eles também geram gráficos de interpretação, permitindo assim realizar a análise de complexidade ou analise assintótica, onde dado um conjunto de dados que swerão utilizados em um programa, excluindo desempenho e hardware, quanto tempo o programa demorará para ser inicializado e concluído e quanto de memória ele gastará no processo.
+
 ### Noções de Complexidade
+
 ### Ordenação Interna
 
 #### Ordenação Por Seleção
