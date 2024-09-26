@@ -18,6 +18,12 @@ Compilação de Programas de Linguagem C - Terminal
 
 `./ nomeArquivoDesejado`
 
+```
+make
+make exec
+make clean
+```
+
 javac Lab02.java | java Lab02 < labJava02.in > saida1.out | cat | diff  
 
 Tendo os conhecimentos da seção anterior e compreendendo a linguagem Java, realize o seguinte desafio, inicialmente na linguagem C e adapte-o para a Linguagem Java.
