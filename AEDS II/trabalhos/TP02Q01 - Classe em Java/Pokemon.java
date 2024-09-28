@@ -1,10 +1,8 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Pokemon
- */
 public class Pokemon {
-
     private int id;
     private int generation;
     private String name;
@@ -71,13 +69,73 @@ public class Pokemon {
     
     /* MÉTODO TOSTRING */
     @Override
-    public String toString() { return super.toString(); }
+    public String toString() {
+
+        return "[#" + this.id + " -> " + 
+        this.name + ": " + 
+        this.description + " - [" + 
+        this.types + "] - [" + 
+        this.abilities + "] - " + 
+        this.weight + " - "+ 
+        this.height + " - " + 
+        this.captureRate + " - " + 
+        this.isLegendary + " - " + 
+        this.generation + "] - " + 
+        this.captureDate + "]";
+
+        // return super.toString(); 
+    }
 
     /* MÉTODO CLONE */
+    public Pokemon Clone(){
+        Pokemon clone = new Pokemon();
+        clone.id = this.id;
+        clone.generation = this.generation;
+        clone.name = this.name;
+        clone.description = this.description;
+        clone.types = this.types;
+        clone.abilities = this.abilities;
+        clone.weight = this.weight;
+        clone.height = this.height;
+        clone.captureRate = this.captureRate;
+        clone.isLegendary = this.isLegendary;
+        clone.captureDate = this.captureDate;
+    }
 
     /* MÉTODO LER */
+    public void lerDados(String informacao){
+        String[] pokeInfo = informacao.split(informacao);
+
+        this.id = Integer.parseInt(pokeInfo[0]);
+        this.generation = Integer.parseInt(pokeInfo[1]);
+        this.name = pokeInfo[2];
+        this.description = pokeInfo[3];
+        this.types = new Lista(pokeInfo[4]);
+        this.abilities = new Lista(pokeInfo[5]);
+        this.weight = Double.parseDouble(pokeInfo[6]);
+        this.height = Double.parseDouble(pokeInfo[7]);
+        this.captureRate = Integer.parseInt(pokeInfo[8]);
+        this.isLegendary = Boolean.parseBoolean(pokeInfo[9]);
+        this.captureDate = new Date();
+    }
+
+    private Date ConverterStringParaData(String dataString) {
+        SimpleDateFormat formatoEntrada = new SimpleDateFormat("dd/MM/yyyy"); // Ler os dados da String
+
+        SimpleDateFormat formatoSaida = new SimpleDateFormat("dd/MM/yyyy"); // Formato de data do CSV
+
+        try {
+            Date dataConvertida = formatoEntrada.parse(dataString); // Converte a String em formato de Data
+
+            // Após formatar a data para o formato desejado, retorna ela como String
+            String dataFormatada = formatoSaida.format(dataConvertida);
+
+            return dataConvertida; // Retornar a data no formato Date para armazenar no objeto, se der erado, trocar para String
+        } catch (ParseException e) { System.err.println("Erro ao converter a data:" + e.getMessage()); }
+    }
 
     /* MÉTODO IMPRIMIR */
+    public void imprimir() { toString(); }
     
     /*
      * Estrutura da saída padrão
