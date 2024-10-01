@@ -13,13 +13,13 @@ public class Pokemon {
     private double height;
     private int captureRate;
     private Boolean isLegendary;
-    private Date captureDate;
+    private DataCaptura captureDate;
     
     /* CONSTRUTORES */
     public Pokemon() {}
 
     public Pokemon(int id, int generation, String name, String description, Lista types, Lista abilities, double weight,
-            double height, int captureRate, Boolean isLegendary, Date captureDate) {
+            double height, int captureRate, Boolean isLegendary, DataCaptura captureDate) {
         this.id = id;
         this.generation = generation;
         this.name = name;
@@ -64,8 +64,8 @@ public class Pokemon {
     public Boolean getIsLegendary() { return isLegendary; }
     public void setIsLegendary(Boolean isLegendary) { this.isLegendary = isLegendary; }
 
-    public Date getCaptureDate() { return captureDate; }
-    public void setCaptureDate(Date captureDate) { this.captureDate = captureDate; }
+    public DataCaptura getCaptureDate() { return captureDate; }
+    public void setCaptureDate(DataCaptura captureDate) { this.captureDate = captureDate; }
     
     /* MÉTODO TOSTRING */
     @Override
@@ -86,8 +86,14 @@ public class Pokemon {
         // return super.toString(); 
     }
 
+    /*
+     * Estrutura da saída padrão
+     * [#id -> name: description - [types] - [abilities] - weight - height - captureRate - isLegendary - generation] - captureDate]
+     * Exemplo: [#181 -> Ampharos: Light Pokémon - ['electric'] - ['Static', 'Plus'] - 61.5kg - 1.4m - 45% - false - 2 gen] - 25/05/1999
+    */
+    
     /* MÉTODO CLONE */
-    public Pokemon Clone(){
+    public void Clone(){
         Pokemon clone = new Pokemon();
         clone.id = this.id;
         clone.generation = this.generation;
@@ -104,22 +110,40 @@ public class Pokemon {
 
     /* MÉTODO LER */
     public void lerDados(String informacao){
-        String[] pokeInfo = informacao.split(informacao);
+        String[] pokeInfo = informacao.split(",");
 
         this.id = Integer.parseInt(pokeInfo[0]);
         this.generation = Integer.parseInt(pokeInfo[1]);
         this.name = pokeInfo[2];
         this.description = pokeInfo[3];
-        this.types = new Lista(pokeInfo[4]);
-        this.abilities = new Lista(pokeInfo[5]);
+        
+        // Criar as listas de tipos e habilidades (usando o tamanho correto)
+        this.types = new Lista(pokeInfo[4].split(" ").length); // Tamanho da lista de tipos
+        this.abilities = new Lista(pokeInfo[5].replace("[", "").replace("]", "").replace("'", "").split(", ").length); // Tamanho da lista de habilidades
+
+        // Adicionar os tipos à lista de tipos
+        String[] typesArray = pokeInfo[4].split(" ");
+        for (String type : typesArray) {
+            try { this.types.inserirFim(type); } 
+            catch (Exception e) { System.err.println("Erro ao adicionar tipo: " + e.getMessage()); }
+        }
+
+        // Adicionar as habilidades à lista de habilidades
+        String[] abilitiesArray = pokeInfo[5].replace("[", "").replace("]", "").replace("'", "").split(", ");
+        for (String ability : abilitiesArray) {
+            try { this.abilities.inserirFim(ability); } 
+            catch (Exception e) { System.err.println("Erro ao adicionar habilidade: " + e.getMessage()); }
+        }
+
         this.weight = Double.parseDouble(pokeInfo[6]);
         this.height = Double.parseDouble(pokeInfo[7]);
         this.captureRate = Integer.parseInt(pokeInfo[8]);
         this.isLegendary = Boolean.parseBoolean(pokeInfo[9]);
-        this.captureDate = new Date();
+        this.captureDate = new DataCaptura(pokeInfo[10]);
+        // this.captureDate = converterStringParaData(pokeInfo[10]);
     }
 
-    private Date ConverterStringParaData(String dataString) {
+    /*private Date converterStringParaData(String dataString) {
         SimpleDateFormat formatoEntrada = new SimpleDateFormat("dd/MM/yyyy"); // Ler os dados da String
 
         SimpleDateFormat formatoSaida = new SimpleDateFormat("dd/MM/yyyy"); // Formato de data do CSV
@@ -132,15 +156,8 @@ public class Pokemon {
 
             return dataConvertida; // Retornar a data no formato Date para armazenar no objeto, se der erado, trocar para String
         } catch (ParseException e) { System.err.println("Erro ao converter a data:" + e.getMessage()); }
-    }
+    }*/
 
     /* MÉTODO IMPRIMIR */
-    public void imprimir() { toString(); }
-    
-    /*
-     * Estrutura da saída padrão
-     * [#id -> name: description - [types] - [abilities] - weight - height - captureRate - isLegendary - generation] - captureDate]
-     * Exemplo: [#181 -> Ampharos: Light Pokémon - ['electric'] - ['Static', 'Plus'] - 61.5kg - 1.4m - 45% - false - 2 gen] - 25/05/1999
-    */
-
+    public void imprimir() { this.toString(); }
 }
