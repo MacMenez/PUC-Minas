@@ -1,18 +1,3 @@
-## Getting Started
+# Trabalho Pŕatico de GAAL
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Trabalhando o desenvolvimento de uma tela que "simule" o site Geogebra, tendo como ambientação um campo de inserção de coordenadas X e Y, uma lista com os pontos gerados pelas coordenadas apresentadas e um plano cartesiano variando de -6 até 6 (em ambos os eixos), apresentando a localização exata do ponto.
