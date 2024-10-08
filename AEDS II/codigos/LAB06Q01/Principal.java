@@ -9,18 +9,18 @@ class Principal {
       //Delcaracao de variaveis
       Geracao algoritmo;
       // int n = (args.length < 1) ? 1000 : Integer.parseInt(args[0]);
-      int n = 100000000;
+      int n = 10000; // 100000000
       double inicio, fim;
 
 
       //Inicializacao do algoritmo de ordenacao
       // algoritmo = new QuickParcial(n);
-      algoritmo = new QuickParcial(n);
+      algoritmo = new Quicksort4(n);
       
       //Geracao do conjunto a ser ordenado
-		// algoritmo.aleatorio();
+		algoritmo.aleatorio();
 		// algoritmo.crescente();
-		algoritmo.decrescente();
+		// algoritmo.decrescente();
 
 
       //Mostrar o conjunto a ser ordenado
