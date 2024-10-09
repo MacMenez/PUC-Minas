@@ -15,7 +15,7 @@ class Principal {
 
       //Inicializacao do algoritmo de ordenacao
       // algoritmo = new QuickParcial(n);
-      algoritmo = new Quicksort4(n);
+      algoritmo = new Quicksort2(n);
       
       //Geracao do conjunto a ser ordenado
 		algoritmo.aleatorio();
