@@ -38,7 +38,7 @@ class Quicksort3 extends Geracao{
         int valor = (int)random.nextInt((dir - esq) + 1) + esq;
         System.out.println("Valor Sorteado: " + valor);
         int i = esq, j = dir;
-        int pivo = valor;
+        int pivo = array[valor];
         while (i <= j) {
             while (array[i] < pivo) i++;
             while (array[j] > pivo) j--;

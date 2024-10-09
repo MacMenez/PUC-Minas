@@ -1,5 +1,6 @@
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Pokemon {
@@ -7,19 +8,19 @@ public class Pokemon {
     private int generation;
     private String name;
     private String description;
-    private Lista types;
-    private Lista abilities;
+    private ArrayList<String> types;
+    private ArrayList<String> abilities;
     private double weight;
     private double height;
     private int captureRate;
     private Boolean isLegendary;
-    private DataCaptura captureDate;
+    private Date captureDate;
     
     /* CONSTRUTORES */
     public Pokemon() {}
 
-    public Pokemon(int id, int generation, String name, String description, Lista types, Lista abilities, double weight,
-            double height, int captureRate, Boolean isLegendary, DataCaptura captureDate) {
+    public Pokemon(int id, int generation, String name, String description, ArrayList<String> types, ArrayList<String> abilities, double weight,
+            double height, int captureRate, Boolean isLegendary, Date captureDate) {
         this.id = id;
         this.generation = generation;
         this.name = name;
@@ -46,11 +47,11 @@ public class Pokemon {
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
 
-    public Lista getTypes() { return types; }
-    public void setTypes(Lista types) { this.types = types; }
+    public ArrayList<String> getTypes() { return types; }
+    public void setTypes(ArrayList<String> types) { this.types = types; }
 
-    public Lista getAbilities() { return abilities; }
-    public void setAbilities(Lista abilities) { this.abilities = abilities; }
+    public ArrayList<String> getAbilities() { return abilities; }
+    public void setAbilities(ArrayList<String> abilities) { this.abilities = abilities; }
 
     public double getWeight() { return weight; }
     public void setWeight(double weight) { this.weight = weight; }
@@ -64,8 +65,8 @@ public class Pokemon {
     public Boolean getIsLegendary() { return isLegendary; }
     public void setIsLegendary(Boolean isLegendary) { this.isLegendary = isLegendary; }
 
-    public DataCaptura getCaptureDate() { return captureDate; }
-    public void setCaptureDate(DataCaptura captureDate) { this.captureDate = captureDate; }
+    public Date getCaptureDate() { return captureDate; }
+    public void setCaptureDate(Date captureDate) { this.captureDate = captureDate; }
     
     /* MÉTODO TOSTRING */
     @Override
@@ -118,8 +119,9 @@ public class Pokemon {
         this.description = pokeInfo[3];
         
         // Criar as listas de tipos e habilidades (usando o tamanho correto)
-        this.types = new Lista(pokeInfo[4].split(" ").length); // Tamanho da lista de tipos
-        this.abilities = new Lista(pokeInfo[5].replace("[", "").replace("]", "").replace("'", "").split(", ").length); // Tamanho da lista de habilidades
+        this.types = new ArrayList<String>();
+        String tipoe = pokeInfo[4].split("\""); // Tamanho da lista de tipos
+        //this.abilities = new Lista(pokeInfo[5].replace("[", "").replace("]", "").replace("'", "").split(", ").length); // Tamanho da lista de habilidades
 
         // Adicionar os tipos à lista de tipos
         String[] typesArray = pokeInfo[4].split(" ");
@@ -139,11 +141,10 @@ public class Pokemon {
         this.height = Double.parseDouble(pokeInfo[7]);
         this.captureRate = Integer.parseInt(pokeInfo[8]);
         this.isLegendary = Boolean.parseBoolean(pokeInfo[9]);
-        this.captureDate = new DataCaptura(pokeInfo[10]);
-        // this.captureDate = converterStringParaData(pokeInfo[10]);
+        this.captureDate = converterStringParaData(pokeInfo[10]);
     }
 
-    /*private Date converterStringParaData(String dataString) {
+    private Date converterStringParaData(String dataString) {
         SimpleDateFormat formatoEntrada = new SimpleDateFormat("dd/MM/yyyy"); // Ler os dados da String
 
         SimpleDateFormat formatoSaida = new SimpleDateFormat("dd/MM/yyyy"); // Formato de data do CSV
@@ -156,7 +157,7 @@ public class Pokemon {
 
             return dataConvertida; // Retornar a data no formato Date para armazenar no objeto, se der erado, trocar para String
         } catch (ParseException e) { System.err.println("Erro ao converter a data:" + e.getMessage()); }
-    }*/
+    }
 
     /* MÉTODO IMPRIMIR */
     public void imprimir() { this.toString(); }
