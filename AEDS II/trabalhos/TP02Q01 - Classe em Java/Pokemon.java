@@ -1,4 +1,3 @@
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -15,9 +14,23 @@ public class Pokemon {
     private int captureRate;
     private Boolean isLegendary;
     private Date captureDate;
+
+    private static SimpleDateFormat dataFormatada = new SimpleDateFormat("dd/MM/yyyy"); // Formatação de tipos Data
     
-    /* CONSTRUTORES */
-    public Pokemon() {}
+    // CONSTRUTORES
+    public Pokemon() {
+        this.id = 0;
+        this.generation = 0;
+        this.name = "";
+        this.description = "";
+        this.types = new ArrayList<String>();
+        this.abilities = new ArrayList<String>();
+        this.weight = 0.0;
+        this.height = 0.0;
+        this.captureRate = 0;
+        this.isLegendary = false;
+        this.captureDate = null;
+    }
 
     public Pokemon(int id, int generation, String name, String description, ArrayList<String> types, ArrayList<String> abilities, double weight,
             double height, int captureRate, Boolean isLegendary, Date captureDate) {
@@ -48,10 +61,24 @@ public class Pokemon {
     public void setDescription(String description) { this.description = description; }
 
     public ArrayList<String> getTypes() { return types; }
-    public void setTypes(ArrayList<String> types) { this.types = types; }
+    public void setTypes(String types) { 
+        String[] vetorTipos = types.split(",", 2);
+        for (int i = 0; i < vetorTipos.length; i++) {
+            if (vetorTipos[i].compareTo("") != 0) {
+                this.types.add(vetorTipos[i]);
+            }
+        }
+    }
 
     public ArrayList<String> getAbilities() { return abilities; }
-    public void setAbilities(ArrayList<String> abilities) { this.abilities = abilities; }
+    public void setAbilities(String abilities) { 
+        String[] vetorHabilidades = abilities.split("'");
+        for (int i = 0; i < vetorHabilidades.length; i++) {
+            if (vetorHabilidades[i].compareTo("[") != 0 && vetorHabilidades[i].compareTo(", ") != 0) {
+                this.abilities.add(vetorHabilidades[i]);
+            }
+        }
+    }
 
     public double getWeight() { return weight; }
     public void setWeight(double weight) { this.weight = weight; }
@@ -70,28 +97,44 @@ public class Pokemon {
     
     /* MÉTODO TOSTRING */
     @Override
-    public String toString() {
-
-        return "[#" + this.id + " -> " + 
-        this.name + ": " + 
-        this.description + " - [" + 
-        this.types + "] - [" + 
-        this.abilities + "] - " + 
-        this.weight + " - "+ 
-        this.height + " - " + 
-        this.captureRate + " - " + 
-        this.isLegendary + " - " + 
-        this.generation + "] - " + 
-        this.captureDate + "]";
-
-        // return super.toString(); 
-    }
+    public String toString() { return super.toString();  }
 
     /*
      * Estrutura da saída padrão
      * [#id -> name: description - [types] - [abilities] - weight - height - captureRate - isLegendary - generation] - captureDate]
      * Exemplo: [#181 -> Ampharos: Light Pokémon - ['electric'] - ['Static', 'Plus'] - 61.5kg - 1.4m - 45% - false - 2 gen] - 25/05/1999
     */
+
+    /* MÉTODO IMPRIMIR */
+    private void imprimirLista(ArrayList<String> lista){
+        System.out.print("[");
+        for (int i = 0; i < lista.size(); i++) {
+            if(i == lista.size()-1){ System.out.printf("'%s'", lista.get(i)); }
+            else { System.out.printf("'%s', ", lista.get(i)); }
+        }
+        System.out.print("] - ");
+    }
+    
+    public void imprimir(){
+        System.out.print(
+            "[#" + getId()
+            + " -> "
+            + getName() + ": " +
+            getDescription() + " - "
+        );
+
+        imprimirLista(getTypes());
+        imprimirLista(getAbilities());
+
+        System.out.println(
+            getWeight() + "kg - " +
+            getHeight() + "m - " +
+            getCaptureRate() + "% - " +
+            getIsLegendary() + " - " +
+            getGeneration() + " gen] - " +
+            dataFormatada.format(getCaptureDate())
+        );
+    }
     
     /* MÉTODO CLONE */
     public void Clone(){
@@ -111,54 +154,65 @@ public class Pokemon {
 
     /* MÉTODO LER */
     public void lerDados(String informacao){
-        String[] pokeInfo = informacao.split(",");
+        // Função split deu errado, tentar com indexOf
+        int inicio = 0, fim = 0;
 
-        this.id = Integer.parseInt(pokeInfo[0]);
-        this.generation = Integer.parseInt(pokeInfo[1]);
-        this.name = pokeInfo[2];
-        this.description = pokeInfo[3];
+        // ID
+        fim = informacao.indexOf(",", inicio);
+        setId(Integer.valueOf(informacao.substring(inicio, fim)));
+
+        //Geração
+        inicio = fim + 1;
+        fim = informacao.indexOf(",", inicio);
+        setGeneration(Integer.valueOf(informacao.substring(inicio, fim)));
+
+        //Nome
+        inicio = fim+1;
+        fim = informacao.indexOf(",", inicio);
+        setName(informacao.substring(inicio, fim));
+
+        //Descrição
+        inicio = fim+1;
+        fim = informacao.indexOf(",", inicio);
+        setDescription(informacao.substring(inicio, fim));
+
+        //Tipos
+        inicio = fim+1;
+        fim = informacao.indexOf(",\"", inicio);
+        setTypes(informacao.substring(inicio, fim));
+
+        //Habilidades
+        inicio = fim+2; // Soma-se 2 para pular caracteres
+        fim = informacao.indexOf("]", inicio);
+        setAbilities(informacao.substring(inicio, fim));
         
-        // Criar as listas de tipos e habilidades (usando o tamanho correto)
-        this.types = new ArrayList<String>();
-        String tipoe = pokeInfo[4].split("\""); // Tamanho da lista de tipos
-        //this.abilities = new Lista(pokeInfo[5].replace("[", "").replace("]", "").replace("'", "").split(", ").length); // Tamanho da lista de habilidades
+        //Peso
+        inicio = fim+3;
+        fim = informacao.indexOf(",", inicio);
 
-        // Adicionar os tipos à lista de tipos
-        String[] typesArray = pokeInfo[4].split(" ");
-        for (String type : typesArray) {
-            try { this.types.inserirFim(type); } 
-            catch (Exception e) { System.err.println("Erro ao adicionar tipo: " + e.getMessage()); }
-        }
+        //Tratar casos em que não há informação
+        try { this.setWeight(Double.valueOf(informacao.substring(inicio, fim))); } 
+        catch (Exception e) { this.setWeight(0.0); }
 
-        // Adicionar as habilidades à lista de habilidades
-        String[] abilitiesArray = pokeInfo[5].replace("[", "").replace("]", "").replace("'", "").split(", ");
-        for (String ability : abilitiesArray) {
-            try { this.abilities.inserirFim(ability); } 
-            catch (Exception e) { System.err.println("Erro ao adicionar habilidade: " + e.getMessage()); }
-        }
+        //Altura
+        inicio = fim+1;
+        fim = informacao.indexOf(",", inicio);
+        try { setHeight(Double.valueOf(informacao.substring(inicio, fim))); } 
+        catch (Exception e) { setHeight(0.0); }
 
-        this.weight = Double.parseDouble(pokeInfo[6]);
-        this.height = Double.parseDouble(pokeInfo[7]);
-        this.captureRate = Integer.parseInt(pokeInfo[8]);
-        this.isLegendary = Boolean.parseBoolean(pokeInfo[9]);
-        this.captureDate = converterStringParaData(pokeInfo[10]);
+        //Capture Rate
+        inicio = fim+1;
+        fim = informacao.indexOf(",", inicio);
+        setCaptureRate(Integer.valueOf(informacao.substring(inicio, fim)));
+
+        //Lendário
+        inicio = fim+1;
+        fim = informacao.indexOf(",", inicio);
+        setIsLegendary(informacao.substring(inicio, fim).compareTo("0") == 0 ? false : true); // Tratar caso de falta de informação
+
+        //Data
+        inicio = fim+1;
+        try { setCaptureDate(dataFormatada.parse(informacao.substring(inicio, informacao.length()))); } 
+        catch (Exception e) { setCaptureDate(null); }
     }
-
-    private Date converterStringParaData(String dataString) {
-        SimpleDateFormat formatoEntrada = new SimpleDateFormat("dd/MM/yyyy"); // Ler os dados da String
-
-        SimpleDateFormat formatoSaida = new SimpleDateFormat("dd/MM/yyyy"); // Formato de data do CSV
-
-        try {
-            Date dataConvertida = formatoEntrada.parse(dataString); // Converte a String em formato de Data
-
-            // Após formatar a data para o formato desejado, retorna ela como String
-            String dataFormatada = formatoSaida.format(dataConvertida);
-
-            return dataConvertida; // Retornar a data no formato Date para armazenar no objeto, se der erado, trocar para String
-        } catch (ParseException e) { System.err.println("Erro ao converter a data:" + e.getMessage()); }
-    }
-
-    /* MÉTODO IMPRIMIR */
-    public void imprimir() { this.toString(); }
 }
