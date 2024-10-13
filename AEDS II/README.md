@@ -23,16 +23,16 @@
 |✅|7|FAA - Fundamentos de Análise de Algoritmos|
 |✅|8|FAA - Fundamentos de Análise de Algoritmos|
 |✅|9|Estrutura de Dados Lineares|
-|⌛|10|Prova I|
-|⌛|11|Ordenação (Insertion Sort e Merge Sort)|
-|⌛|12|Ordenação (Quicksort)|
-|⌛|13|Ordenação (Heapsort)|
-|⌛|14|Ordenação (Heapsort)|
-|⌛|15|Ordenação Parcial|
-|⌛|16|Ordenação Paralela|
-|⌛|17|Estrutura de Dados Flexível (Referência, Alocação, Célula Cabeça)|
-|⌛|18|Estrutura de Dados Flexível (Pilha)|
-|⌛|19|Estrutura de Dados Flexível (Fila e Lista)|
+|✅|10|Prova I|
+|✅|11|Ordenação (Insertion Sort e Merge Sort)|
+|✅|12|Ordenação (Quicksort)|
+|✅|13|Ordenação (Heapsort)|
+|✅|14|Ordenação (Heapsort)|
+|✅|15|Ordenação Parcial|
+|✅|16|Ordenação Paralela|
+|✅|17|Estrutura de Dados Flexível (Referência, Alocação, Célula Cabeça)|
+|✅|18|Estrutura de Dados Flexível (Pilha)|
+|✅|19|Estrutura de Dados Flexível (Fila e Lista)|
 |⌛|20|Estrutura de Dados Flexível (Lista Dupla e Matriz)|
 |⌛|21|Estrutura de Dados Flexível (Coleta de Lixo)|
 |⌛|22|Árvores Binárias (Conceitos Básicos e o Tipo Nó)|
