@@ -10,20 +10,20 @@ public class App {
         /* LER ARQUIVOS CSV */
         try {
             RandomAccessFile lerArquivoCSV;
-            /* CÓDIGO PARA LEITURA DE ARQUVIVOS CSV NO DIRETÓRIO ATUAL */
+            // CÓDIGO PARA LEITURA DE ARQUVIVOS CSV NO DIRETÓRIO ATUAL
             lerArquivoCSV = new RandomAccessFile("pokemon.csv", "r");
 
             /* CÓDIGO PARA LEITURA DE ARQUVIVOS CSV NO SOFTWARE VERDE - PUCMINAS */
+            
             // lerArquivoCSV = new RandomAccessFile("/tmp/pokemon.csv", "r");
-
-            lerArquivoCSV.readLine(); // Ignorar o cabeçalho do arquivo CSV
 
             /* Armazenar informações na classe Pokemon(Que possui uma lista pŕopria) */
             
+            // Ignorar o cabeçalho do arquivo CSV
             String dadosPokemon = lerArquivoCSV.readLine();// Variável para ler as linhas do arquivo CSV
             
             /* Condição de parada é a palavra FIM */
-            while (!lerArquivoCSV.readLine().equals("FIM")) {
+            while (!dadosPokemon.equals("FIM")) {
                 /* CRIAR OBJETO POKEMON */
                 Pokemon pokemon = new Pokemon();
 
@@ -31,6 +31,8 @@ public class App {
                 pokemon.lerDados(dadosPokemon);
 
                 listaPokemons.add(pokemon); /* Adiciona o objeto pokemon (com seus atributos) na lista de objetos 'listaPokemon' */
+
+                dadosPokemon = lerArquivoCSV.readLine();
             }
 
             lerArquivoCSV.close();
