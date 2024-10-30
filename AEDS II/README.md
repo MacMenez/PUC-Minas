@@ -33,11 +33,11 @@
 |✅|17|Estrutura de Dados Flexível (Referência, Alocação, Célula Cabeça)|
 |✅|18|Estrutura de Dados Flexível (Pilha)|
 |✅|19|Estrutura de Dados Flexível (Fila e Lista)|
-|⌛|20|Estrutura de Dados Flexível (Lista Dupla e Matriz)|
-|⌛|21|Estrutura de Dados Flexível (Coleta de Lixo)|
-|⌛|22|Árvores Binárias (Conceitos Básicos e o Tipo Nó)|
-|⌛|23|Árvores Binárias (Inserção e Caminhamento)|
-|⌛|24|Árvores Binárias (Remoção)|
+|✅|20|Estrutura de Dados Flexível (Lista Dupla e Matriz)|
+|✅|21|Estrutura de Dados Flexível (Coleta de Lixo)|
+|✅|22|Árvores Binárias (Conceitos Básicos e o Tipo Nó)|
+|✅|23|Árvores Binárias (Inserção e Caminhamento)|
+|✅|24|Árvores Binárias (Remoção)|
 |⌛|25|Prova II|
 |⌛|26|Árvores Binárias (Inserção em C e C++)|
 |⌛|27|Árvores Binárias (Estruturas Híbridas)|
@@ -134,12 +134,14 @@ Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada 
     - Visual Studio Code
     - Repl.it
 - [] [Introdução às linguagens C, C++ e Java](textos/linguagens-aeds-ii.md)
-- [] [Introdução ao Java](textos/introducao-java-aeds-ii.md)
     - Python Tutor, C Tutor, Java Tutor
+- [] [Introdução ao Java](textos/introducao-java-aeds-ii.md)
     - Arquivos em Java
     - Argumentos do Método Main
 - [] [Redirecionamento de Entrada e Saída](textos/redirecionamento-aeds-ii.md)
 - [] [Processo AEDs II de Exercícios - Plataforma VERDE](textos/exercicio-verde.md)
+
+Caminho Base: (../../codigos/0%20-%20apresentacao-linguagens/)
 
 ## Módulo I
 
