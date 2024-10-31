@@ -126,20 +126,20 @@ Nesta disciplina, é **obrigatório** a compreensão dos conceitos abaixo.
 Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada um seguindo os direcionamentos abaixo denominado **[Módulo 0](#módulo-0)**.
 
 ## Módulo 0
-
-- [x] [Introdução ao Linux](textos/introducao-linux.md)
-- [x] [GitHub](textos/github.md)
-- [X] [Ambientes de Desenvolvimento Integrado](textos/ide-aeds-ii.md)
+[](../AEDS%20II/textos/mod0/introducao-linux.md)
+- [x] [Introdução ao Linux](../AEDS%20II/textos/mod0/introducao-linux.md)
+- [x] [GitHub](../AEDS%20II/textos/mod0/github.md)
+- [X] [Ambientes de Desenvolvimento Integrado](../AEDS%20II/textos/mod0/ide-aeds-ii.md)
     - Vim
     - Visual Studio Code
     - Repl.it
-- [] [Introdução às linguagens C, C++ e Java](textos/linguagens-aeds-ii.md)
+- [] [Introdução às linguagens C, C++ e Java](../AEDS%20II/textos/mod0/linguagens-aeds-ii.md)
     - Python Tutor, C Tutor, Java Tutor
-- [] [Introdução ao Java](textos/introducao-java-aeds-ii.md)
+- [] [Introdução ao Java](../AEDS%20II/textos/mod0/introducao-java-aeds-ii.md)
     - Arquivos em Java
     - Argumentos do Método Main
-- [] [Redirecionamento de Entrada e Saída](textos/redirecionamento-aeds-ii.md)
-- [] [Processo AEDs II de Exercícios - Plataforma VERDE](textos/exercicio-verde.md)
+- [] [Redirecionamento de Entrada e Saída](../AEDS%20II/textos/mod0/redirecionamento-aeds-ii.md)
+- [] [Processo AEDs II de Exercícios - Plataforma VERDE](../AEDS%20II/textos/mod0/exercicio-verde.md)
 
 Caminho Base: (../../codigos/0%20-%20apresentacao-linguagens/)
 
