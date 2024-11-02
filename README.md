@@ -36,6 +36,8 @@ Há também, abaixo da listagem, repositórios que envolvem projetos desenvolvid
 * **Matemática Financeira (Optativa):** [Repositório: Matemática Financeira](#)
 * **[Nome da Disciplina]**: [Link para o README da disciplina]
 
+---
+
 ### Outros Repositórios
 
 **Eventos na Instituição:**
