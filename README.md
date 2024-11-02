@@ -8,30 +8,32 @@ A Engenharia de Computação é uma graduação ofertada pela Pontifícia Univer
 
 Desde o 1° período, linguagens de programação, laboratórios de desenvolvimento de hardware, ensino de IA - Inteligencia Artificial - e uma base matemática forte, já são apresentadas com intuido de desenvolvimento de uma base íntegra, visando crescimento acadêmico e ingresso no mercado de trabalho atual.
 
+---
+
 ### Disciplinas
 
-Listadas em ordem alfabética, as dsiciplinas cursadas possue seu próprio repositório com trabalhos, projetos e etc; desenvolvidos durante a graduação. O obejtivo destes repositórios é facilitar um estudo futuro para revisões e/ou compartilhamento de informaçãoes.
+Listadas em ordem alfabética, as dsiciplinas cursadas possue seu próprio repositório com trabalhos, projetos e etc, desenvolvidos durante a graduação. O obejtivo destes repositórios é facilitar um estudo futuro para revisões e/ou compartilhamento de informaçãoes.
 
-Há também abaixo da listagem, repositórios que envolvem projetos desenvolvidos durante eventos e/ou cursos de parceria ofertados pela instituição. Até o momento atual, alguns repositórios ainda não foram todos organizados para serem distribuidos, portanto ficarão indispníveis para acesso. Disciplinas cursadas até o momento:
+Há também, abaixo da listagem, repositórios que envolvem projetos desenvolvidos durante eventos e/ou cursos ofertados pela instituição PUC Minas graças as diversas parcerias com grandes empresas do mercado atual. Até o momento, alguns repositórios ainda não foram todos organizados para serem divulgados, portanto ficarão indispníveis para acesso no repositório. Disciplinas cursadas até agora:
 
-* **Algoritmos e Estrutruas de Dados I:**  [Algoritmos e Estrutruas de Dados I](#)
-* **Algoritmos e Estrutruas de Dados II:**  [Algoritmos e Estrutruas de Dados II](AEDS%20II/README.md)
-* **Arquitetura de Computadores I**: [Arquitetura de Computadores I](#)
-* **Arquitetura de Computadores II**: [Arquitetura de Computadores I](#)
-* **Banco de Dados**: [Banco de Dados](#)
-* **Cálculo I:**  [Cálculo I](Calculo%20I/README.md)
-* **Cálculo II:** [Cálculo II](Calculo%20II/README.md)
-* **Cidade Inteligentes**: [Cidade Inteligentes](#)
-* **Desenvolvimento de Interfaces Web**: [Desenvolvimento de Interfaces Web](#)
-* **Fundamentos de Física**: [Fundamentos de Física](#)
-* **Game Design**: [Game Design](#)
-* **Geometria Analítica e Álgebra Linear**: [Geometria Analítica e Álgebra Linear](#)
-* **Gestãos de Redes e Mídias Sociais**: [Gestãos de Redes e Mídias Sociais](#)
-* **Internet das Coisas I**: [Internet das Coisas I](#)
-* **Introdução À Computação**: [Introdução À Computação](#)
-* **Introdução Aos Sistemas Inteligentes**: [Introdução Aos Sistemas Inteligentes](#)
-* **Laboratório de Introdução À Engenharia de Computação**: [Laboratório de Introdução À Engenharia de Computação](#)
-* **Matemática Financeira**: [Matemática Financeira](#)
+* **Algoritmos e Estrutruas de Dados I:**  [Repositório: Algoritmos e Estrutruas de Dados I](#)
+* **Algoritmos e Estrutruas de Dados II:**  [Repositório: Algoritmos e Estrutruas de Dados II](AEDS%20II/README.md)
+* **Arquitetura de Computadores I**: [Repositório: Arquitetura de Computadores I](#)
+* **Arquitetura de Computadores II**: [Repositório: Arquitetura de Computadores II](#)
+* **Banco de Dados**: [Repositório: Banco de Dados](#)
+* **Cálculo I:**  [Repositório: Cálculo I](Calculo%20I/README.md)
+* **Cálculo II:** [Repositório: Cálculo II](Calculo%20II/README.md)
+* **Cidade Inteligentes  (Optativa)**: [Repositório: Cidade Inteligentes](#)
+* **Desenvolvimento de Interfaces Web (Optativa)**: [Repositório: Desenvolvimento de Interfaces Web](#)
+* **Fundamentos de Física  (Optativa)**: [Repositório: Fundamentos de Física](#)
+* **Game Design  (Optativa)**: [Repositório: Game Design](#)
+* **Geometria Analítica e Álgebra Linear**: [Repositório: Geometria Analítica e Álgebra Linear](#)
+* **Gestãos de Redes e Mídias Sociais  (Optativa)**: [Repositório: Gestãos de Redes e Mídias Sociais](#)
+* **Internet das Coisas I**: [Repositório: Internet das Coisas I](#)
+* **Introdução À Computação**: [Repositório: Introdução À Computação](#)
+* **Introdução Aos Sistemas Inteligentes**: [Repositório: Introdução Aos Sistemas Inteligentes](#)
+* **Laboratório de Introdução À Engenharia de Computação**: [Repositório: Laboratório de Introdução À Engenharia de Computação](#)
+* **Matemática Financeira  (Optativa)**: [Repositório: Matemática Financeira](#)
 * **[Nome da Disciplina]**: [Link para o README da disciplina]
 
 ### Outros Repositórios
@@ -43,8 +45,8 @@ Há também abaixo da listagem, repositórios que envolvem projetos desenvolvido
 
 **Projetos de Pesquisa e Iniciação Científica:**
 
-* [ORBI Engineering](#)
-* [Robótica Aplicada na Saúde](#)
+* Projeto de Pesquisa com o curso de Engenharia Aeronáutica: [Repositório: ORBI Engineering](#)
+* Projeto de Pesquia e Iniciação Científica na Engenharia de Computação[Repositório: Robótica Aplicada na Saúde](#)
 
 ---
 * [Link para o repositório dos seus projetos pessoais]
