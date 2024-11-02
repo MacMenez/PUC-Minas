@@ -4,36 +4,36 @@
 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
-A Engenharia de Computação é uma graduação ofertada pela Pontifícia Universidade Católica com abordagens diversas, abrangendo conteúdos das áreas de matemática, física, elétrica e eletrônica, computação(principalmente) e algumas "extras" ofertadas como optativas.
+A Engenharia de Computação é uma graduação ofertada pela Pontifícia Universidade Católica, com abordagens diversas, abrangendo conteúdos das áreas de matemática, física, elétrica e eletrônica, além da computação (principalmente) e algumas disciplinas "extras" ofertadas como optativas.
 
-Desde o 1° período, linguagens de programação, laboratórios de desenvolvimento de hardware, ensino de IA - Inteligencia Artificial - e uma base matemática forte, já são apresentadas com intuido de desenvolvimento de uma base íntegra, visando crescimento acadêmico e ingresso no mercado de trabalho atual.
+Desde o 1° período, são apresentadas linguagens de programação, laboratórios de desenvolvimento de hardware, ensino de IA (Inteligência Artificial) e uma base matemática forte, com o intuito de desenvolver uma formação sólida, visando ao crescimento acadêmico e ao ingresso no mercado de trabalho atual.
 
 ---
 
 ### Disciplinas
 
-Listadas em ordem alfabética, as dsiciplinas cursadas possue seu próprio repositório com trabalhos, projetos e etc, desenvolvidos durante a graduação. O obejtivo destes repositórios é facilitar um estudo futuro para revisões e/ou compartilhamento de informaçãoes.
+Listadas em ordem alfabética, as disciplinas cursadas possuem seu próprio repositório com trabalhos, projetos, etc., desenvolvidos durante a graduação. O objetivo desses repositórios é facilitar o estudo futuro para revisões e/ou compartilhamento de informações.
 
-Há também, abaixo da listagem, repositórios que envolvem projetos desenvolvidos durante eventos e/ou cursos ofertados pela instituição PUC Minas graças as diversas parcerias com grandes empresas do mercado atual. Até o momento, alguns repositórios ainda não foram todos organizados para serem divulgados, portanto ficarão indispníveis para acesso no repositório. Disciplinas cursadas até agora:
+Há também, abaixo da listagem, repositórios que envolvem projetos desenvolvidos durante eventos e/ou cursos ofertados pela PUC Minas, graças às diversas parcerias com grandes empresas do mercado atual. Até o momento, nem todos os repositórios foram organizados para divulgação, portanto, alguns ficarão indisponíveis para acesso. Disciplinas cursadas até agora:
 
-* **Algoritmos e Estrutruas de Dados I:**  [Repositório: Algoritmos e Estrutruas de Dados I](#)
-* **Algoritmos e Estrutruas de Dados II:**  [Repositório: Algoritmos e Estrutruas de Dados II](AEDS%20II/README.md)
-* **Arquitetura de Computadores I**: [Repositório: Arquitetura de Computadores I](#)
-* **Arquitetura de Computadores II**: [Repositório: Arquitetura de Computadores II](#)
-* **Banco de Dados**: [Repositório: Banco de Dados](#)
-* **Cálculo I:**  [Repositório: Cálculo I](Calculo%20I/README.md)
+* **Algoritmos e Estruturas de Dados I:** [Repositório: Algoritmos e Estruturas de Dados I](#)
+* **Algoritmos e Estruturas de Dados II:** [Repositório: Algoritmos e Estruturas de Dados II](AEDS%20II/README.md)
+* **Arquitetura de Computadores I:** [Repositório: Arquitetura de Computadores I](#)
+* **Arquitetura de Computadores II:** [Repositório: Arquitetura de Computadores II](#)
+* **Banco de Dados:** [Repositório: Banco de Dados](#)
+* **Cálculo I:** [Repositório: Cálculo I](Calculo%20I/README.md)
 * **Cálculo II:** [Repositório: Cálculo II](Calculo%20II/README.md)
-* **Cidade Inteligentes  (Optativa)**: [Repositório: Cidade Inteligentes](#)
-* **Desenvolvimento de Interfaces Web (Optativa)**: [Repositório: Desenvolvimento de Interfaces Web](#)
-* **Fundamentos de Física  (Optativa)**: [Repositório: Fundamentos de Física](#)
-* **Game Design  (Optativa)**: [Repositório: Game Design](#)
-* **Geometria Analítica e Álgebra Linear**: [Repositório: Geometria Analítica e Álgebra Linear](#)
-* **Gestãos de Redes e Mídias Sociais  (Optativa)**: [Repositório: Gestãos de Redes e Mídias Sociais](#)
-* **Internet das Coisas I**: [Repositório: Internet das Coisas I](#)
-* **Introdução À Computação**: [Repositório: Introdução À Computação](#)
-* **Introdução Aos Sistemas Inteligentes**: [Repositório: Introdução Aos Sistemas Inteligentes](#)
-* **Laboratório de Introdução À Engenharia de Computação**: [Repositório: Laboratório de Introdução À Engenharia de Computação](#)
-* **Matemática Financeira  (Optativa)**: [Repositório: Matemática Financeira](#)
+* **Cidades Inteligentes (Optativa):** [Repositório: Cidades Inteligentes](#)
+* **Desenvolvimento de Interfaces Web (Optativa):** [Repositório: Desenvolvimento de Interfaces Web](#)
+* **Fundamentos de Física (Optativa):** [Repositório: Fundamentos de Física](#)
+* **Game Design (Optativa):** [Repositório: Game Design](#)
+* **Geometria Analítica e Álgebra Linear:** [Repositório: Geometria Analítica e Álgebra Linear](#)
+* **Gestão de Redes e Mídias Sociais (Optativa):** [Repositório: Gestão de Redes e Mídias Sociais](#)
+* **Internet das Coisas I:** [Repositório: Internet das Coisas I](#)
+* **Introdução à Computação:** [Repositório: Introdução à Computação](#)
+* **Introdução aos Sistemas Inteligentes:** [Repositório: Introdução aos Sistemas Inteligentes](#)
+* **Laboratório de Introdução à Engenharia de Computação:** [Repositório: Laboratório de Introdução à Engenharia de Computação](#)
+* **Matemática Financeira (Optativa):** [Repositório: Matemática Financeira](#)
 * **[Nome da Disciplina]**: [Link para o README da disciplina]
 
 ### Outros Repositórios
@@ -46,11 +46,13 @@ Há também, abaixo da listagem, repositórios que envolvem projetos desenvolvid
 **Projetos de Pesquisa e Iniciação Científica:**
 
 * Projeto de Pesquisa com o curso de Engenharia Aeronáutica: [Repositório: ORBI Engineering](#)
-* Projeto de Pesquia e Iniciação Científica na Engenharia de Computação[Repositório: Robótica Aplicada na Saúde](#)
+* Projeto de Pesquisa e Iniciação Científica na Engenharia de Computação: [Repositório: Robótica Aplicada na Saúde](#)
 
 ---
+
 * [Link para o repositório dos seus projetos pessoais]
 * [Link para o repositório de seus projetos de iniciação científica]
+
 ---
 
 Estrutura do README
@@ -75,3 +77,5 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 Legenda Emoji:
 ⌛: Ainda não Realizada
 ✅: Aula Realizada
+
+Prompt de correção textual: Faça uma correção de todo o texto escrito no README.md enviado abaixo. Corrija qualquer erro ortográfico, gramatical, coesão textual e tudo relacionado a correção de texto.
