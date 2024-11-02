@@ -1,6 +1,6 @@
 # Graduação em Engenharia da Computação
 
-## Engenharia de Computação - Pontifícia Universidade Católica
+## <img aling="justify" src="logoPUC3.png" width="50px" height="50px"/> Pontifícia Universidade Católica
 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
