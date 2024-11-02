@@ -53,60 +53,25 @@
 |⌛|37|Prova III|
 |⌛|38|Resultados Finais|
 
-Legenda:
-⌛: Ainda não Realizada
-✅: Aula Realizada
+|**Legenda:**|⌛: _Ainda não Realizada_ | ✅: _Aula Realizada_|
+|---|---|---|
 
-- [Apresentação](#apresentação)
-- Módulo I
-    - [Noções de Complexidade](#noções-de-complexidade)
-    - [Ordenação Interna](#ordenação-interna)
-        - [Seleção](#ordenação-por-seleção)
-    - [Somatórios](#somatórios)
-    - [FAA - Fundamentos de Análise de Algoritmos](#faa---fundamentos-de-análise-de-algoritmos)
-- Módulo II
-    - [Estrutura de Dados Lineares]()
-- Módulo III
-    - [Ordenação]()
-        - [Insertionsort]()
-        - [Mergesort]()
-        - [Quicksort]()
-        - [Heapsort]()
-    - [Ordenação Parcial]()
-    - [Ordenação Paralela]()
-- Módulo IV
-    - [Estrutura de Dados Flexível]()
-        - [Referência]()
-        - [Alocação]()
-        - [Célula Cabeça]()
-        - [Pilha]()
-        - [Fila]()
-        - [Lista]()
-        - [Lista Dupla]()
-        - [Matriz]()
-        - [Coleta de Lixo]()
-- Módulo V
-    - [Árvores Binárias]()
-        - [Conceitos Básicos]()
-        - [Tipo Nó]()
-        - [Inserção]()
-            - [Inserção em C]()
-            - [Inserção em C++]()
-        - [Caminhamento]()
-        - [Remoção]()
-    - [Estruturas Híbridas]()
-- Módulo VI
-    - [Balanceamento]()
-        - [Tipos de Rotação]()
-        - [Árvores AVL]()
-        - [Árvores 234]()
-        - [Árvores Red-Black]()
-- Módulo VII
-    - [Tabelas Hash]()
-    - [Dicionários]()
-- Módulo VIII
-    - [Árvores TRIE]()
-    - [Árvores Patricia]()
+---
+
+## Distribuição do Conteúdo
+
+|Módulo 0|Módulo I|Módulo II|Módulo III|Módulo VI|Módulo V|Módulo VI|Módulo VII|Módulo VIII|
+|---|---|---|---|---|---|---|---|---|
+|[Apresentação](#apresentação)|[Conceitos Básicos](#conceitos-básicos-de-algoritmos-e-estruturas-de-dadsos-ii)|[Estrutura de Dados Lineares](#estrutura-de-dados-lineares)|[Ordenação](#ordenação)|[Estrutura de Dados Flexível](#estrutura-de-dados-flexível)|[Árvores Binárias](#árvores-binárias)|[Balanceamento](#balanceamento)|[Dicionários](#dicionários)|[Árvores TRIE](#árvores-trie)|
+|[Módulo 0](#módulo-0)|[Noções de Complexidade](#noções-de-complexidade)||[Insertionsort](#insertionsort)|[Referência](#referência)|[Conceitos Básicos](#conceitos-básicos-árvore-binária)|[Tipos de Rotação](#tipos-de-rotação)|[Tabelas Hash](#tabelas-hash)|[Árvores Patricia](#árvores-patricia)|
+||[Ordenação Interna](#ordenação-interna) + AOP: [Seleção](#ordenação-por-seleção)||[Mergesort](#mergesort)|[Alocação](#alocação)|[Tipo Nó](#tipo-nó)|[Árvores AVL](#árvores-avl)|||
+||[Somatórios](#somatórios)||[Quicksort](#quicksort)|[Célula Cabeça](#célula-cabeça)|[Inserção](#inserção)|[Árvores 234](#árvores-234)|||
+||[FAA - Fundamentos de Análise de Algoritmos](#faa---fundamentos-de-análise-de-algoritmos)||[Heapsort](#heapsort)|[Pilha](#pilha)|[Inserção em C](#inserção-em-c) + [Inserção em C++](#inserção-em-c-1)|[Árvores Red-Black](#árvores-red-black)|||
+||||[Ordenação Parcial](#ordenação-parcial)|[Fila](#fila)|[Caminhamento](#caminhamento)|||||
+||||[Ordenação Paralela](#ordenação-paralela)|[Lista](#lista)|[Remoção](#remoção)||||
+|||||[Lista Dupla](#lista-dupla)|[Estruturas Híbridas](#estruturas-híbridas)||||
+|||||[Matriz](#matriz)|||||
+|||||[Coleta de Lixo](#coleta-de-lixo)|||||
 
 ## Apresentação
 
@@ -120,10 +85,12 @@ Nesta disciplina, é **obrigatório** a compreensão dos conceitos abaixo.
 - Entendimento de Armazenamento e Compartilhamento de Códigos
 - Entendimento de IDE
 - Entendimento de Linguagens de Programação Usadas Anteriormente e Nesta Disciplina
-- Controle de Dados de entrada e Dados de Saída
-- Funcionamento de Exercícios e Plataformas de Correção
+- Controle de Dados de Entrada e Dados de Saída
+- Funcionamento da Aplicação dos Exercícios e de Plataformas de Correção
 
-Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada um seguindo os direcionamentos abaixo denominado **[Módulo 0](#módulo-0)**.
+Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada um seguindo os direcionamentos abaixo denominado **[Módulo 0](#módulo-0)**. Caso já domine todos os conceitos citados, inicie o **[Módulo I](#módulo-i)**.
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
 
 ## Módulo 0
 [](../AEDS%20II/textos/mod0/introducao-linux.md)
@@ -143,9 +110,11 @@ Caso algum tópico seja estranho ou necessite de revisão, veja brevemente cada 
 
 Caminho Base: (../../codigos/0%20-%20apresentacao-linguagens/)
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo I
 
-### Conceitos Básicos
+### Conceitos Básicos de Algoritmos e Estruturas de Dadsos II
 
 A computação possui alguns conceitos que envolvem matemática, pensamento/raciocínio lógico e sintaxe de comunicação, ou lingugem de programação, que representa tarefas que são realizadas pelo computador. Estas tarefas, ao serem executadas podem ou não demorar, assim como podem ou não usar uma grande quantidade de memória RAM para lidar com os dados. Tudo isto é computável, ou seja, pode ser expresso tanto em formato de algoritmo, quanto em formato de expressões matemáticas.
 
@@ -158,9 +127,15 @@ matemáticamente, a computação por ser binária (tem 2 valores), expressa seus
 Dados os valores, inteiros ou reais, de uma determinada potencia ou logaritmo, este valor é repreentado graficamente para facilitar a interpretação do que determinado valor representa e qual a ação deve ser tomada conforme ele é apresentado em uma análise grfica. Os gráficos no geral representam eixos de valores numéricos, abisscissas com o eixo x e ordenadas com o eixo y. Na computação, haverá uma alteração na repreentação gráfica, onde tem-se dados a serem lidos, interpretados e/ou tratados com o eixo x e velocidade, processamento e/ou tempo de execução com o eixo y.
 Da mesma forma que na matemática, uma função pode ser representada graficamente, na computação, dados os parametros citados, eles também geram gráficos de interpretação, permitindo assim realizar a análise de complexidade ou analise assintótica, onde dado um conjunto de dados que swerão utilizados em um programa, excluindo desempenho e hardware, quanto tempo o programa demorará para ser inicializado e concluído e quanto de memória ele gastará no processo.
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Noções de Complexidade
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Ordenação Interna
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
 
 #### Ordenação Por Seleção
 
@@ -168,55 +143,170 @@ Da mesma forma que na matemática, uma função pode ser representada graficamen
 
 [Algoritmo de Seleção](suporte/SelectionSort.java)
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Somatórios
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### FAA - Fundamentos de Análise de Algoritmos
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo II
+
 ### Estrutura de Dados Lineares
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo III
+
 ### Ordenação
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Insertionsort
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Mergesort
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Quicksort
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Heapsort
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Ordenação Parcial
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Ordenação Paralela
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo IV
+
 ### Estrutura de Dados Flexível
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Referência
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Alocação
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Célula Cabeça
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Pilha
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Fila
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Lista
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Lista Dupla
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Matriz
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Coleta de Lixo
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo V
+
 ### Árvores Binárias
-#### Conceitos Básicos
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
+#### Conceitos Básicos Árvore Binária
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Tipo Nó
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Inserção
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ##### Inserção em C
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ##### Inserção em C++
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Caminhamento
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Remoção
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Estruturas Híbridas
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo VI
+
 ### Balanceamento
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Tipos de Rotação
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Árvores AVL
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Árvores 234
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 #### Árvores Red-Black
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo VII
+
 ### Tabelas Hash
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Dicionários
 
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ## Módulo VIII
+
 ### Árvores TRIE
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
+
 ### Árvores Patricia
+
+[Voltar Para Distribuição de Tópicos](#distribuição-do-conteúdo)
