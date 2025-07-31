@@ -1,0 +1,23 @@
+Problema: Somar 3 números
+
+Descrição de Processos: 
+Paso 1: solicitar e memorizar cada um dos números.
+Passo 2: realizar operações de soma dos números e memorizar o resultado
+Passo 3: exibir o resultado
+
+Codificação Pseudocódigo:
+INÍCIO_ALGORITMO
+    DECLARE X, Y, Z, resultado NUMÉRICO
+
+    ESCREVA “Digite o primeiro número”
+    LEIA X
+    
+    ESCREVA “Digite o segundo número”
+    LEIA Y
+    
+    ESCREVA “Digite o terceiro número”
+    LEIA Y
+    resultado ← X + Y + Z
+    
+    ESCREVA “A soma deles é ”, resultado
+FIM_ALGORITMO
