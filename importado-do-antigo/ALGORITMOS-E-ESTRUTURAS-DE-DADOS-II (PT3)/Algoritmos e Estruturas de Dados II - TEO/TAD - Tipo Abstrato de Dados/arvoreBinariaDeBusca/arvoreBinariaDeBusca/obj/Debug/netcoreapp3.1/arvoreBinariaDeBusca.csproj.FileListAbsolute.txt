@@ -1,0 +1,14 @@
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\bin\Debug\netcoreapp3.1\arvoreBinariaDeBusca.exe
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\bin\Debug\netcoreapp3.1\arvoreBinariaDeBusca.deps.json
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\bin\Debug\netcoreapp3.1\arvoreBinariaDeBusca.runtimeconfig.json
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\bin\Debug\netcoreapp3.1\arvoreBinariaDeBusca.runtimeconfig.dev.json
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\bin\Debug\netcoreapp3.1\arvoreBinariaDeBusca.dll
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\bin\Debug\netcoreapp3.1\arvoreBinariaDeBusca.pdb
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.csproj.AssemblyReference.cache
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.AssemblyInfoInputs.cache
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.AssemblyInfo.cs
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.csproj.CoreCompileInputs.cache
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.dll
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.pdb
+C:\Users\1229176\Downloads\arvoreBinariaDeBusca\arvoreBinariaDeBusca\obj\Debug\netcoreapp3.1\arvoreBinariaDeBusca.genruntimeconfig.cache

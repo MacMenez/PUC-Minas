@@ -1,0 +1,27 @@
+# Avalie a expressão: (x*y)/z.
+# x = 1600000 (=0x186A00)
+# y = 80000 (=0x13880)
+# z = 400000 (=0x61A80)
+
+.data
+x: .word 1600000
+y: .word 80000
+z: .word 400000
+
+.text
+.globl main
+
+main:
+la $t0, x
+lw $s0, 0($t0) # Valor de x = 1600000
+
+la $t0, y
+lw $s1, 0($t0) # Valor de y = 80000
+
+la $t0, z
+lw $s2, 0($t0) # Valor de z = 400000
+
+mult $s0, $s1 # x * y
+mflo $t0 # Pegando o valor da multiplicação
+
+div $t0, $s2 # Multiplicação / z

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilaNativaCsharp", "FilaNativaCsharp\FilaNativaCsharp.csproj", "{8305C5B2-5948-49EE-88EF-0A42FE199E88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8305C5B2-5948-49EE-88EF-0A42FE199E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8305C5B2-5948-49EE-88EF-0A42FE199E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8305C5B2-5948-49EE-88EF-0A42FE199E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8305C5B2-5948-49EE-88EF-0A42FE199E88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2198EEF6-49EC-42C2-9C0A-F59E046F7915}
+	EndGlobalSection
+EndGlobal

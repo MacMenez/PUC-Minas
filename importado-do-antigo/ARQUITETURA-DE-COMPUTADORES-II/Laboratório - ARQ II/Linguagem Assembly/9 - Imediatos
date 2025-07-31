@@ -1,0 +1,12 @@
+# Imediatos são constantes numéricas
+
+# Aparecem frequentemente em códigos, o que exige instruções específicas
+# Exemplo de soma com imediato:
+# Linguagem C:
+# f = g + 10 // 10 é o imediato
+
+
+# Em MIPS:
+addi $s0,$s1,10 # 10 é o imediato
+
+# A sintaxe é a mesma da instrução “add”, porém o último argumento da instrução é um número, e não um endereço de registrador

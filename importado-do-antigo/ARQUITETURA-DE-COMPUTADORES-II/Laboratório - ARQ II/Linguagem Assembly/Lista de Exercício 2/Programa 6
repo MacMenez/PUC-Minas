@@ -1,0 +1,22 @@
+# Programa 6
+
+.text #delimitar que será porção de códgo 
+
+.globl main #indica aonde o programa começa
+
+# ATENÇÃO: Use os shifts para gerar os valores muito grandes
+
+main: #rótulo ou label
+
+#inicio
+
+# x = 1.048.576; // 2 a 20 = 2²⁰
+addi $s0, $0, 2 # Base 2 = 2¹ = 2
+sll $s0, $s0, 19 # 2¹⁹ + 2¹ = 2²⁰
+
+# y = 4.096; // 2 a 12 = 2¹²
+addi $s1, $0, 2 # Base 2 = 2¹ = 2
+sll $s1, $s1, 11 #2¹¹ + 2¹ = 2²⁰
+
+# z = x + y;
+add $s2, $s0, $s1 # 1.048.576 + 4.096 = 1.052.672
