@@ -1,26 +1,30 @@
+# IDEs
+.vscode/
+.idea/
+*.iml
 
-AEDS II/trabalhos/TP01Q03 - Ciframento de César/MyIO.class
-AEDS II/trabalhos/TP01Q03 - Ciframento de César/CifraCesar.class
-AEDS II/trabalhos/TP01Q03 - Ciframento de César/CifraCesarRecursivo.class
-AEDS II/trabalhos/TP01Q04 - Alteração Aleatória/AlteracaoAleatoria.class
-AEDS II/trabalhos/TP01Q08 - Arquivo em Java/ArquivoJava.class
-AEDS II/trabalhos/TP01Q08 - Arquivo em Java/MyIO.class
-AEDS II/trabalhos/TP01Q06 - Is/Is.class
-AEDS II/trabalhos/TP01Q06 - Is/IsRecursivo.class
-AEDS II/trabalhos/TP01Q06 - Is/MyIO.class
-AEDS II/codigos/LAB04Q01 - Sort sort sort/OrdenacaoSimplesCopy.class
-AEDS II/.~lock.AEDS II.odt\#
-AEDS II/trabalhos/TP02Q01 - Classe em Java/TesteData.class
-AEDS II/trabalhos/TP02Q01 - Classe em Java/App.class
-AEDS II/codigos/LAB06Q01/Geracao.class
-AEDS II/codigos/LAB06Q01/MyIO.class
-AEDS II/codigos/LAB06Q01/Principal.class
-AEDS II/codigos/LAB06Q01/Quicksort.class
-AEDS II/codigos/LAB06Q01/Quicksort1.class
-AEDS II/codigos/LAB06Q01/Quicksort3.class
-AEDS II/codigos/LAB06Q01/Quicksort2.class
-AEDS II/codigos/LAB06Q01/Quicksort4.class
-AEDS II/trabalhos/TP02Q01 - Classe em Java/DataCaptura.class
-AEDS II/trabalhos/TP02Q01 - Classe em Java/Lista.class
-AEDS II/trabalhos/TP02Q01 - Classe em Java/Pokemon.class
-AEDS II/codigos/LAB08 - TADs Modificados/CelulaFila.class
+# Java
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+
+# C/C++
+*.out
+*.o
+
+# Node
+node_modules/
+
+# Outros
+*.log
+*.tmp
+*.exe
+*.zip
+*.rar
+
+# Sistemas
+.DS_Store
+Thumbs.db
