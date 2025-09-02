@@ -1,2 +1,0 @@
-andi $t0, $s1, 1 # Máscara: 0000000000......1
-beq $t0, $zero, Par

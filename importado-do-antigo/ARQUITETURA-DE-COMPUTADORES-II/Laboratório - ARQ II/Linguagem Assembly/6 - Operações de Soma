@@ -1,7 +1,0 @@
-.text 
-.globl main
-
-main:
-#inicio
-add $t0, $s1, $s2 # t0 = g + h
-add $t1, $s3, $s4 # t0 = i + j

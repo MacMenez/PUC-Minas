@@ -1,8 +1,0 @@
-Estudando em Swift
-Programa de treinamento do Evento Hackatruck PUC Minas 2023.
-
-.swift
-
- - ORIENTAÇÃO A OBJETOS
-
- https://paiza.io/en/projects/new?language=swift
