@@ -1,6 +1,0 @@
-# Linguagem C: f = (g + h)
-
-# Adição em assembly (MIPS)
-# inicio
-add $s0, $s1, $s2
-# fim

@@ -1,1 +1,0 @@
-# Matemática Financeira

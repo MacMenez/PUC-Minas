@@ -1,5 +1,0 @@
-# Código em Linguagem C: 
-# A = B + C
-
-#Código em Linguagem Assembly para o MIPS (MIPS Code)
-add $s0, $s1, $s2

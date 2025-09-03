@@ -1,2 +1,0 @@
-# Entrada e Saída
-Este código tem objetivo de efetuar alternativas ou soluções para incompatibilidades relacionadas a classe `Scanner` da Linguagem JAVA. Este projeto foi desenvolvido por professores responsáveis por aplicar esta disciplina.
