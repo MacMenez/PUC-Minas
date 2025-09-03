@@ -1,0 +1,13 @@
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\bin\Debug\netcoreapp3.1\8 - Operadores Unários.exe
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\bin\Debug\netcoreapp3.1\8 - Operadores Unários.deps.json
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\bin\Debug\netcoreapp3.1\8 - Operadores Unários.runtimeconfig.json
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\bin\Debug\netcoreapp3.1\8 - Operadores Unários.runtimeconfig.dev.json
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\bin\Debug\netcoreapp3.1\8 - Operadores Unários.dll
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\bin\Debug\netcoreapp3.1\8 - Operadores Unários.pdb
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\obj\Debug\netcoreapp3.1\8 - Operadores Unários.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\obj\Debug\netcoreapp3.1\8 - Operadores Unários.AssemblyInfoInputs.cache
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\obj\Debug\netcoreapp3.1\8 - Operadores Unários.AssemblyInfo.cs
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\obj\Debug\netcoreapp3.1\8 - Operadores Unários.csproj.CoreCompileInputs.cache
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\obj\Debug\netcoreapp3.1\8 - Operadores Unários.dll
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\obj\Debug\netcoreapp3.1\8 - Operadores Unários.pdb
+D:\Users\1229176\Downloads\8 - Operadores Unários\8 - Operadores Unários\obj\Debug\netcoreapp3.1\8 - Operadores Unários.genruntimeconfig.cache

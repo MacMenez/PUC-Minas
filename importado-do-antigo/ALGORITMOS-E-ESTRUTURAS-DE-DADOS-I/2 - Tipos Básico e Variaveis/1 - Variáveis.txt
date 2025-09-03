@@ -1,0 +1,36 @@
+VARIÁVEL:
+Se tiver uma FAZENDA e precisar separar seus animais, no ESTÁBULO ficariam apenas os cavalos,
+no PASTO apenas bois ou vacas, no CHIQUEIRO os porcos.
+
+Com a programação não é diferente, se precisar armazenar qualquer tipo de dado, ele é nomeado pelo
+desenvolvedor do código, um espaço na memória RAM é criado e ele deve ter uma identificação.
+Assim como no exemplo, ESTÁBULOS é local apenas de CAVALOS, se um porco ou boi estiver no local, estarão ali
+indevidamente. A mesma coisa acontece se em uma LISTA DE CHAMADA aparecer a IDADE ao invés do NOME.
+
+Nos exemplos os "locais"(estábulos e lista de chamada) correspondem ao NOME que se é atribuido ao dado. Já
+o TIPO DE DADO é delimitado conforme o programa necessite, no exemplo citado, o tipo era PALAVRA ou  STRING,
+pois o conteúdo que será armazenado na "etiqueta" NOME, será nomes de pessoas ou tipos de animais. O local 
+que será delimitado para cada tipo, no caso do exemplo FAZENDA, é a Memória RAM.
+
+As variáveis são criadas e utilizadas durante o uso do programa, quando o mesmo é encerrado, todas as 
+variáveis são apagadas da memória. Isto pois váriaveis utilizam a memória RAM, que por sua vez é uma 
+memória volátil, ou seja, quando determinado espaço de memória não estiver mais em uso, ele será tranferido
+para outro programa ou finalidade.
+
+O nome que deve ser dado pelo desenvolvedor a uma variável, deve atender algumas regras:
+1. Diferente de palavras reservadas
+2. Não pode ter símbolos, exceto o underline ‘_’
+3. Deve começar por uma letra ou pelo underline ‘_’
+4. Não podem existir nomes repetidos em um mesmo escopo
+5. Minúsculas e maiúsculas são consideradas diferentes (case sensitive)
+6. Não podem ser acentuados ou utilizar o cedilha ‘ç’
+
+Sugere-se que comece com minúscula ou ‘_’ e todas as palavras que compõe o nome com maiúsculas (CamelCase).
+
+DECLARAÇÃO DE VARIÁVEIS
+É o ato de "dar nome aos bois", ou seja, dizer o que cada informação no programa é. Quando se dá nomes como
+LISTA DE CHAMADA, ESTÁBULO, PASTO, CHIQUEIRO, estamos implicitamente criando espaços (mentalmente ou não) onde
+só terá determinado tipo de informação, seja quantidade, nomes, adjetivos, etc.
+
+Este ato de criar nomes, nada mais é do que dar comandos a um computador para limitar um espaço na Memória RAM
+para determinada finalizadade. Internamente este espaço na Memória RAM é denominado ENDEREÇO DE MEMÓRIA.

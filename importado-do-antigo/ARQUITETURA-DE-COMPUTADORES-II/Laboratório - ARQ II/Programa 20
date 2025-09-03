@@ -1,0 +1,42 @@
+# int i;
+# int A[10];
+
+# for (i=0; i<10; i++) {
+#   if (i%2==0)
+#     A[i]=A[i]+A[i+1];
+#   else 
+#     A[i]=A[i]*2;
+# }
+
+.data
+A: .word 1,3,5,7,9,2,4,6,8,0     # Vetor de 10 posições
+i: .word 0        # Variável i = 0
+
+.text
+
+.globl main
+
+main:
+addi $t0, $t0, 0 # Contador i = 0
+addi $t1, $t1, 10 # Condição de PARADA
+
+
+# Processo de Verificação do FOR para criar o Loop
+Loop:
+slt $t2, $t0, $t1 # $t2 receberá o valor de 0(Verdade) ou 1(Falso) mediante comparação feita
+beq $t2, $zero, Fim # Caso a condição do Loop seja verdadeira, encerra o programa
+
+# Atribuição de valores ao vetor criado
+sll $t3, $t0, 2 # Multiplicação das posições da posição de memória (Posição de memória * 4)
+add $t3, $t3, $s0 # Somar o endereço referente ao vetor
+
+lw $t4, 0($t3) # Carregar o valor contido na posição encontrada em $t3 e passa para $t4 o valor armazenado na memória
+
+addi $t4, $t4, 1 # A[i]=A[i]+A[i+1];
+
+sw $t4, 0($t3) # Armazena o valor em A[i]
+
+addi $t0, $t0, 1 # i = i +1 ou i++
+j Loop
+
+Fim:

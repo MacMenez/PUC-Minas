@@ -1,0 +1,12 @@
+# C code: 
+# Operação 1: A = B + C + D;
+# Operação 2: E = F - A;
+
+add $t0, $s1, $s2
+add $s0, $t0, $s3
+sub $s4, $s5, $s0
+
+# NOTAÇÃO 
+# $: Registrador
+# t:Temporário
+# s: Mapear Variável

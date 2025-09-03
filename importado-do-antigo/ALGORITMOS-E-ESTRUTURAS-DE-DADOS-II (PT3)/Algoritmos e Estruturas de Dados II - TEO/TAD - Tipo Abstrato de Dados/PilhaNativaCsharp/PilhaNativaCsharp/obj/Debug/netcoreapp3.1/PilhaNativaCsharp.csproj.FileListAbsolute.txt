@@ -1,0 +1,14 @@
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\bin\Debug\netcoreapp3.1\PilhaNativaCsharp.exe
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\bin\Debug\netcoreapp3.1\PilhaNativaCsharp.deps.json
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\bin\Debug\netcoreapp3.1\PilhaNativaCsharp.runtimeconfig.json
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\bin\Debug\netcoreapp3.1\PilhaNativaCsharp.runtimeconfig.dev.json
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\bin\Debug\netcoreapp3.1\PilhaNativaCsharp.dll
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\bin\Debug\netcoreapp3.1\PilhaNativaCsharp.pdb
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.csproj.AssemblyReference.cache
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.AssemblyInfoInputs.cache
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.AssemblyInfo.cs
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.csproj.CoreCompileInputs.cache
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.dll
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.pdb
+C:\Users\1229176\Downloads\Algoritmos e Estruturas de Dados II - TEO\PilhaNativaCsharp\PilhaNativaCsharp\obj\Debug\netcoreapp3.1\PilhaNativaCsharp.genruntimeconfig.cache

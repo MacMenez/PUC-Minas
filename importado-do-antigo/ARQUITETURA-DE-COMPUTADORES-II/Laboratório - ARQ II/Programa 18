@@ -1,0 +1,36 @@
+.data
+.text
+#switch(temp){
+#    case 10:
+#        x = 10;
+#        break;
+#    case 25:
+#        x = 25;
+#        break;
+#    default:
+#        x = 0;
+#}
+
+.globl main
+
+main:
+
+# $s0 = temp
+# $s1 = X
+addi $s0, $zero, 15 # Definindo um valor para Temp
+addi $s1, $s1, -1 # Definindo o valor -1 para X
+
+beq $s0, 10, Case1 # Case 1
+beq $s0, 25, Case2 # Case 2
+j Default
+
+Case1: addi $s1, $zero, 10 # Case 1 -> x = 10
+j Fim
+
+Case2: addi $s1, $zero, 25 # Case 2 -> x = 25
+j Fim
+
+Default: addi $s1, $0, 0
+j Fim
+
+Fim:

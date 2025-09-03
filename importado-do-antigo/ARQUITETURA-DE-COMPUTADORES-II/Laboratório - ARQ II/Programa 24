@@ -1,0 +1,44 @@
+.data
+Vetor: .word 1, 3, 5 #, 7, 9, 11, 13, 0, 2, 4, 6, 8, 10, 12
+Soma: .word -1
+Maior: .word -1
+.text
+.globl main
+
+main:
+add $t4, $t4, $zero
+
+la $t0, Vetor # Valor do Vetor
+la $t1, Soma # Valor da soma dos elementos
+la $t2, Maior # Valor do maior elemento
+
+addi $t3, $t3, 0 #contador i = 
+
+lw $t0, $t4($t0) # Valor Vetor
+lw $t1, $t4($t1) # Valor Vetor
+lw $t2, $t4($t2) # Valor Vetor
+
+add $s0, $0, $t1
+
+#sw $t1, 0($s0)
+
+addi $t3, $t3, 4 #contador i = 
+
+#------------------------------------------------------
+
+la $t0, Vetor # Valor do Vetor
+la $t1, Soma # Valor da soma dos elementos
+la $t2, Maior # Valor do maior elemento
+
+addi $t3, $t3, 0 #contador i = 
+
+lw $t0, $t4($t0) # Valor Vetor
+lw $t1, $t4($t1) # Valor Vetor
+lw $t2, $t4($t2) # Valor Vetor
+
+add $s0, $0, $t1
+
+#sw $t1, 0($s0)
+
+addi $t3, $t3, 4 #contador i = 
+Fim:

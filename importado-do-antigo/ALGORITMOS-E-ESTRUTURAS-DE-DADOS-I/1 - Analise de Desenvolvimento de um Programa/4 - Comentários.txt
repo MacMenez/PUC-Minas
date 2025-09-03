@@ -1,0 +1,17 @@
+Forma de realizar anotações no código pelo desenvolvedor que serão ignoradas
+pelo compilador
+
+Comentários de UMA Linha:
+A linha que deve ser comentada deve iniciar com o //
+
+int quantidade; // indica quantidade de portas
+
+Comentários de VÁRIAS Linhas:
+O trecho que possua mais de uma linha deve se iniciar com /*
+e encerrar com */
+
+/*
+    Essa variável foi criada apenas para a versão 1,
+    contemplando a quantidade de portas existentes
+    no carro
+*/

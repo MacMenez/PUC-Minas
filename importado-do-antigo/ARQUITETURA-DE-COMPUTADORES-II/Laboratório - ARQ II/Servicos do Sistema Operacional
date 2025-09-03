@@ -1,0 +1,21 @@
+.text 
+.globl main
+
+main:
+li $v0, 4
+la $a0, palavra
+syscall
+
+li $v0, 5
+syscall
+
+li $v0, 1
+lw $a0, numero
+syscall
+
+li $v0,10
+syscall
+
+.data
+palavra: .asciiz "Alo MIPS! \n Enfim sei programar!!! \n"
+numero: .word 100

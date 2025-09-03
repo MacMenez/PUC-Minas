@@ -1,0 +1,21 @@
+# Programa 4
+
+.text #delimitar que será porção de códgo 
+
+.globl main #indica aonde o programa começa
+
+main: #rótulo ou label
+
+#inicio
+
+# Linguagem C
+# x=1;
+addi $s0, $0, 1
+
+# y = 5*x + 15
+sll $t0,$s0, 2 # 2²x
+add $t0, $t0, $s0 #($t0 = 2²x = 4x) + x = 5x -> 5 * 1 = 5
+
+addi $s1, $0, 15
+
+add $s2, $t0, $s1 # y = 5 + 15 = 20

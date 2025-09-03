@@ -1,0 +1,1 @@
+let letraA = "A" // ao invés de um Character, temos uma String aqui

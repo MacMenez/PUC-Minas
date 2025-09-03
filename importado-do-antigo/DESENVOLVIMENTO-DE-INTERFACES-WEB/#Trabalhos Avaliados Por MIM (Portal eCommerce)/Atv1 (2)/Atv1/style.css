@@ -1,0 +1,153 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body{
+    margin: 15px;
+    border:1px solid crimson;
+    border-radius: 2px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+      color:crimson;
+    }
+
+    .navbar-light .navbar-brand {
+      color: white;
+      font-family:monospace;
+      font-size: 2rem;
+      font-weight: 300;
+  }
+  .navbar-light .navbar-brand:hover{
+    color:whitesmoke;
+    cursor: initial;
+  }
+
+  .navbar-toggler:focus{
+    display: none;
+  }
+
+  .nav-item{
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+
+.navbar-light .navbar-toggler {
+    border:none;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(
+    "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 0.80%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+  input[type=search]{
+    background-color: #333;
+    height: 30px;
+    border: 1px solid white;
+    width:20rem;
+  }
+  input[type=search]:focus{
+    background-color: #333;
+    border: 1px solid crimson;
+    box-shadow: none;
+    transition: border 2s;
+  }
+
+  #search{
+    background-color: #333;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border: 1px solid crimson;
+  }
+
+  p {
+    line-height: 1em;
+  }
+
+  .right {
+    position:relative;
+  }
+
+  .right i {
+    position: absolute;
+    left:9.5em;
+    bottom:0.9em;
+    font-size: 2em;
+  }
+
+  .fa{
+    color: whitesmoke;
+  }
+  .fa:hover{
+    transform:scale(1.2);
+  }
+
+  .wrap{
+    display:grid;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "card1 card2 card3 reviewed"
+    "card4 card5 card6 reviewed"
+    "card7 card8 card9 newsletter";
+    grid-gap: 2em;
+    margin-top: 2em;
+  }
+
+  .card1{background:crimson; grid-area:card1;}
+  .card2{background:#666; grid-area:card2;}
+  .card3{background:crimson; grid-area:card3;}
+  .card4{background:#666; grid-area:card4;}
+  .card5{background:crimson; grid-area:card5;}
+  .card6{background:#666; grid-area:card6;}
+  .card7{background:crimson; grid-area:card7;}
+  .card8{background:#666; grid-area:card8;}
+  .card9{background:crimson; grid-area:card9;}
+  .reviewed{background:yellow; grid-area:reviewed;}
+  .newsletter{background:green; grid-area:newsletter;}
+  
+  .linha{
+    display:flex;
+    flex-wrap: wrap;
+  }
+
+  .coluna{
+    width:25%;
+    padding: 70px 0px;
+  }
+  a {
+    color:white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: crimson;
+  }
+  .fa-brands{
+    padding: 0.2em;
+    font-size: 2em;
+  }
+
+  @media (max-width:920px) {
+    .coluna{
+      width:50%;
+      padding: 40px 0px;
+    }
+  }
+
+  @media (max-width:500px) {
+    .coluna{
+      width:100%;
+      padding: 20px 0px;
+    }
+  }
