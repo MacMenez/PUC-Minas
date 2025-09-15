@@ -1,6 +1,6 @@
 # 🎓 Portifólio da Graduação em Engenharia de Computação 👨‍🎓
 
-## 🏫 Pontifícia Universidade Católica de Minas Gerais <img aling="justify" src="logoPUC3.png" width="75px" height="75px"/>
+## 🏫 Pontifícia Universidade Católica de Minas Gerais <img aling="justify" src="_img/logoPUC3.png" width="75px" height="75px"/>
 
 ### 📍 Unidade Frequentadas: São Gabriel (_PSG_), Praça da Liberdade (_PPL_) e Coração Eucarístico (_PCE_)
 
