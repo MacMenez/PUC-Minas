@@ -6,9 +6,9 @@
 
 <!-- <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p> -->
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
-![GitHub repo size](https://img.shields.io/github/repo-size/MacMenez/iniciacao-cientifica)
-![GitHub contributors](https://img.shields.io/github/contributors/MacMenez/iniciacao-cientifica)
-![GitHub last commit](https://img.shields.io/github/last-commit/MacMenez/iniciacao-cientifica)
+![GitHub repo size](https://img.shields.io/github/repo-size/MacMenez/PUC-Minas)
+![GitHub contributors](https://img.shields.io/github/contributors/MacMenez/PUC-Minas)
+![GitHub last commit](https://img.shields.io/github/last-commit/MacMenez/PUC-Minas)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A Engenharia de Computação é uma graduação ofertada pela Pontifícia Universidade Católica, com abordagens diversas, abrangendo conteúdos das áreas de matemática, física, elétrica e eletrônica, além da computação (principalmente) e algumas disciplinas "extras" ofertadas como optativas.
