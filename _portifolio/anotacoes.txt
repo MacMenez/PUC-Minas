@@ -1,0 +1,114 @@
+Análise de Disciplina:
+
+Arquitetura I - Estudo de Portas Lógicas e Circuitos
+Sistema Reconfiguráveis - Programação de Circuitos
+Arquitetura II - Programação de Arquitetura
+Arquitetura III - Níveis de Arquitetura
+
+-------------------------------------------------------------------------------------------
+
+Ideia de Projeto:
+Desenvolvimento para estudo de uma placa para estudos de hardware
+A placa terá como funcionalidade abordar:
+- Todo o conteúdo de Arquitetura de Computadores I (Portas lógicas e circuitos lógicos e combinacionais)
+- Todo o conteúdo de Arquitetura de Computadores II (Assembly)
+- Todo o conteúdo de Arquitetura de Computadores III (VHDL)
+- Todo o conteúdo de IoT I
+- Todo o conteúdo de IoT II
+- Sistemas Reconfiguráveis
+
+-------------------------------------------------------------------------------------------
+
+Grade Curricular:
+Filosofia I
+Filosofia II
+Filosofia III
+Cálculo I
+Cálculo II
+GAAL
+Estatística
+Cálculo III
+Equações Diferenciais
+Cálculo VI
+Matemática Discreta
+Química I
+Química II
+Química III
+Física I
+Física II
+Física III
+Eletrônica I
+Eletrônica II
+Eletrônica III
+Eletrônica VI
+Arquitetura de Computadores I
+Arquitetura de Computadores II
+Arquitetura de Computadores III
+Algoritmos I
+Algoritmos II
+Algoritmos III
+Algoritmos VI
+Algoritmos V
+
+-------------------------------------------------------------------------------------------
+
+🎯 Mentalidade profissional
+
+Trabalho individual e estudo:
+Você pode criar branches para cada disciplina (calculoI, estatistica, etc.) e ir só dando push nelas. O PR é opcional.
+
+Trabalho em equipe/profissional:
+
+Criar branch para cada tarefa/feature.
+
+Sempre dar git pull antes de mexer (para evitar conflitos).
+
+Finalizar com um pull request para main.
+
+
+✅ 1. Caminhos de arquivos muito grandes (e erro no Git/Windows)
+✅ 1. Problema com caminhos muito longos
+
+# Clone o repositório principal (novo)
+git clone https://github.com/seu-usuario/repositorio-novo.git
+cd repositorio-novo
+
+# Adicione o repositório antigo como remote temporário
+git remote add antigo https://github.com/seu-usuario/repositorio-antigo.git
+
+# Busque os dados do repositório antigo
+git fetch antigo
+
+# Mescle os branches e histórico do antigo na main atual
+git merge antigo/main --allow-unrelated-histories
+
+# Resolva conflitos, se houver, e depois:
+git commit -m "Unificação do repositório antigo"
+
+# Remova o remote antigo
+git remote remove antigo
+
+# Suba as mudanças
+git push origin main
+
+-------------------------------------------------------------------------------------------
+
+​​"bitbake -c cve_check" é um inicio pra escanear pacotes com vulnerabilidades
+
+10% de desconto em qualquer ​curso do embarcados ​SLE2025
+SLE2025L - x% no curso de Linux
+SLE2025Y - 20% do Yocto
+
+#embarcados
+#sle2025
+
+-------------------------------------------------------------------------------------------
+Badgets para README dos repositórios
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
+![Flutter](https://img.shields.io/badge/Framework-Flutter-02569B?logo=flutter)
+![Dart](https://img.shields.io/badge/Language-Dart-0175C2?logo=dart)
+![GitHub repo size](https://img.shields.io/github/repo-size/MacMenez/lifely)
+![GitHub contributors](https://img.shields.io/github/contributors/MacMenez/lifely)
+![GitHub last commit](https://img.shields.io/github/last-commit/MacMenez/lifely)
+![License](https://img.shields.io/badge/License-MIT-green)
