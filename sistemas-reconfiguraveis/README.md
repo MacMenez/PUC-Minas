@@ -33,6 +33,18 @@ Este repositório documenta o desenvolvimento do portifólio da disciplina de **
 
 ## Unidade Lógica Aritmética
 
+## Demux
+
+## Conversor para Display de 7 Segmentos
+
+## Latch
+
+---
+
+# Código Sequencial em VHDL
+
+---
+
 # Circuitos Desenvolvidos
 
 1. [Codificador 4x2](#)
@@ -57,4 +69,5 @@ Este repositório documenta o desenvolvimento do portifólio da disciplina de **
 
 # Trabalho
 
-1. [ULA - Unidade Lógica Aritmética](#)
+1. [MUX de Endereço](#)
+2. [ULA - Unidade Lógica Aritmética](#)
