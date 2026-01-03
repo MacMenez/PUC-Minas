@@ -25,8 +25,8 @@ Listadas em ordem alfabética, as disciplinas cursadas possuem seu próprio repo
 
 ---
 Legenda Emoji:  
-⌛: Ainda não Realizada  
-✅: Aula Realizada
+⌛: Ainda não Concluída
+✅: Disciplina Concluída
 
 ---
 
@@ -53,7 +53,7 @@ Legenda Emoji:
 - **Engenharia de Software (Optativa)**: [Repositório: Engenharia de Software](#)  
 - **Estatística e Probabilidade**: [Repositório: Estatística e Probabilidade](#)  
 - **Estágio Obrigatório**: [Repositório: Estágio Obrigatório](#)  
-- ⌛ **Filosofia: Antropologia e Ética**: [Repositório: Filosofia: Antropologia e Ética](#)  
+- [x] **Filosofia: Antropologia e Ética**: [Repositório: Filosofia: Antropologia e Ética](#)  
 - [x] **Filosofia: Razão e Modernidade**: [Repositório: Filosofia: Razão e Modernidade](#)  
 - [x] **Fundamentos de Física (Optativa)**: [Repositório: Fundamentos de Física](#)  
 - **Fundamentos de Geoprocessamento (Optativa)**: [Repositório: Fundamentos de Geoprocessamento](#)  
@@ -69,7 +69,7 @@ Legenda Emoji:
 - [x] **Introdução à Computação**: [Repositório: Introdução à Computação](#)  
 - [x] **Introdução aos Sistemas Inteligentes**: [Repositório: Introdução aos Sistemas Inteligentes](#)  
 - [x] **Laboratório de Introdução à Engenharia de Computação**: [Repositório: Laboratório de Introdução à Engenharia de Computação](#)  
-- ⌛ **Laboratório de Desenvolvimento para Dispositivos Móveis**: [Repositório: Laboratório de Desenvolvimento para Dispositivos Móveis](#)  
+- [x] **Laboratório de Desenvolvimento para Dispositivos Móveis**: [Repositório: Laboratório de Desenvolvimento para Dispositivos Móveis](#)  
 - **Laboratório de Física**: [Repositório: Laboratório de Física](#)  
 - **Leitura de Textos em Língua Inglesa (Optativa)**: [Repositório: Leitura de Textos em Língua Inglesa](#)  
 - **Língua Brasileira de Sinais (Optativa)**: [Repositório: Língua Brasileira de Sinais](#)  
@@ -91,7 +91,7 @@ Legenda Emoji:
 - **Sistemas Embarcados**: [Repositório: Sistemas Embarcados](#)  
 - **Sistemas Inteligentes de Software e Hardware**: [Repositório: Sistemas Inteligentes de Software e Hardware](#)  
 - **Sistemas Operacionais**: [Repositório: Sistemas Operacionais](#)  
-- ⌛ **Sistemas Reconfiguráveis**: [Repositório: Sistemas Reconfiguráveis](sistemas-reconfiguraveis/README.md)  
+- [x] **Sistemas Reconfiguráveis**: [Repositório: Sistemas Reconfiguráveis](sistemas-reconfiguraveis/README.md)  
 - ⌛ **Teoria de Circuitos Elétricos**: [Repositório: Teoria de Circuitos Elétricos](tce/README.md)  
 - **Tópicos em Computação I**: [Repositório: Tópicos em Computação I](#)  
 - **Tópicos em Computação II**: [Repositório: Tópicos em Computação II](#)  
