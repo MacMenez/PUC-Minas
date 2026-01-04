@@ -115,6 +115,8 @@ Há também repositórios que envolvem projetos desenvolvidos durante eventos e/
 
 * [Mouser Roadshow 2022](#)
 * [Mouser Roadshow 2023](#)
+* [Hackatruck 2023](#)
+* [Hackatruck 2025](#)
 * [Maratona Levity](#)
 
 **Projetos de Pesquisa e Iniciação Científica**:
@@ -127,6 +129,18 @@ Há também repositórios que envolvem projetos desenvolvidos durante eventos e/
 **Projetos de Extensão**:
 * Projeto Beira Linha: [Repositório: Projeto Beira Linha](#)
 * Projeto Imersão Tec: [Repositório: Projeto Imersão Tec](#)
+
+---
+
+**Projetos Desenvolvidos em Disciplinas**:
+* Projeto Clone do Genius: [Repositório: Projeto Clone do Genius](#)
+* Projeto Relógio Digital: [Repositório: Projeto Relógio Digital](#)
+* Projeto Clone do Geogebra: [Repositório: Projeto Clone do Geogebra](#)
+* Projeto Soma de Riemman: [Repositório: Projeto Clone do Geogebra](#)
+* Projeto Estação Meteorológica: [Repositório: Projeto Estação Meteorológica](#)
+* Projeto Hierarquia de Memória: [Repositório: Projeto Hierarquia de Memória](#)
+* Projeto Lifely: [Repositório: Projeto Lifely](#)
+* Projeto Microprocessador PUC-252: [Repositório: Projeto Microprocessador PUC_252](#)
 
 ---
 
