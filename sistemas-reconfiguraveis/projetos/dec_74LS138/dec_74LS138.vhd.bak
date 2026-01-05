@@ -1,0 +1,24 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY dec_74LS138 IS
+PORT (
+	a: IN STD_LOGIC_VECTOR(2 DOWNTO 0);-- seleção
+	ne1, ne2, e3: IN STD_LOGIC; -- enable
+	no: OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+);
+END ENTITY;
+
+ARCHITECTURE arch3 OF dec_74LS138 IS
+SIGNAL e: STD_LOGIC_VECTOR (2 DOWNTO 0);
+BEGIN
+	e <= ne1 & ne2 & e3;
+	no(0) <= '0' WHEN e = "001" AND a = "000" ELSE '1',
+	no(1) <= '0' WHEN e = "001" AND a = "001" ELSE '1',
+	no(2) <= '0' WHEN e = "001" AND a = "010" ELSE '1',
+	no(3) <= '0' WHEN e = "001" AND a = "011" ELSE '1',
+	no(4) <= '0' WHEN e = "001" AND a = "100" ELSE '1',
+	no(5) <= '0' WHEN e = "001" AND a = "101" ELSE '1',
+	no(6) <= '0' WHEN e = "001" AND a = "110" ELSE '1',
+	no(7) <= '0' WHEN e = "001" AND a = "111" ELSE '1',
+END arch3;

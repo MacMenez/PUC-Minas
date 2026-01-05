@@ -1,0 +1,37 @@
+name: CI - Build e Testes
+
+on:
+  push:
+    branches:
+      - calculoI
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: 🔧 Configurar ambiente Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: ⚙️ Compilar projeto
+        run: javac -d out $(find . -name "*.java")
+
+      - name: 🧪 Executar testes (se existirem)
+        run: |
+          if [ -d "tests" ]; then
+            echo "Executando testes..."
+            # Exemplo genérico
+            javac -cp .:out tests/*.java
+            java -cp .:out tests.SuiteDeTestes
+          else
+            echo "Nenhum teste encontrado, pulando..."
+          fi

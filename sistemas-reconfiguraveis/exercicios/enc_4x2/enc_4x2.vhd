@@ -1,0 +1,18 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+ENTITY enc_4x2 IS
+	PORT (
+		i: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+		gs: OUT STD_LOGIC;
+		a: OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
+	);
+END ENTITY;
+
+ARCHITECTURE arch OF enc_4x2 IS
+BEGIN
+	a <= "11" WHEN i(3) = '1' ELSE
+	"10" WHEN i(2) = '1' ELSE
+	"01" WHEN i(1) = '1' ELSE
+	"00";
+	gs <='0' WHEN i = "0000" ELSE '1'; -- nenhuma entrada
+END arch;
