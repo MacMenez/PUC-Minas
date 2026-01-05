@@ -1,0 +1,20 @@
+DADOS: toda e qualquer tipo de informação manipulada por um programa
+
+TIPO DE DADO: representação computacional da informação, através da representação
+o computador sabe como armazenar e como interpretar o que será lido e mostrado
+
+TIPOS BÁSICOS: 
+- Numéricos: 2, 10, 381, -4, -215, 10.21, -25.63
+Representam qualquer tipo de número conhecido.
+
+- Lógicos: true, false
+Representam tipos binários onde só se pode ter uma representação ou seu oposto.
+Usado em operações de análise compatacional.
+
+- Literais: "Esse é um exemplo"
+Sejam palavra ou palavras, frases, etc. Armazena conteudo de texto.
+
+- Caracteres: 'c', '*', ' ', '1'
+Representam caracteres únicos e apenas 1 único carctere é reconhecido.
+
+Estes tipos de daods são reconhecidos e classificados bináriamente conforme a Tabela ASCII.

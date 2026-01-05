@@ -1,0 +1,7 @@
+Análise: com base no enunciado do problema a ser resolvido, identifica-se as entradas, saídas e o 
+processamento necessário
+
+Algoritmo: Sequência de passos para resolver o problema. Podem existir diversas sequências possíveis.
+Esses podem ser apresentados por meio de narrativas, fluxogramas, pseudocódigo(ou portugês estruturado).
+
+Codificação: Representação do algoritmo em comandos da linguagem de programação.
