@@ -31,16 +31,24 @@ Legenda Emoji:
 ---
 
 - [x] **Algoritmos e Estruturas de Dados I**: [Repositório: Algoritmos e Estruturas de Dados I](#)  
-- **Algoritmos e Estruturas de Dados II**: [Repositório: Algoritmos e Estruturas de Dados II](#)  
+      Representação e armazenamento de dados. Manipulação e movimentação de dados em memória principal e secundária. Abstração de dados. Estruturas e abstração de controle. Modularização, encapsulamento e herança. Recursividade. Documentação e testes. Implementação em linguagem de programação. Contagem de operações.  
+- **Algoritmos e Estruturas de Dados II**: [Repositório: Algoritmos e Estruturas de Dados II](#)
+  Somatórios. Fundamentos de análise de algoritmos. Ordenação e pesquisa em memória principal. Tipos abstratos de dados lineares e flexíveis. Árvores. Balanceamento de árvores. Tabelas e Dicionários.
 - **Algoritmos e Estruturas de Dados III**: [Repositório: Algoritmos e Estruturas de Dados III](#)  
 - **Algoritmos em Grafos**: [Repositório: Algoritmos em Grafos](#)  
 - [x] **Arquitetura de Computadores I**: [Repositório: Arquitetura de Computadores I](#)  
+      Processadores. Modelos para representação de dados e aritmética computacional em nível de máquina. Funções lógicas: modelamento e algoritmos para minimização. Descrição e síntese de elementos combinacionais. Descrição e síntese de elementos lógicos sequenciais e máquinas de estado. Unidades funcionais básicas de computadores e introdução ao software básico. Linguagens e ferramentas para projeto e descrição de hardware.
 - [x] **Arquitetura de Computadores II**: [Repositório: Arquitetura de Computadores II](#)  
+      Aritmética computacional avançada. Análise de desempenho e complexidade de arquiteturas. Organização de computadores: memória, unidade central de processamento, entrada e saída. Geração de programas nativos. Linguagens de montagem. Modos de endereçamento, conjunto de instruções. Manipulação de pilhas. Sub-rotinas: tipos, características e passagem de parâmetros. Mecanismos de interrupção e de exceção. Introdução a microcontroladores e microprocessadores. Introdução à síntese de alto nível (HLS) para hardware. Introdução a linguagens de descrição de hardware (HDL). Análise de algoritmos para arquitetura de computadores. 
 - [x] **Arquitetura de Computadores III**: [Repositório: Arquitetura de Computadores III](#)  
 - [x] **Banco de Dados**: [Repositório: Banco de Dados](#)  
+      Conceitos de gerenciamento de bancos de dados. Arquitetura de um SGBD. Modelos de dados. Modelo de bancos de dados. Linguagens de definição, manipulação e controle de dados. Normalização e projeto físico de bancos de dados. Aspectos de segurança em banco de dados. 
 - [x] **Cálculo I**: [Repositório: Cálculo I](#)  
+      Funções: polinomiais, racionais, algébricas, exponenciais, logarítmicas, trigonométricas. Limites. Continuidade. Derivada: definição e interpretações. Regras de derivação. Derivação implícita. Aplicações da derivada: taxas relacionadas, regra de L'Hospital, estudo do comportamento de funções, esboço de gráficos e otimização. Aplicações práticas.
 - [x] **Cálculo II**: [Repositório: Cálculo II](#)  
-- **Cálculo III**: [Repositório: Cálculo III](#)  
+      Integral indefinida. Técnicas de integração: substituição, por partes, trigonométricas, substituição trigonométrica e frações parciais. Integral definida: conceitos e Teorema Fundamental do Cálculo. Superfícies. Funções de várias variáveis. Derivadas parciais. Aproximações lineares. Regra da cadeia. Derivadas direcionais e vetor gradiente. Valores máximos e mínimos. Aplicações práticas. 
+- **Cálculo III**: [Repositório: Cálculo III](#)
+  Integrais duplas em coordenadas retangulares e polares. Integrais triplas em coordenadas retangulares, cilíndricas e esféricas. Aplicações de integrais duplas e triplas nas Ciências Exatas e Engenharias. Equações Diferenciais: terminologia e conceitos fundamentais em modelagem matemática. Equações separáveis e exatas. Transformada de Laplace. Resolução de equações diferenciais de primeira e segunda ordem. Modelagem matemática e aplicações de equações diferenciais nas Ciências Exatas e Engenharias.
 - [x] **Cidades Inteligentes (Optativa)**: [Repositório: Cidades Inteligentes](#)  
 - [x] **Ciências do Ambiente**: [Repositório: Ciências do Ambiente](#)  
 - **Compiladores**: [Repositório: Compiladores](#)  
@@ -51,7 +59,8 @@ Legenda Emoji:
 - **Eletrônica para Computação**: [Repositório: Eletrônica para Computação](#)  
 - **Empreendedorismo e Inovação (Optativa)**: [Repositório: Empreendedorismo e Inovação](#)  
 - **Engenharia de Software (Optativa)**: [Repositório: Engenharia de Software](#)  
-- **Estatística e Probabilidade**: [Repositório: Estatística e Probabilidade](#)  
+- **Estatística e Probabilidade**: [Repositório: Estatística e Probabilidade](#)
+  Estatística descritiva. Probabilidade. Variáveis aleatórias. Distribuições discretas. Distribuições contínuas. Inferência estatística: estimação, intervalos de confiança e testes de hipóteses. Regressão linear.  
 - **Estágio Obrigatório**: [Repositório: Estágio Obrigatório](#)  
 - [x] **Filosofia: Antropologia e Ética**: [Repositório: Filosofia: Antropologia e Ética](#)  
 - [x] **Filosofia: Razão e Modernidade**: [Repositório: Filosofia: Razão e Modernidade](#)  
@@ -61,12 +70,15 @@ Legenda Emoji:
 - **Fundamentos Teóricos da Computação**: [Repositório: Fundamentos Teóricos da Computação](#)  
 - [x] **Game Design (Optativa)**: [Repositório: Game Design](#)  
 - **Geometria Analítica e Álgebra Linear**: [Repositório: Geometria Analítica e Álgebra Linear](#)  
+  Sistemas de coordenadas no plano e no espaço. Lugares geométricos e seções cônicas. Tratamento algébrico e geométrico dos vetores no plano e no espaço. Produtos escalar, vetorial e misto. Matrizes, determinantes e sistemas lineares. Espaços vetoriais. Base. Transformações lineares. Autovalores e Autovetores. Modelagem matemática e aplicações práticas.  
 - [x] **Gerência de Projeto de Software**: [Repositório: Gerência de Projeto de Software](#)  
 - [x] **Gestão de Redes e Mídias Sociais (Optativa)**: [Repositório: Gestão de Redes e Mídias Sociais](#)  
 - **História e Cultura Afrobrasileira e Indígena (Optativa)**: [Repositório: História e Cultura Afrobrasileira e Indígena](#)  
-- [x] **Internet das Coisas I**: [Repositório: Internet das Coisas I](#)  
+- [x] **Internet das Coisas I**: [Repositório: Internet das Coisas I](#)
+      Conceitos fundamentais de Internet das Coisas. Arquiteturas e protocolos de comunicação IoT. Redes sem fio para IoT. Sensores, atuadores e integração com sistemas IoT. Plataformas de desenvolvimento e armazenamento em nuvem para IoT. Segurança em aplicações IoT. Experimentação e implementação prática de sistemas IoT.
 - **Internet das Coisas II**: [Repositório: Internet das Coisas II](#)  
 - [x] **Introdução à Computação**: [Repositório: Introdução à Computação](#)  
+      História da computação e principais linguagens de programação. Banco de dados. Representação de dados, sistemas de numeração, álgebra booleana, portas lógicas e circuitos combinacionais. Iniciação à Ciência de Dados e Inteligência Artificial, Sistemas Computacionais, Sistemas de Informação, Engenharia de Software e Jogos Digitais. Computação Verde. Tendências tecnológicas emergentes. 
 - [x] **Introdução aos Sistemas Inteligentes**: [Repositório: Introdução aos Sistemas Inteligentes](#)  
 - [x] **Laboratório de Introdução à Engenharia de Computação**: [Repositório: Laboratório de Introdução à Engenharia de Computação](#)  
 - [x] **Laboratório de Desenvolvimento para Dispositivos Móveis**: [Repositório: Laboratório de Desenvolvimento para Dispositivos Móveis](#)  
