@@ -16,4 +16,27 @@ pesquisaSequencial.txt
 
 ## Noções de complexidade de algoritmos
 
-## Complexidade de Algoritmos
+Esta seção explica conceitos matemáticos de potência e logaritmo aplicados à computação e, como lidar com arrendodamentos em análises destas operações matemáticas. Há também a aplicação de como representar códigos em funções matemáticas e como estas funções representam o desempenho de determinado código, programa ou sistema. Esta parte matemática tem como princípio a **contagem de operações**, desde a identificação de operações, identificando melhor e pior caso, e como "contar" as operações propriamente ditas.
+
+### Contagem de Operações
+
+#### Tipos de Operações
+
+|----|----------------|
+| =  | Igual          |
+| <  | Menor          |
+| >  | Maior          |
+| <= | Menor ou Igual |
+| >= | Maior ou Igual |
+
+### *Ceil* e *Floor*
+
+#### Potência
+
+#### Logaritmo
+
+#### Funções Matemáticas e Funções Computacionais
+
+### Complexidade de Algoritmos
+
+Explicação gráfica de funções computacioansi com representações de imagens no GeoGebra
