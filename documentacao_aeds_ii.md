@@ -3,10 +3,10 @@
 Na etapa anterior, [Algoritmos e Estruturas de Dados I](#), o desenvolvimento de códigos e programas foi o principal objetivo. Fornecer um pensamento lógico e raciocínio crítico para interpretar um determinado "idioma", uma linguagem de programção. As linguagem desenvolvidas foram C/C++, Java ou C# (conforme grade do curso),permitindo o desenvolvimento inicial em programação.
 Até aqui, todo o conhecimento adquirido é, "sei escrever um código e executá-lo em um computador ou ambiente de compliação e execução", agora, tendo alcançado este objetivo, se é necessário pensar "é só isso ou tem mais?". Obviamente a disciplina é dividida, nomenclaturamente, em:
 
-* Algoritmos e Estruturas de Dados I
-* Algoritmos e Estruturas de Dados II
-* Algoritmos e Estruturas de Dados III
-* Algoritmos e Estruturas de Dados IV: Grafos
+* Algoritmos e Estruturas de Dados I: Algoritmos e Conceitos de Programação
+* Algoritmos e Estruturas de Dados II: Algoritmos em Momória Principal
+* Algoritmos e Estruturas de Dados III: Algoritmos em Memória Secundária
+* Algoritmos e Estruturas de Dados IV: Algoritmos em Grafos
 * Algoritmos e Estruturas de Dados V: Linguagem de Programação
 * Algoritmos e Estruturas de Dados VI: Compiladores
 * Algoritmos e Estruturas de Dados VII: Fundamentos Teóricos da Computação
